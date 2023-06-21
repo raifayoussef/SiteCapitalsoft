@@ -71,7 +71,7 @@
 					</li>
 					
 					<li class="menu-item-has-children">
-						<a href="blog.html">CArriére</a>
+						<a href="blog.html">Crriére</a>
 					</li>
 				</ul><!-- /.main-menu__list -->
 

@@ -5572,6 +5572,10 @@ a:visited {
   margin-bottom: 25px;
 }
 
+.service-details__box__icon img {
+  width: 350PX;
+}
+
 @media (min-width: 768px) {
   .service-details__content h4 {
     margin-bottom: 32px;
@@ -5599,12 +5603,15 @@ a:visited {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media (min-width: 992px) {
   .service-details__box__content {
     padding-left: 34px;
+
   }
 }
 
@@ -6449,7 +6456,7 @@ a:visited {
 }
 
 .client-carousel .item {
-  padding: 30px;
+  padding: 5px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -6461,7 +6468,7 @@ a:visited {
 .client-carousel img {
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.5;
+  opacity: 1;
   max-width: 100%;
 }
 

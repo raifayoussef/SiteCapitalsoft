@@ -125,7 +125,7 @@ require"../inc/head.php";
 								<div class="about-four__author">
 									<img src="../assets/images/resources/about-four-author-1.jpg" alt="">
 									<div class="about-four__author__content">
-										<h3 class="about-four__author__title">Michele Morrone</h3>
+										<h3 class="about-four__author__title">Mr FAKKAR mostapha</h3>
 										<!-- /.about-four__author__title -->
 										<div class="about-four__author__designation">Founder CEO</div>
 										<!-- /.about-four__author__designation -->
@@ -139,109 +139,71 @@ require"../inc/head.php";
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
-		<section class="section-padding--bottom section-padding--top">
+				<!-- MISSION & VALEURS -->
+		<section
+			class="section-padding--top section-padding-xl--bottom section-has-bottom-margin background-repeat-no background-size-cover gray-bg about-seven"
+			style="background-image: url(assets/images/shapes/about-seven-bg-1-1.png);">
 			<div class="container">
-				<div class="section-title text-center">
-					<p class="section-title__text">Our Team members</p><!-- /.section-title__text -->
-					<h2 class="section-title__title">Our Expert Person to Provide <br> IT Solution Services</h2>
-					<!-- /.section-title__title -->
-				</div><!-- /.section-title -->
-				<div class="row gutter-y-30">
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="team-card-one wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
-							<div class="team-card-one__image">
-								<img src="../assets/images/team/team-2-1.jpg" alt="">
-								<div class="team-card-one__social">
-									<ul class="team-card-one__social__links">
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-									</ul><!-- /.team-card-one__social__links -->
-									<div class="team-card-one__social__icon">
-										<i class="fa fa-share-alt"></i>
-									</div><!-- /.team-card-one__social__icon -->
-								</div><!-- /.team-card-one__social -->
-							</div><!-- /.team-card-one__image -->
-							<div class="team-card-one__content">
-								<h3 class="team-card-one__title"><a href="#">Michelle Monaghan</a></h3>
-								<!-- /.team-card-one__title -->
-								<p class="team-card-one__designation">Designer</p><!-- /.team-card-one__designation -->
-							</div><!-- /.team-card-one__content -->
-						</div><!-- /.team-card-one -->
-					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="team-card-one wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-							<div class="team-card-one__image">
-								<img src="../assets/images/team/team-2-2.jpg" alt="">
-								<div class="team-card-one__social">
-									<ul class="team-card-one__social__links">
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-									</ul><!-- /.team-card-one__social__links -->
-									<div class="team-card-one__social__icon">
-										<i class="fa fa-share-alt"></i>
-									</div><!-- /.team-card-one__social__icon -->
-								</div><!-- /.team-card-one__social -->
-							</div><!-- /.team-card-one__image -->
-							<div class="team-card-one__content">
-								<h3 class="team-card-one__title"><a href="#">Jessica Brown</a></h3>
-								<!-- /.team-card-one__title -->
-								<p class="team-card-one__designation">Manager</p><!-- /.team-card-one__designation -->
-							</div><!-- /.team-card-one__content -->
-						</div><!-- /.team-card-one -->
-					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="team-card-one wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-							<div class="team-card-one__image">
-								<img src="../assets/images/team/team-2-3.jpg" alt="">
-								<div class="team-card-one__social">
-									<ul class="team-card-one__social__links">
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-									</ul><!-- /.team-card-one__social__links -->
-									<div class="team-card-one__social__icon">
-										<i class="fa fa-share-alt"></i>
-									</div><!-- /.team-card-one__social__icon -->
-								</div><!-- /.team-card-one__social -->
-							</div><!-- /.team-card-one__image -->
-							<div class="team-card-one__content">
-								<h3 class="team-card-one__title"><a href="#">Kevin Martin</a></h3>
-								<!-- /.team-card-one__title -->
-								<p class="team-card-one__designation">Developer</p><!-- /.team-card-one__designation -->
-							</div><!-- /.team-card-one__content -->
-						</div><!-- /.team-card-one -->
-					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="team-card-one wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-							<div class="team-card-one__image">
-								<img src="../assets/images/team/team-2-4.jpg" alt="">
-								<div class="team-card-one__social">
-									<ul class="team-card-one__social__links">
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-									</ul><!-- /.team-card-one__social__links -->
-									<div class="team-card-one__social__icon">
-										<i class="fa fa-share-alt"></i>
-									</div><!-- /.team-card-one__social__icon -->
-								</div><!-- /.team-card-one__social -->
-							</div><!-- /.team-card-one__image -->
-							<div class="team-card-one__content">
-								<h3 class="team-card-one__title"><a href="#">Sarah Albert</a></h3>
-								<!-- /.team-card-one__title -->
-								<p class="team-card-one__designation">Director</p><!-- /.team-card-one__designation -->
-							</div><!-- /.team-card-one__content -->
-						</div><!-- /.team-card-one -->
-					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+				<div class="row gutter-y-60">
+					<div class="col-lg-5">
+						<div class="about-seven__content">
+							<div class="section-title">
+								<p class="section-title__text">MISSION & VALEURS</p><!-- /.section-title__text -->
+								<h2 class="section-title__title">Business Solutions <br> to Growth Business</h2>
+								<!-- /.section-title__title -->
+							</div><!-- /.section-title -->
+							<div class="about-seven__text">La naissance de CAPITAL Soft 
+								était le fruit du travail d’un groupe d’experts qui croyait à 
+								la technologie et l’évolution numérique pour 
+								le développement de l’entreprise au Maroc. </div><!-- /.about-seven__text -->
+							<!-- /.about-seven__btns -->
+
+						</div><!-- /.about-seven__content -->
+					</div><!-- /.col-lg-5 -->
+					<div class="col-lg-7">
+						<ul class="about-seven__list">
+							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
+								data-wow-delay="000ms">
+								<i class="about-seven__list__icon icon-dashboard"></i>
+								<h3 class="about-seven__list__title">
+									<a href="service-infrastructure-plan.html">Disponibilité</a>
+								</h3>
+							</li>
+							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
+								data-wow-delay="100ms">
+								<i class="about-seven__list__icon icon-system"></i>
+								<h3 class="about-seven__list__title">
+									<a href="service-infrastructure-plan.html">Expertise<br>
+										Services</a>
+								</h3>
+							</li>
+							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
+								data-wow-delay="200ms">
+								<i class="about-seven__list__icon icon-cloud-data"></i>
+								<h3 class="about-seven__list__title">
+									<a href="service-infrastructure-plan.html">Performance</a>
+								</h3>
+							</li>
+							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
+								data-wow-delay="300ms">
+								<i class="about-seven__list__icon icon-data-visualization"></i>
+								<h3 class="about-seven__list__title">
+									<a href="service-infrastructure-plan.html">Proximité</a>
+								</h3>
+							</li>
+							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
+								data-wow-delay="400ms">
+								<i class="about-seven__list__icon icon-software-engineer"></i>
+								<h3 class="about-seven__list__title">
+									<a href="service-infrastructure-plan.html">Qualité</a>
+								</h3>
+							</li>
+						</ul><!-- /.about-seven__list -->
+					</div><!-- /.col-lg-7 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		</section>
+		</section>	
+		<!-- END MISSION & VALEURS  -->
 		<section class="black-bg section-padding-lg--top section-padding-lg--bottom cta-two">
 			<div class="cta-two__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
 				style="background-image: url(../assets/images/background/cta-two-bg-1-1.jpg);"></div>

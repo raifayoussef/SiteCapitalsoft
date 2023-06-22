@@ -60,16 +60,22 @@
 						<a href="about/">À propos</a>
 					</li>
 					<li class="menu-item-has-children">
-						<a href="projects.html">Solutions</a>
+						<a href="services-1.html">Services</a>
 						<ul>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="project-details.html">Projects Details</a></li>
+							<li><a href="projects.html">Études et analyses</a></li>
+							<li><a href="project-details.html">Développement sur mesure</a></li>
+							<li><a href="project-details.html">Intégration de solutions </a></li>
+							<li><a href="project-details.html">Formation et support</a></li>
 						</ul>
 					</li>
 					<li class="menu-item-has-children">
-						<a href="services-1.html">Services</a>
+						<a href="projects.html">Solutions</a>
+						<ul>
+							<li><a href="projects.html">Solution 1</a></li>
+							<li><a href="project-details.html">Solution 2</a></li>
+							<li><a href="project-details.html">Solution 3</a></li>
+						</ul>
 					</li>
-					
 					<li class="menu-item-has-children">
 						<a href="blog.html">Carriére</a>
 					</li>
@@ -88,7 +94,7 @@
 						<i class="fa fa-phone-alt"></i>
 						<span class="main-menu__cta__text">
 							<b>+212 5 22 22 39 99</b>
-							Call Anytime
+							Appelez à tout moment
 						</span><!-- /.main-menu__cta__text -->
 					</a><!-- /.main-menu__cta -->
 				</div><!-- /.main-menu__right -->
@@ -201,92 +207,13 @@
 									</div><!-- /.about-five__box__content -->
 								</li>
 							</ul><!-- /.about-five__box -->
-							<div class="about-four__meta">
-								<div class="about-four__author">
-									<img src="assets/images/resources/about-four-author-1.jpg" alt="">
-									<div class="about-four__author__content">
-										<h3 class="about-four__author__title">Fakkar Mostafa</h3>
-										<!-- /.about-four__author__title -->
-										<div class="about-four__author__designation">PDG fondateur</div>
-										<!-- /.about-four__author__designation -->
-									</div><!-- /.about-four__author__content -->
-								</div><!-- /.about-four__author -->
-								<a href="services-1.html" class="thm-btn about-four__btn"><span>Learn More</span></a>
-								<!-- /.thm-btn about-four__btn -->
-							</div><!-- /.about-four__meta -->
+						
 						</div><!-- /.about-five__content -->
 					</div><!-- /.col-lg-6 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
 		<!--END Savoir faire -->
-
-		<!-- MISSION & VALEURS -->
-		<section
-			class="section-padding--top section-padding-xl--bottom section-has-bottom-margin background-repeat-no background-size-cover gray-bg about-seven"
-			style="background-image: url(assets/images/shapes/about-seven-bg-1-1.png); display:none">
-			<div class="container">
-				<div class="row gutter-y-60">
-					<div class="col-lg-5">
-						<div class="about-seven__content">
-							<div class="section-title">
-								<p class="section-title__text">MISSION & VALEURS</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">Business Solutions <br> to Growth Business</h2>
-								<!-- /.section-title__title -->
-							</div><!-- /.section-title -->
-							<div class="about-seven__text">La naissance de CAPITAL Soft 
-								était le fruit du travail d’un groupe d’experts qui croyait à 
-								la technologie et l’évolution numérique pour 
-								le développement de l’entreprise au Maroc. </div><!-- /.about-seven__text -->
-							<!-- /.about-seven__btns -->
-
-						</div><!-- /.about-seven__content -->
-					</div><!-- /.col-lg-5 -->
-					<div class="col-lg-7">
-						<ul class="about-seven__list">
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="000ms">
-								<i class="about-seven__list__icon icon-dashboard"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Disponibilité</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="100ms">
-								<i class="about-seven__list__icon icon-system"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Expertise<br>
-										Services</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="200ms">
-								<i class="about-seven__list__icon icon-cloud-data"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Performance</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="300ms">
-								<i class="about-seven__list__icon icon-data-visualization"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Proximité</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="400ms">
-								<i class="about-seven__list__icon icon-software-engineer"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Qualité</a>
-								</h3>
-							</li>
-						</ul><!-- /.about-seven__list -->
-					</div><!-- /.col-lg-7 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>	
-		<!-- END MISSION & VALEURS  -->
-
 		<!-- NOS ENGAGEMENTS -->
 		<section class="section-padding--top section-padding--bottom service-three black-bg"
 			style="background-image: url(assets/images/background/service-1-bg-1.png);">
@@ -394,7 +321,7 @@
 		<!-- Chiffres clés -->
 		<br>
 		<br>
-		<section class="section-padding--bottom about-six">
+		<section class=" about-six">
 			<div class="container">
 				<div class="row gutter-y-60">
 					<div class="col-lg-6">
@@ -460,13 +387,8 @@
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">
 								
-								<h3 class="blog-card-one__title"><a href="blog-details.html">Développement <br> de solutions</a></h3>
-								<div class="description">
-									<p><i class="fa-sharp fa-solid fa-plus"></i>  Développement de progiciels de gestion </p>
-									<p><i class="fa-sharp fa-solid fa-plus"></i> Intégration de nouvelles technologies </p>
-									<p><i class="fa-sharp fa-solid fa-plus"></i> Web / Cloud / Clients serveurs </p>
-									<p><i class="fa-sharp fa-solid fa-plus"></i> Internet / Intranet / Commerce éléctronique </p>								
-								</div>
+								<h3 class="blog-card-one__title"><a href="blog-details.html">Développement de solutions</a></h3>
+								
 								
 								<a href="blog-details.html" class="blog-card-one__more">
 									Read More
@@ -485,9 +407,6 @@
 							<div class="blog-card-one__content">
 								
 								<h3 class="blog-card-one__title"><a href="blog-details.html">Support</a></h3>
-								<p><i class="fa-sharp fa-solid fa-plus"></i> Support de 2éme niveau Formation, assistance aux utilisateurs </p>
-								<p><i class="fa-sharp fa-solid fa-plus"></i> Délégation de personnel </p>
-								<p><i class="fa-sharp fa-solid fa-plus"></i> Configuration, installation et administration des serveurs	</p>						
 								
 								<a href="blog-details.html" class="blog-card-one__more">
 									Read More
@@ -506,8 +425,7 @@
 							<div class="blog-card-one__content">
 								
 								<h3 class="blog-card-one__title"><a href="blog-details.html">Conseils & Expertise</a></h3>
-								<p><i class="fa-sharp fa-solid fa-plus"></i> Veille technologique et conseil </p>
-								<p><i class="fa-sharp fa-solid fa-plus"></i> Conduite de projets</p>						
+														
 								
 								<a href="blog-details.html" class="blog-card-one__more">
 									Read More
@@ -520,33 +438,54 @@
 			</div><!-- /.container -->
 		</section>
 
-		
-		
-		<section class="about-four section-padding--top border-bottom">
+		<!-- solution -->
+		<section class="section-padding--bottom">
 			<div class="container">
-				<div class="row gutter-y-60">
-					<div class="col-lg-6">
-						<div class="about-four__image">
-							<img src="assets/images/resources/RH.jpg" class="wow fadeInUp"
-								data-wow-duration="1500ms" alt="">
-						</div><!-- /.about-four__image -->
-					</div><!-- /.col-lg-6 -->
-					<div class="col-lg-6">
-						<div class="about-four__content">
-							<div class="section-title ">
-								<p class="section-title__text">Ressources Humaines</p><!-- /.section-title__text -->
-							</div><!-- /.section-title -->
-							<div class="about-four__text">Composée de 100 % du savoir-faire interne, l’équipe de Capital SOFT est constituée de profils hautement qualifiés pour assurer des prestations de qualité et répondre aux besoins de nos clients. </div>
-							<!-- /.about-four__text -->
-						</div><!-- /.about-four__content -->
-					</div><!-- /.col-lg-6 -->
+				<div class="section-title text-center">
+					<p class="section-title__text">SOLUTIONS CAPITAL SOFT</p><!-- /.section-title__text -->
+					<h2 class="section-title__title">CAPITAL Soft est l’éditeur du système d’information intégré <br> «CAPITAL Suite» avec 3 composantes : </h2>
+					<!-- /.section-title__title -->
+				</div><!-- /.section-title -->
+				<div class="row gutter-y-30">
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="service-card-two gray-bg">
+							<h3 class="service-card-two__title"><a href="services-1.html">Capital SIRH</a></h3>
+							<!-- /.service-card-two__title -->
+							<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
+							</p><!-- /.service-card-two__text -->
+							<div class="service-card-two__icon">
+								<i class="icon-smart-tv"></i>
+							</div><!-- /.service-card-two__icon -->
+						</div><!-- /.service-card-two -->
+					</div><!-- /.col-lg-3 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="service-card-two gray-bg">
+							<h3 class="service-card-two__title"><a href="team.html">Capital Finance</a></h3>
+							<!-- /.service-card-two__title -->
+							<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
+							</p><!-- /.service-card-two__text -->
+							<div class="service-card-two__icon">
+								<i class="icon-link"></i>
+							</div><!-- /.service-card-two__icon -->
+						</div><!-- /.service-card-two -->
+					</div><!-- /.col-lg-3 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="service-card-two gray-bg">
+							<h3 class="service-card-two__title"><a href="contact.html">Capital Distribution</a></h3>
+							<!-- /.service-card-two__title -->
+							<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
+							</p><!-- /.service-card-two__text -->
+							<div class="service-card-two__icon">
+								<i class="icon-technical-support"></i>
+							</div><!-- /.service-card-two__icon -->
+						</div><!-- /.service-card-two -->
+					</div><!-- /.col-lg-3 -->
+					
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-			<br>
 		</section>
-		<br>
-		
-		<section class="section-padding--bottom section-padding--top project-one">
+		<!-- END solution -->
+		<section class="section-padding--bottom section-padding--top project-one" style="display: none;">
 			<div class="container">
 				<div class="project-one__top">
 					<div class="row">
@@ -643,86 +582,47 @@
 							</div><!-- /.project-card-one__content -->
 						</div><!-- /.project-card-one -->
 					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="item">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="assets/images/solution/autres.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text"></p>
-									<h3 class="project-card-one__title"><a href="project-details.html">Autres</a></h3><!-- /.project-card-one__title -->
-									<a href="project-details.html" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+					
 				</div><!-- /.owl-carousel -->
 			</div><!-- /.container -->
 		</section>
-	
 
-		<div class="client-carousel client-carousel--two">
-			<div class="container">
-				<div class="section-title ">
-					<p class="section-title__text">Nos partenaires </p><!-- /.section-title__text -->
+		<!-- partenaire -->
+		<div class="row gutter-y-30 service-details__box-wrapper" style="padding: 50px;">
+				<div class="section-title text-center">
+					<p class="section-title__text">Nos Partenaires</p><!-- /.section-title__text -->
+					<h5 class="section-title__title">Lorem ipsum, dolor sit amet consectetur adipisicing. </h5>
 					<!-- /.section-title__title -->
 				</div><!-- /.section-title -->
-				<div class="owl-carousel thm-owl__carousel" data-owl-options='{"loop": true,
-				"autoplay": true,
-				"autoplayTimeout": 5000,
-				"autoplayHoverPause": true,
-				"nav": true,
-				"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-				"dots": false,
-				"margin": 30,
-                "items": 2,
-				"smartSpeed": 700,
-				"responsive": {
-					"0": {
-						"margin": 30,
-						"items": 2
-					},
-					"375": {
-						"margin": 30,
-						"items": 2
-					},
-					"575": {
-						"margin": 30,
-						"items": 3
-					},
-					"767": {
-						"margin": 50,
-						"items": 4
-					},
-					"991": {
-						"margin": 40,
-						"items": 4
-					},
-					"1199": {
-						"margin": 80,
-						"items": 4
-					}
-				}}'>
-					<div class="item">
-						<img src="assets/images/resources/Logo-BT.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/resources/Idemia_Logo_500px_2.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/resources/USG.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/resources/HPS.png" alt="">
-					</div><!-- /.item -->
-					
-					
-				</div><!-- /.thm-owl__carousel -->
-			</div><!-- /.container -->
-		</div><!-- /.client-carousel -->
+			<div class="col-md-3 col-sm-12">
+				<div class="service-details__box">
+					<i class="service-details__box__icon"><img src="assets/images/clients/HPS.png" alt=""></i>
+					<!-- /.service-details__box__content -->
+				</div><!-- /.service-details__box -->
+			</div><!-- /.col-md-6 col-sm-12 -->
+			<div class="col-md-3 col-sm-12">
+				<div class="service-details__box">
+					<i class="service-details__box__icon"><img src="assets/images/clients/HPS.png" alt=""></i>
+					<!-- /.service-details__box__content -->
+				</div><!-- /.service-details__box -->
+			</div><!-- /.col-md-6 col-sm-12 -->
+			<div class="col-md-3 col-sm-12">
+				<div class="service-details__box">
+					<i class="service-details__box__icon"><img src="assets/images/clients/HPS.png" alt=""></i>
+					<!-- /.service-details__box__content -->
+				</div><!-- /.service-details__box -->
+			</div><!-- /.col-md-6 col-sm-12 -->
+			<div class="col-md-3 col-sm-12">
+				<div class="service-details__box">
+					<i class="service-details__box__icon"><img src="assets/images/clients/HPS.png" alt=""></i>
+					<!-- /.service-details__box__content -->
+				</div><!-- /.service-details__box -->
+			</div><!-- /.col-md-6 col-sm-12 -->
+			
+		</div><!-- /.row -->
+		<!--END partenaire -->
+
+		<!-- Client  -->
 		<div class="client-carousel client-carousel--two">
 			<div class="container">
 				<div class="section-title ">
@@ -787,7 +687,8 @@
 					
 				</div><!-- /.thm-owl__carousel -->
 			</div><!-- /.container -->
-		</div><!-- /.client-carousel -->
+		</div>
+		<!-- /.client-carousel -->
 		
 
 
@@ -812,7 +713,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-12">
 						<div class="footer-widget footer-widget--about">
 							<a href="index.html" class="footer-widget__logo">
-								<img src="assets/images/logo-light.png" width="119" height="40" alt="Cretech">
+								<img src="assets/images/Logo/CapitalSoftLogo light.png" width="150" height="auto" alt="Cretech">
 							</a>
 							<p class="footer-widget__text">We work with a passion of taking challenges and creating new
 								ones in advertising sector.</p><!-- /.footer-widget__text -->

@@ -57,7 +57,7 @@
 						<a href="index.php">Accueil</a>
 					</li>
 					<li class="menu-item-has-children">
-						<a href="about/">À propos</a>
+						<a href="about.php">À propos</a>
 					</li>
 					<li class="menu-item-has-children">
 						<a href="services-1.html">Services</a>
@@ -214,6 +214,8 @@
 			</div><!-- /.container -->
 		</section>
 		<!--END Savoir faire -->
+
+
 		<!-- NOS ENGAGEMENTS -->
 		<section class="section-padding--top section-padding--bottom service-three black-bg"
 			style="background-image: url(assets/images/background/service-1-bg-1.png);">
@@ -662,7 +664,7 @@
 					},
 					"1199": {
 						"margin": 80,
-						"items": 4
+						"items": 3
 					}
 				}}'>
 					<div class="item">
@@ -692,28 +694,13 @@
 		
 
 
-		<section class="cta-one">
-			<div class="container">
-				<div class="cta-one__inner text-center wow fadeInUp" data-wow-duration="1500ms">
-					<div class="cta-one__circle"></div><!-- /.cta-one__circle -->
-					<div class="section-title ">
-						<p class="section-title__text">Need Any Technology Solution</p><!-- /.section-title__text -->
-						<h2 class="section-title__title section-title__title--light">Let’s Work Togather on Project</h2>
-						<!-- /.section-title__title -->
-					</div><!-- /.section-title -->
-					<a href="contact.html" class="thm-btn thm-btn--light cta-one__btn"><span>Start Now</span></a>
-					<!-- /.thm-btn thm-btn--light cta-one__btn -->
-				</div><!-- /.cta-one__inner -->
-			</div><!-- /.container -->
-		</section><!-- /.cta-one -->
-
 		<div class="footer-main section-padding--bottom footer-main--top-padding">
 			<div class="container">
 				<div class="row gutter-y-30">
 					<div class="col-lg-3 col-md-6 col-sm-12">
 						<div class="footer-widget footer-widget--about">
 							<a href="index.html" class="footer-widget__logo">
-								<img src="assets/images/Logo/CapitalSoftLogo light.png" width="150" height="auto" alt="Cretech">
+								<img src="assets/images/Logo/CapitalSoftLogo.png" width="150" height="auto" alt="Cretech" style="background-color: white;padding:10px" >
 							</a>
 							<p class="footer-widget__text">We work with a passion of taking challenges and creating new
 								ones in advertising sector.</p><!-- /.footer-widget__text -->
@@ -784,7 +771,7 @@
 		</div><!-- /.footer-main -->
 		<div class="footer-bottom">
 			<div class="container">
-				<p>&copy; All Copyright <span class="dynamic-year"></span> by Cretech</p>
+				<p>&copy; All Copyright <span class="dynamic-year"></span> by CapitalSoft	</p>
 			</div><!-- /.container -->
 		</div><!-- /.footer-bottom -->
 	</div><!-- /.page-wrapper -->

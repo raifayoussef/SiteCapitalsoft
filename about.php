@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-require"../inc/head.php"; 
+require"inc/head.php"; 
 ;?>
 
 <body class="custom-cursor">
@@ -16,55 +16,44 @@ require"../inc/head.php";
 
 	<div class="page-wrapper">
     <?php
-        require"../inc/topbar.php"; 
+        require"inc/topbar.php"; 
     ;?>
 	    <nav class="main-menu sticky-header">
 			<div class="container-fluid">
 				<div class="main-menu__logo">
-					<a href="../">
-						<img src="../assets//images/Logo/CapitalSoftLogo.png" width="98" height="auto" alt="Cretech">
-						<!-- <img src="../assets//images/Logo/CapitalSoftLogo.png" width="98" height="33" alt="Cretech"> -->
+					<a href="">
+						<img src="assets//images/Logo/CapitalSoftLogo.png" width="98" height="auto" alt="Cretech">
+						<!-- <img src="assets//images/Logo/CapitalSoftLogo.png" width="98" height="33" alt="Cretech"> -->
 					</a>
 				</div><!-- /.main-menu__logo -->
 
 				<ul class="main-menu__list">
 					<li class="menu-item-has-children">
-						<a href="../">Accueil</a>
+						<a href="index.php">Accueil</a>
 					</li>
 					<li class="menu-item-has-children">
-						<a href="../about">about</a>
-						<!-- <ul>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="team.html">Our Team</a></li>
-						</ul> -->
+						<a href="about.php">À propos</a>
 					</li>
 					<li class="menu-item-has-children">
 						<a href="services-1.html">Services</a>
 						<ul>
-							<li><a href="services-1.html">Services 01</a></li>
-							<li><a href="services-2.html">Services 02</a></li>
-							<li><a href="service-cyber-security.html">Cyber Security</a></li>
-							<li><a href="service-it-management.html">IT Management</a></li>
-							<li><a href="service-qa-testing.html">QA & Testing</a></li>
-							<li><a href="service-infrastructure-plan.html">Infrastructure Plan</a></li>
-							<li><a href="service-it-consultent.html">IT Consultent</a></li>
+							<li><a href="projects.html">Études et analyses</a></li>
+							<li><a href="project-details.html">Développement sur mesure</a></li>
+							<li><a href="project-details.html">Intégration de solutions </a></li>
+							<li><a href="project-details.html">Formation et support</a></li>
 						</ul>
 					</li>
 					<li class="menu-item-has-children">
-						<a href="projects.html">Projects</a>
+						<a href="projects.html">Solutions</a>
 						<ul>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="project-details.html">Projects Details</a></li>
+							<li><a href="projects.html">Solution 1</a></li>
+							<li><a href="project-details.html">Solution 2</a></li>
+							<li><a href="project-details.html">Solution 3</a></li>
 						</ul>
 					</li>
 					<li class="menu-item-has-children">
-						<a href="blog.html">Blog</a>
-						<ul>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="blog-details.html">Blog Details</a></li>
-						</ul>
+						<a href="blog.html">Carriére</a>
 					</li>
-					<li><a href="contact.html">Contact</a></li>
 				</ul><!-- /.main-menu__list -->
 
 				<div class="main-menu__right">
@@ -106,7 +95,7 @@ require"../inc/head.php";
 				<div class="row gutter-y-60">
 					<div class="col-lg-6">
 						<div class="about-four__image">
-							<img src="../assets/images/resources/about-four-1-1.jpg" class="wow fadeInUp"
+							<img src="assets/images/resources/about-four-1-1.jpg" class="wow fadeInUp"
 								data-wow-duration="1500ms" alt="">
 						</div><!-- /.about-four__image -->
 					</div><!-- /.col-lg-6 -->
@@ -123,7 +112,7 @@ require"../inc/head.php";
 							<!-- /.about-four__text -->
 							<div class="about-four__meta">
 								<div class="about-four__author">
-									<img src="../assets/images/resources/about-four-author-1.jpg" alt="">
+									<img src="assets/images/resources/about-four-author-1.jpg" alt="">
 									<div class="about-four__author__content">
 										<h3 class="about-four__author__title">Mr FAKKAR mostapha</h3>
 										<!-- /.about-four__author__title -->
@@ -244,7 +233,7 @@ require"../inc/head.php";
 								<div class="col-lg-12">
 									<div class="testimonials-one-card">
 										<div class="testimonials-one-card__image">
-											<img src="../assets/images/resources/testi-1-1.jpg" alt="">
+											<img src="assets/images/resources/testi-1-1.jpg" alt="">
 										</div><!-- /.testimonials-one-card__image -->
 										<div class="testimonials-one-card__content">
 											<div class="testimonials-one-card__text">On the other hand denounc with
@@ -265,7 +254,7 @@ require"../inc/head.php";
 								<div class="col-lg-12">
 									<div class="testimonials-one-card">
 										<div class="testimonials-one-card__image">
-											<img src="../assets/images/resources/testi-1-2.jpg" alt="">
+											<img src="assets/images/resources/testi-1-2.jpg" alt="">
 										</div><!-- /.testimonials-one-card__image -->
 										<div class="testimonials-one-card__content">
 											<div class="testimonials-one-card__text">On the other hand denounc with
@@ -328,64 +317,64 @@ require"../inc/head.php";
 					}
 				}}'>
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 					<div class="item">
-						<img src="../assets/images/resources/client-1-1.png" alt="">
+						<img src="assets/images/resources/client-1-1.png" alt="">
 					</div><!-- /.item -->
 				</div><!-- /.thm-owl__carousel -->
 			</div><!-- /.container -->
@@ -396,7 +385,7 @@ require"../inc/head.php";
 					<div class="col-lg-3 col-md-6 col-sm-12">
 						<div class="footer-widget footer-widget--about">
 							<a href="index.html" class="footer-widget__logo">
-								<img src="../assets/images/logo-light.png" width="119" height="40" alt="Cretech">
+								<img src="assets/images/logo-light.png" width="119" height="40" alt="Cretech">
 							</a>
 							<p class="footer-widget__text">We work with a passion of taking challenges and creating new
 								ones in advertising sector.</p><!-- /.footer-widget__text -->
@@ -483,7 +472,7 @@ require"../inc/head.php";
 			</a>
 
 			<div class="logo-box">
-				<a href="index.html" aria-label="logo image"><img src="../assets/images/logo-light.png" width="98"
+				<a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="98"
 						height="33" alt="Cretech"></a>
 			</div>
 			<!-- /.logo-box -->
@@ -537,7 +526,7 @@ require"../inc/head.php";
 	<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
 	<?php
-require"../inc/script.php"; 
+require "inc/script.php"; 
 ;?>
 
 </body>

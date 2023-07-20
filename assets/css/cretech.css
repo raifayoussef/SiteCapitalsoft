@@ -1046,7 +1046,12 @@ a:visited {
   padding: 29.5px 0;
 }
 
-.main-menu__list > li:hover > a, .main-menu__list > li.current > a {
+/* .main-menu__list > li:hover > a, .main-menu__list > li.current > a {
+  text-shadow: 0 0 1px currentColor;
+  color: #192d84;
+} */
+
+.main-menu__list > li:hover > a, .main-menu__list > li.active > a {
   text-shadow: 0 0 1px currentColor;
   color: #192d84;
 }

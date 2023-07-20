@@ -1,8 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-require"inc/head.php"; 
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home One CapitalSoft</title>
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+	<!-- favicons Icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/CapitalSoftLogo 32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/CapitalSoftLogo 32x32.png" />
+	<link rel="manifest" href="../assets/images/favicons/site.webmanifest" />
+	<!-- plugins css -->
+	<link rel="stylesheet" href="../assets/vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="../assets/vendors/jarallax/jarallax.css">
+	<link rel="stylesheet" href="../assets/vendors/animate/animate.min.css">
+	<link rel="stylesheet" href="../assets/vendors/owl-carousel/../assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/vendors/owl-carousel/../assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../assets/vendors/cretech-icons/style.css">
+	<!-- templates css -->
+	<link rel="stylesheet" href="../assets/css/cretech.css">
+</head>
+<?php 
+$currentpage="propos";
 ;?>
 
 <body class="custom-cursor">
@@ -16,66 +43,9 @@ require"inc/head.php";
 
 	<div class="page-wrapper">
     <?php
-        require"inc/topbar.php"; 
+        require "../inc/topbar.php"; 
+		require "../inc/header.php";
     ;?>
-	    <nav class="main-menu sticky-header">
-			<div class="container-fluid">
-				<div class="main-menu__logo">
-					<a href="">
-						<img src="assets//images/Logo/CapitalSoftLogo.png" width="98" height="auto" alt="Cretech">
-						<!-- <img src="assets//images/Logo/CapitalSoftLogo.png" width="98" height="33" alt="Cretech"> -->
-					</a>
-				</div><!-- /.main-menu__logo -->
-
-				<ul class="main-menu__list">
-					<li class="menu-item-has-children">
-						<a href="index.php">Accueil</a>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="about.php">À propos</a>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="services-1.html">Services</a>
-						<ul>
-							<li><a href="projects.html">Études et analyses</a></li>
-							<li><a href="project-details.html">Développement sur mesure</a></li>
-							<li><a href="project-details.html">Intégration de solutions </a></li>
-							<li><a href="project-details.html">Formation et support</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="projects.html">Solutions</a>
-						<ul>
-							<li><a href="projects.html">Solution 1</a></li>
-							<li><a href="project-details.html">Solution 2</a></li>
-							<li><a href="project-details.html">Solution 3</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="blog.html">Carriére</a>
-					</li>
-				</ul><!-- /.main-menu__list -->
-
-				<div class="main-menu__right">
-					<a href="#" class="mobile-nav__toggler">
-						<span></span>
-						<span></span>
-						<span></span>
-					</a>
-					<a href="#" class="search-toggler">
-						<i class="icon-magnifying-glass"></i>
-					</a><!-- /.search-toggler -->
-					<a href="tel:+9288009860" class="main-menu__cta">
-						<i class="fa fa-phone-alt"></i>
-						<span class="main-menu__cta__text">
-							<b>+212 5 22 22 39 99</b>
-							Call Anytime
-						</span><!-- /.main-menu__cta__text -->
-					</a><!-- /.main-menu__cta -->
-				</div><!-- /.main-menu__right -->
-
-			</div><!-- /.container-fluid -->
-		</nav><!-- /.main-menu -->
 
 
 		<div class="page-header">
@@ -382,9 +352,18 @@ require"inc/head.php";
 
 	<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
-	<?php
-require "inc/script.php"; 
-;?>
+
+	<!-- plugins js -->
+	<script src="../assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+	<script src="../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="../assets/vendors/jquery-validation/jquery.validate.min.js"></script>
+	<script src="../assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="../assets/vendors/wow/wow.js"></script>
+	<script src="../assets/vendors/jarallax/jarallax.min.js"></script>
+	<script src="../assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+	<!-- template js -->
+	<script src="../assets/js/cretech.js"></script>
+
 
 </body>
 

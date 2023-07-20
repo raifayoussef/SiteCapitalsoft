@@ -10,8 +10,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-		rel="stylesheet">
+	href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<!-- favicons Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/CapitalSoftLogo 32x32.png" />
@@ -46,7 +45,7 @@
 		<nav class="main-menu sticky-header">
 			<div class="container-fluid">
 				<div class="main-menu__logo">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="assets/images/Logo/CapitalSoftLogo.png" width="98" height="auto" alt="Cretech">
 						<!-- <img src="assets/images/Logo/CapitalSoftLogo.png" width="98" height="33" alt="Cretech"> -->
 					</a>
@@ -71,9 +70,9 @@
 					<li class="menu-item-has-children">
 						<a href="projects.html">Solutions</a>
 						<ul>
-							<li><a href="projects.html">Solution 1</a></li>
-							<li><a href="project-details.html">Solution 2</a></li>
-							<li><a href="project-details.html">Solution 3</a></li>
+							<li><a href="Capital SIRH">Capital SIRH</a></li>
+							<li><a href="Capital FINANCE">Capital FINANCE</a></li>
+							<li><a href="Capital DISTIBUTION/">Capital DISTIBUTION</a></li>
 						</ul>
 					</li>
 					<li class="menu-item-has-children">
@@ -155,6 +154,47 @@
 				</div><!-- /.item -->
 			</div><!-- /.slider-one__carousel -->
 		</div><!-- /.slider-one -->
+		<section class="about-four section-padding--top">
+			<div class="container">
+				<div class="row gutter-y-60">
+					<div class="col-lg-6">
+						<div class="about-four__image">
+							<img src="assets/images/resources/experience-knowledge-skills-observation-meet.jpg" class="wow fadeInUp"
+								data-wow-duration="1500ms" alt="">
+						</div><!-- /.about-four__image -->
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="about-four__content">
+							<div class="section-title ">
+</BR>
+								<p class="section-title__text">Présentation de Capital Soft</p><!-- /.section-title__text -->
+								
+							</div><!-- /.section-title -->
+					
+							<div class="about-four__text">Crée depuis 1991, CAPITAL Soft est une société d’études, de développement et d’intégration de solutions informatiques de gestion, leader des solutions informatiques innovantes.
+Née d’une véritable passion pour l’innovation et le développement numérique, CAPITAL Soft offre des solutions IT novatrices, performantes et offre une gamme étendue de prestations et de produits informatiques, adaptée aux besoins de ses clients avec l’accompagnement et l’assistance nécessaires à leur déploiement.
+
+</div>
+							<!-- /.about-four__text -->
+							<div class="about-four__meta">
+								<div class="about-four__author">
+									<img src="assets/images/resources/about-four-author-1.jpg" alt="">
+									<div class="about-four__author__content">
+										<h3 class="about-four__author__title">Mr FAKKAR mostapha</h3>
+										<!-- /.about-four__author__title -->
+										<div class="about-four__author__designation">Founder CEO</div>
+										<!-- /.about-four__author__designation -->
+									</div><!-- /.about-four__author__content -->
+								</div><!-- /.about-four__author -->
+								<!--<a href="services-1.html" class="thm-btn about-four__btn"><span>Learn More</span></a>-->
+								<!-- /.thm-btn about-four__btn -->
+							</div><!-- /.about-four__meta -->
+						</div><!-- /.about-four__content -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+</br>
 		<!-- Savoir faire -->
 		<section class="section-padding--bottom section-padding--top about-five">
 			<div class="container">
@@ -172,8 +212,8 @@
 							</div><!-- /.about-five__video -->
 							<div class="about-five__images__caption count-box wow fadeInUp" data-wow-duration="1500ms">
 								<span class="count-text" data-stop="32" data-speed="2500">00</span>
-								Years <br>
-								Experience
+								Ans  <br>
+								D'expérience
 							</div><!-- /.about-five__images__caption -->
 						</div><!-- /.about-five__images -->
 					</div><!-- /.col-lg-6 -->
@@ -185,28 +225,8 @@
 								<h2 class="section-title__title"></h2>
 								<!-- /.section-title__title -->
 							</div><!-- /.section-title -->
-							<div class="about-five__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-								Voluptatem distinctio ad unde repudiandae. A,
-								 quis accusantium perferendis dolores neque, ea animi debitis pariatur dolorum libero asperiores velit voluptatibus, amet nesciunt.</div>
-							<!-- /.about-five__text -->
-							<ul class="about-five__box">
-								<li class="about-five__box__item gray-bg">
-									<i class="about-five__box__icon icon-consulting"></i>
-									<div class="about-five__box__content">
-										<h3 class="about-five__box__title"><a href="service-it-consultent.html">Consultant en informatique</a></h3>
-										<p class="about-five__box__text">Des solutions plus intelligentes</p>
-										<!-- /.about-five__box__text -->
-									</div><!-- /.about-five__box__content -->
-								</li>
-								<li class="about-five__box__item gray-bg">
-									<i class="about-five__box__icon icon-chip"></i>
-									<div class="about-five__box__content">
-										<h3 class="about-five__box__title"><a href="team.html">Spécialiste en informatique</a></h3>
-										<p class="about-five__box__text">Solutions plus rapides</p>
-										<!-- /.about-five__box__text -->
-									</div><!-- /.about-five__box__content -->
-								</li>
-							</ul><!-- /.about-five__box -->
+							<div class="about-five__text">Notre savoir-faire en développement informatique nous permet de concevoir et de créer des applications et des logiciels innovants, adaptés à chaque entreprise. Que vous ayez besoin d'une application mobile, d'un site web personnalisé ou d'un système de gestion de contenu, nous sommes là pour transformer vos idées en réalité. Nous utilisons les dernières technologies et les meilleures pratiques de développement pour garantir des solutions performantes, sécurisées et évolutives.
+
 						
 						</div><!-- /.about-five__content -->
 					</div><!-- /.col-lg-6 -->
@@ -214,163 +234,248 @@
 			</div><!-- /.container -->
 		</section>
 		<!--END Savoir faire -->
-
-
-		<!-- NOS ENGAGEMENTS -->
-		<section class="section-padding--top section-padding--bottom service-three black-bg"
-			style="background-image: url(assets/images/background/service-1-bg-1.png);">
+</br>
+</br>
+</br>
+<section class="section-padding--top section-padding--bottom">
 			<div class="container">
-				<div class="service-three__block">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="section-title">
-								<p class="section-title__text">Nos engagements </p><!-- /.section-title__text -->
-								<h6 class="section-title__title section-title__title--light">Nos engagements se concrétisent chaque jour par l’ensemble des actions que nous réalisons avec nos partenaires, nos clients, nos collaborateurs, …</h6>
-									<!-- /.section-title__title -->
-							</div><!-- /.section-title -->
-						</div><!-- /.col-lg-7 -->
-						<!-- /.col-lg-5 -->
-					</div><!-- /.row -->
-				</div><!-- /.service-three__block -->
-				<ul class="service-three__list" style="display: flex;justify-content: center;flex-wrap: wrap;">
-					<li class="service-three__list__item wow fadeInUp" data-wow-duration="1500ms" 
+			<div class="section-title text-center">
+					<p class="section-title__text">Engagements</p><!-- /.section-title__text -->
+					</br>
+					<h2 class="section-title__title">Notre entreprise est guidée par des valeurs fondamentales qui se reflètent dans nos engagements envers nos clients. Nous nous engageons à offrir un service de qualité supérieure en mettant en avant les principes du professionnalisme, de la confidentialité, de la réactivité, de l'écoute, du conseil et de l'expertise. </h2>
+					<!-- /.section-title__title -->
+				</div><!-- /.section-title -->
+				<div class="row gutter-y-30">
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
 						data-wow-delay="000ms">
-						<i class="fa-solid fa-user-tie service-three__list__icon"></i>
-						<h3 class="service-three__list__title"><a href="#">Le professionnalisme
-						</a></h3>
-					</li>
-					<li class="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="100ms">
-						<i class="fa-solid fa-lock service-three__list__icon"></i>
-						<h3 class="service-three__list__title"><a href="#">La confidentialité
-						</a></h3>
-					</li>
-					<li class="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="200ms">
-						<i class="fa-solid fa-chart-line service-three__list__icon"></i>
-						<h3 class="service-three__list__title"><a href="#">La réactivité
-						</a></h3>
-					</li>
-					<li class="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="300ms">
-						<i class="fa-solid fa-ear-listen service-three__list__icon"></i>
-						<h3 class="service-three__list__title"><a href="#">L'écoute
-						</a></h3>
-					</li>
-					<li class="service-three__list__item wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="400ms">
-						<i class="fa-regular fa-handshake service-three__list__icon"></i>
-						<h3 class="service-three__list__title"><a href="#">Le conseil et l'expertise
-						</a></h3>
-					</li>
-				</ul><!-- /.service-three__list -->
-			</div>
-			<!-- /.container -->
+						<div class="blog-card-one">
+							<div class="blog-card-one__image">
+								<img src="assets/images/blog/close-up-affaires-tenant-mallette.jpg" alt="">
+								<a href="#" class="hover-text" style="color: white; text-align: left;">Est au cœur de tout ce que nous faisons. Notre équipe est composée de professionnels compétents et expérimentés qui maîtrisent leur domaine d'expertise. Nous travaillons avec rigueur, respectant les normes les plus élevées de l'industrie, et nous nous efforçons constamment de nous améliorer.</a>
+							</div><!-- /.blog-card-one__image -->
+							<div class="blog-card-one__content">	
+								<h3 class="blog-card-one__title">Le professionnalisme</h3>
+							</div><!-- /.blog-card-one__content -->
+						</div><!-- /.blog-card-one -->
+					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="000ms">
+						<div class="blog-card-one">
+							<div class="blog-card-one__image">
+								<img src="assets/images/blog/concept-graphique-restreint-confidentialite-personnelle.jpg" alt="">
+								<a href="#" class="hover-text" style="color: white; text-align: left;">Est une valeur essentielle dans notre entreprise. Nous comprenons l'importance de protéger les informations sensibles de nos clients. Nous garantissons la sécurité et la confidentialité totales de vos données et nous prenons des mesures strictes pour nous assurer que toutes les informations confidentielles sont traitées avec le plus grand soin.</a>
+							</div><!-- /.blog-card-one__image -->
+							<div class="blog-card-one__content">	
+								<h3 class="blog-card-one__title">La confidentialité</h3>
+							</div><!-- /.blog-card-one__content -->
+						</div><!-- /.blog-card-one -->
+					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="000ms">
+						<div class="blog-card-one">
+							<div class="blog-card-one__image">
+								<img src="assets/images/blog/commentaires-commentaires-sondage-support-reponse-barre-mot.jpg" alt="">
+								<a href="#" class="hover-text" style="color: white; text-align: left;">Est une de nos priorités absolues. Nous comprenons que le temps est précieux et que chaque minute compte. C'est pourquoi nous nous engageons à répondre rapidement à vos demandes et à vos besoins. Nous mettons en place des processus efficaces pour assurer une résolution rapide des problèmes et des questions, et nous faisons tout notre possible pour respecter les délais convenus.</a>
+							</div><!-- /.blog-card-one__image -->
+							<div class="blog-card-one__content">	
+								<h3 class="blog-card-one__title">La réactivité</h3>
+							</div><!-- /.blog-card-one__content -->
+						</div><!-- /.blog-card-one -->
+					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="000ms">
+						<div class="blog-card-one">
+							<div class="blog-card-one__image">
+								<img src="assets/images/blog/businesspeople-having-discussion-office.jpg" alt="">
+								<a href="#" class="hover-text" style="color: white; text-align: left;">Est la clé de notre approche client. Nous croyons fermement en l'importance de comprendre pleinement les besoins et les objectifs de nos clients. Nous sommes à l'écoute de vos préoccupations, de vos idées et de vos suggestions. Nous nous engageons à travailler en étroite collaboration avec vous, en vous consultant à chaque étape du processus, pour garantir que nos solutions répondent précisément à vos attentes.</a>
+							</div><!-- /.blog-card-one__image -->
+							<div class="blog-card-one__content">	
+								<h3 class="blog-card-one__title">L'écoute</h3>
+							</div><!-- /.blog-card-one__content -->
+						</div><!-- /.blog-card-one -->
+					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="000ms">
+						<div class="blog-card-one">
+							<div class="blog-card-one__image">
+								<img src="assets/images/blog/hands-close-up-homme-tenant-stylo.jpg" alt="">
+								<a href="#" class="hover-text" style="color: white; text-align: left;">Est une valeur ajoutée que nous offrons à nos clients. Nous ne nous contentons pas de fournir des solutions techniques, nous vous guidons également dans vos choix. Forts de notre expertise, nous vous conseillons sur les meilleures pratiques, les technologies émergentes et les stratégies gagnantes. Nous sommes là pour vous aider à prendre des décisions éclairées qui soutiendront votre croissance et votre succès.</a>
+							</div><!-- /.blog-card-one__image -->
+							<div class="blog-card-one__content">	
+								<h3 class="blog-card-one__title">Le conseil</h3>
+							</div><!-- /.blog-card-one__content -->
+						</div><!-- /.blog-card-one -->
+					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
+						data-wow-delay="000ms">
+						<div class="blog-card-one">
+							<div class="blog-card-one__image">
+								<img src="assets/images/blog/concept-schema-plan-investissement-objectif-commercial.jpg" alt="">
+								<a href="#" class="hover-text" style="color: white; text-align: left;">Est le socle de notre entreprise. Nous sommes des experts dans notre domaine et nous investissons continuellement dans notre développement professionnel pour rester à la pointe des dernières avancées technologiques. Vous pouvez compter sur notre expertise approfondie pour vous fournir des solutions innovantes, fiables et adaptées à vos besoins spécifiques.</a>
+							</div><!-- /.blog-card-one__image -->
+							<div class="blog-card-one__content">	
+								<h3 class="blog-card-one__title">L'expertise</h3>
+							</div><!-- /.blog-card-one__content -->
+						</div><!-- /.blog-card-one -->
+					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+				</div><!-- /.row gutter-y-30 -->
+			</div><!-- /.container -->
 		</section>
-		<!-- END NOS ENGAGEMENTS -->
-		<!-- Équipe et collaborateurs -->
-		<section class=" section-padding--top about-three about-three--home-one">
-			<div class="about-three__shape wow fadeInRight" data-wow-duration="1500ms"
-				style="background-image: url(assets/images/shapes/about-three-s-1.png);z-index:-9">
-			</div><!-- /.about-three__shape -->
+		</br>
+		<section class="about-four section-padding--top">
 			<div class="container">
 				<div class="row gutter-y-60">
 					<div class="col-lg-6">
-						<div class="about-three__image">
-							<img src="assets/images/resources/about-three-1-1.png" class="wow fadeInUp"
+						<div class="about-four__image">
+							<img src="assets/images/resources/colleagues-giving-fist-bump.jpg" class="wow fadeInUp"
 								data-wow-duration="1500ms" alt="">
-						</div><!-- /.about-three__image -->
+						</div><!-- /.about-four__image -->
 					</div><!-- /.col-lg-6 -->
 					<div class="col-lg-6">
-						<div class="about-three__content">
+						<div class="about-four__content">
 							<div class="section-title ">
-								<p class="section-title__text">Équipe et collaborateurs</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">Lorem ipsum dolor sit amet.</h2><!-- /.section-title__title -->
+								<p class="section-title__text">Equipe et collaborateurs</p><!-- /.section-title__text -->
+								
 							</div><!-- /.section-title -->
-							<div class="about-three__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div><!-- /.about-three__text -->
-							<ul class="about-three__list">
-								<li class="about-three__list__item">
-									<div class="about-three__list__icon">
-										<i class="icon-cloud"></i>
-									</div><!-- /.about-three__list__icon -->
-									<div class="about-three__list__content">
-										<h3 class="about-three__list__title"><a href="service-cyber-security.html">Cloud
-												Based Services</a></h3><!-- /.about-three__list__title -->
-										<p class="about-three__list__text">Services address a range of simply free text
-											application and infrastructure needs.</p><!-- /.about-three__list__text -->
-									</div><!-- /.about-three__list__content -->
-								</li>
-								<li class="about-three__list__item">
-									<div class="about-three__list__icon">
-										<i class="icon-group"></i>
-									</div><!-- /.about-three__list__icon -->
-									<div class="about-three__list__content">
-										<h3 class="about-three__list__title"><a href="team.html">Expert Team Members</a>
-										</h3><!-- /.about-three__list__title -->
-										<p class="about-three__list__text">Services address a range of simply free text
-											application and infrastructure needs.</p><!-- /.about-three__list__text -->
-									</div><!-- /.about-three__list__content -->
-								</li>
-							</ul><!-- /.about-three__list -->
-						</div><!-- /.about-three__content -->
+							<div class="about-four__text">Nos développeurs sont des artisans du code, experts dans une variété de 
+									langages de programmation et de Framework. Ils sont constamment à l'affût des dernières tendances et 
+									technologies, ce qui leur permet de concevoir des applications robustes, évolutives et conviviales. 
+									Que ce soit pour le développement d'applications web, mobiles ou logicielles, notre équipe est prête à 
+									relever tous les défis techniques.</div>
+							
+						</div><!-- /.about-four__content -->
 					</div><!-- /.col-lg-6 -->
-
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
-		<!-- END Équipe et collaborateurs -->
-
-		<!-- Chiffres clés -->
-		<br>
-		<br>
+		<section>
+	 <!-- Chiffres clés -->
 		<section class=" about-six">
 			<div class="container">
-				<div class="row gutter-y-60">
-					<div class="col-lg-6">
+				<div class="row gutter-y-60 justify-content-center">				
 						<div class="about-six__content">
 							<div class="section-title">
-								<p class="section-title__text">Chiffres clés</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">Lorem ipsum dolor sit amet.
-									Infrastructure</h2><!-- /.section-title__title -->
+								<p class="section-title__text">Chiffres clés</p><!-- /.section-title__text -->		
 							</div><!-- /.section-title -->
-							<div class="about-six__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, quas praesentium est, doloribus officia nostrum alias, non placeat rem voluptatem excepturi harum magnam! Laudantium eum unde odio et similique exercitationem.</div><!-- /.about-six__text -->
-							<ul class="about-six__list">
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text"
-											data-stop="769" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text">Satisfied Clients</div>
-									<!-- /.about-six__list__text -->
-								</li><!-- /.about-six__list__item -->
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text"
-											data-stop="825" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text">Projects Relased</div>
-									<!-- /.about-six__list__text -->
-								</li><!-- /.about-six__list__item -->
+							
+							<ul >
+								<div class="row">
+									<div class="col-lg-2">
+										<li class="about-six__list__item">
+											<i class="far fa-check-circle about-six__list__icon"></i>
+											<h3 class="about-six__list__title count-box"><span class="count-text"
+													data-stop="32" data-speed="1500">00</span><!-- /.count-text -->
+											</h3>
+											<div class="about-six__list__text" style="font-size:17px">Années d'expérience</div>
+											<!-- /.about-six__list__text -->
+										</li>
+									</div><!-- /.about-six__list__item -->
+									<div class="col-lg-2">
+										<li class="about-six__list__item">
+											<i class="far fa-check-circle about-six__list__icon"></i>
+											<h3 class="about-six__list__title count-box"><span class="count-text"
+													data-stop="769" data-speed="1500">00</span><!-- /.count-text -->
+											</h3>
+											<div class="about-six__list__text" style="font-size:17px">Clients satisfaits</div>
+											
+											<!-- /.about-six__list__text -->
+										</li>
+									</div><!-- /.about-six__list__item -->
+									<div class="col-lg-2">
+										<li class="about-six__list__item">
+											<i class="far fa-check-circle about-six__list__icon"></i>
+											<h3 class="about-six__list__title count-box"><span class="count-text"
+													data-stop="825" data-speed="1500">00</span><!-- /.count-text -->
+											</h3>
+											<div class="about-six__list__text" style="font-size:17px">Projets réussis</div>
+											
+											<!-- /.about-six__list__text -->
+										</li>
+									</div>
+									<div class="col-lg-6">
+										<div class="about-six__text"></BR>Chez Capital Soft, nous sommes fiers de partager avec vous nos chiffres clés,
+										qui témoignent de notre expertise et de notre engagement envers l'excellence dans le développement informatique et le support technique.
+										</div>
+									</div>
+								</div>
+							<!-- /.about-six__list__item -->
 							</ul><!-- /.about-six__list -->
-							<div class="about-six__btns">
-								<a href="about.html" class="thm-btn"><span>learn more</span></a><!-- /.thm-btn -->
-								<a href="services-1.html" class="about-six__link">
-									How it Work
-									<i class="fa fa-angle-double-right"></i>
-								</a><!-- /.about-six__link -->
-							</div><!-- /.about-six__btns -->
+							
 						</div><!-- /.about-six__content -->
-					</div><!-- /.col-lg-6 -->
-					<div class="col-lg-6">
-						<div class="about-six__images wow fadeInUp" data-wow-duration="1500ms">
-							<img src="assets/images/resources/about-six-1-1.jpg" alt="">
-							<img src="assets/images/resources/about-six-1-2.jpg" alt="">
-						</div><!-- /.about-six__images -->
-					</div><!-- /.col-lg-6 -->
+					
+					
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
 		<!-- END Chiffres clés -->
+			</BR>
+		<!-- Client  -->
+		<div class="client-carousel client-carousel--two">
+	<div class="container">
+		<div class="section-title">
+			<p class="section-title__text">Nos clients</p>
+		</div>
+		<div class="owl-carousel thm-owl__carousel" data-owl-options='{
+			"loop": true,
+			"autoplay": true,
+			"autoplayTimeout": 5000,
+			"autoplayHoverPause": true,
+			"nav": false,
+			"dots": false,
+			"margin": 30,
+			"items": 2,
+			"smartSpeed": 700,
+			"responsive": {
+				"0": {
+					"margin": 30,
+					"items": 2
+				},
+				"375": {
+					"margin": 30,
+					"items": 2
+				},
+				"575": {
+					"margin": 30,
+					"items": 3
+				},
+				"767": {
+					"margin": 50,
+					"items": 4
+				},
+				"991": {
+					"margin": 40,
+					"items": 4
+				},
+				"1199": {
+					"margin": 20,
+					"items": 3
+				}
+			}
+		}'>
+			<div class="item">
+				<a href="assets/images/clients/bprem.png" target="_blank"><img src="assets/images/clients/bprem.png" alt=""></a>
+			</div>
+			<div class="item">
+				<a href="assets/images/clients/HPS.png" target="_blank"><img src="assets/images/clients/HPS.png" alt=""></a>
+			</div>
+			<div class="item">
+				<a href="assets/images/clients/MATIS.png" target="_blank"><img src="assets/images/clients/MATIS.png" alt=""></a>
+			</div>
+			<div class="item">
+				<a href="assets/images/clients/safran.png" target="_blank"><img src="assets/images/clients/safran.png" alt=""></a>
+			</div>
+			<div class="item">
+				<a href="assets/images/clients/saham.png" target="_blank"><img src="assets/images/clients/saham.png" alt=""></a>
+			</div>
+			<div class="item">
+				<a href="assets/images/clients/zine.png" target="_blank"><img src="assets/images/clients/zine.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<!-- /.client-carousel -->
+		
 		<section class="section-padding--top section-padding--bottom">
 			<div class="container">
 				<div class="section-title text-center">
@@ -381,10 +486,10 @@
 				</div><!-- /.section-title -->
 				<div class="row gutter-y-30">
 					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="200ms" style="height: 300PX;">
+						data-wow-delay="200ms" >
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
-								<img src="assets/images/blog/blog-1-3.jpg" alt="">
+								<img src="assets/images/resources/about.jpg" alt="">
 								<a href="blog-details.html"></a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">
@@ -403,7 +508,7 @@
 						data-wow-delay="200ms">
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
-								<img src="assets/images/blog/blog-1-3.jpg" alt="">
+								<img src="assets/images/resources/helpdesk.jpg" alt="">
 								<a href="blog-details.html"></a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">
@@ -421,7 +526,7 @@
 						data-wow-delay="200ms">
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
-								<img src="assets/images/blog/blog-1-3.jpg" alt="">
+								<img src="assets/images/resources/conseil.jpg" alt="">
 								<a href="blog-details.html"></a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">
@@ -439,7 +544,8 @@
 				</div><!-- /.row gutter-y-30 -->
 			</div><!-- /.container -->
 		</section>
-
+		</BR>
+		</BR>
 		<!-- solution -->
 		<section class="section-padding--bottom">
 			<div class="container">
@@ -451,12 +557,12 @@
 				<div class="row gutter-y-30">
 					<div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="service-card-two gray-bg">
-							<h3 class="service-card-two__title"><a href="services-1.html">Capital SIRH</a></h3>
+							<h3 class="service-card-two__title"><a href="Capital SIRH">Capital SIRH</a></h3>
 							<!-- /.service-card-two__title -->
 							<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
 							</p><!-- /.service-card-two__text -->
 							<div class="service-card-two__icon">
-								<i class="icon-smart-tv"></i>
+							<img src="assets/images/resources/recruitment.PNG" alt="">
 							</div><!-- /.service-card-two__icon -->
 						</div><!-- /.service-card-two -->
 					</div><!-- /.col-lg-3 -->
@@ -467,7 +573,7 @@
 							<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
 							</p><!-- /.service-card-two__text -->
 							<div class="service-card-two__icon">
-								<i class="icon-link"></i>
+							<img src="assets/images/resources/accounting.PNG" alt="">
 							</div><!-- /.service-card-two__icon -->
 						</div><!-- /.service-card-two -->
 					</div><!-- /.col-lg-3 -->
@@ -478,7 +584,7 @@
 							<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
 							</p><!-- /.service-card-two__text -->
 							<div class="service-card-two__icon">
-								<i class="icon-technical-support"></i>
+							<img src="assets/images/resources/distribution-center.PNG" alt="">
 							</div><!-- /.service-card-two__icon -->
 						</div><!-- /.service-card-two -->
 					</div><!-- /.col-lg-3 -->
@@ -598,7 +704,7 @@
 				</div><!-- /.section-title -->
 			<div class="col-md-3 col-sm-12">
 				<div class="service-details__box">
-					<i class="service-details__box__icon"><img src="assets/images/clients/HPS.png" alt=""></i>
+					<i class="service-details__box__icon"><img src="assets/images/partenaire/rms.png" alt=""></i>
 					<!-- /.service-details__box__content -->
 				</div><!-- /.service-details__box -->
 			</div><!-- /.col-md-6 col-sm-12 -->
@@ -624,73 +730,6 @@
 		</div><!-- /.row -->
 		<!--END partenaire -->
 
-		<!-- Client  -->
-		<div class="client-carousel client-carousel--two">
-			<div class="container">
-				<div class="section-title ">
-					<p class="section-title__text">Nos clients  </p><!-- /.section-title__text -->
-					<!-- /.section-title__title -->
-				</div><!-- /.section-title -->
-				<div class="owl-carousel thm-owl__carousel" data-owl-options='{"loop": true,
-				"autoplay": true,
-				"autoplayTimeout": 5000,
-				"autoplayHoverPause": true,
-				"nav": true,
-				"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-				"dots": false,
-				"margin": 30,
-                "items": 2,
-				"smartSpeed": 700,
-				"responsive": {
-					"0": {
-						"margin": 30,
-						"items": 2
-					},
-					"375": {
-						"margin": 30,
-						"items": 2
-					},
-					"575": {
-						"margin": 30,
-						"items": 3
-					},
-					"767": {
-						"margin": 50,
-						"items": 4
-					},
-					"991": {
-						"margin": 40,
-						"items": 4
-					},
-					"1199": {
-						"margin": 80,
-						"items": 3
-					}
-				}}'>
-					<div class="item">
-						<img src="assets/images/clients/bprem.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/clients/HPS.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/clients/MATIS.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/clients/safran.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/clients/saham.png" alt="">
-					</div><!-- /.item -->
-					<div class="item">
-						<img src="assets/images/clients/zine.png" alt="">
-					</div><!-- /.item -->
-					
-					
-				</div><!-- /.thm-owl__carousel -->
-			</div><!-- /.container -->
-		</div>
-		<!-- /.client-carousel -->
 		
 
 
@@ -854,6 +893,24 @@
 	<!-- template js -->
 	<script src="assets/js/cretech.js"></script>
 
+	<script>
+	// Sélectionnez toutes les divs de contenu des cartes
+var cardContents = document.getElementsByClassName('service-card-one__content');
+
+// Trouvez la hauteur maximale parmi les divs de contenu
+var maxHeight = 0;
+for (var i = 0; i < cardContents.length; i++) {
+  var height = cardContents[i].offsetHeight;
+  if (height > maxHeight) {
+    maxHeight = height;
+  }
+}
+
+// Appliquez la hauteur maximale à toutes les divs de contenu
+for (var i = 0; i < cardContents.length; i++) {
+  cardContents[i].style.height = maxHeight + 'px';
+}
+</script>
 </body>
 
 </html>

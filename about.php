@@ -90,202 +90,56 @@ require"inc/head.php";
 				<h2 class="page-header__title">About Us</h2><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
-		<section class="about-four section-padding--top">
+		
+			class="section-padding--bottom section-padding--top gray-bg testimonials-one background-repeat-no background-position-top-center"
+			style="background-image: url(assets/images/shapes/testi-bg-2-1.png);">
 			<div class="container">
-				<div class="row gutter-y-60">
+				<div class="section-title text-center">
+					<p class="section-title__text">Equipe et collaborateurs</p><!-- /.section-title__text -->
+					
+				</div><!-- /.section-title -->
+				<div class="row gutter-y-30 ">
 					<div class="col-lg-6">
-						<div class="about-four__image">
-							<img src="assets/images/resources/about-four-1-1.jpg" class="wow fadeInUp"
-								data-wow-duration="1500ms" alt="">
-						</div><!-- /.about-four__image -->
+						<div class="testimonials-one-card">
+							<div class="testimonials-one-card__image">
+								<img src="assets/images/resources/testi-1-1.jpg" alt="">
+							</div><!-- /.testimonials-one-card__image -->
+							<div class="testimonials-one-card__content">
+								<div class="testimonials-one-card__text">Notre équipe chez Capital Soft est composée de professionnels passionnés et talentueux,
+									 spécialisés dans le développement informatique et le support technique. Chaque membre de notre équipe apporte son expertise
+									  et sa créativité pour offrir des solutions innovantes et fiables à nos clients.</div>
+								<!-- /.testimonials-one-card__designation -->
+								<i class="icon-right-quote testimonials-one-card__icon"></i>
+							</div><!-- /.testimonials-one-card__content -->
+						</div><!-- /.testimonials-one-card -->
 					</div><!-- /.col-lg-6 -->
 					<div class="col-lg-6">
-						<div class="about-four__content">
-							<div class="section-title ">
-								<p class="section-title__text">About Company</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">The World’s Networking
-									Company</h2><!-- /.section-title__title -->
-							</div><!-- /.section-title -->
-							<div class="about-four__text">Since from 2000 Building Your Better IT Solution The
-								definition of business is an occupation or trade & the purchase and sale of products Our
-								Mission & Vision Voice and Data System are crucial to the success.</div>
-							<!-- /.about-four__text -->
-							<div class="about-four__meta">
-								<div class="about-four__author">
-									<img src="assets/images/resources/about-four-author-1.jpg" alt="">
-									<div class="about-four__author__content">
-										<h3 class="about-four__author__title">Mr FAKKAR mostapha</h3>
-										<!-- /.about-four__author__title -->
-										<div class="about-four__author__designation">Founder CEO</div>
-										<!-- /.about-four__author__designation -->
-									</div><!-- /.about-four__author__content -->
-								</div><!-- /.about-four__author -->
-								<a href="services-1.html" class="thm-btn about-four__btn"><span>Learn More</span></a>
-								<!-- /.thm-btn about-four__btn -->
-							</div><!-- /.about-four__meta -->
-						</div><!-- /.about-four__content -->
+						<div class="testimonials-one-card">
+							<div class="testimonials-one-card__image">
+								<img src="assets/images/resources/testi-1-2.jpg" alt="">
+							</div><!-- /.testimonials-one-card__image -->
+							<div class="testimonials-one-card__content">
+								<div class="testimonials-one-card__text">Nos développeurs sont des artisans du code, experts dans une variété de
+									 langages de programmation et de Framework. Ils sont constamment à l'affût des dernières tendances 
+									 et technologies, ce qui leur permet de concevoir des applications robustes, évolutives et conviviales.
+									  Que ce soit pour le développement d'applications web, mobiles ou logicielles, notre équipe est prête à 
+									  relever tous les défis techniques.</div>
+								<i class="icon-right-quote testimonials-one-card__icon"></i>
+							</div><!-- /.testimonials-one-card__content -->
+						</div><!-- /.testimonials-one-card -->
 					</div><!-- /.col-lg-6 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
-				<!-- MISSION & VALEURS -->
-		<section
-			class="section-padding--top section-padding-xl--bottom section-has-bottom-margin background-repeat-no background-size-cover gray-bg about-seven"
-			style="background-image: url(assets/images/shapes/about-seven-bg-1-1.png);">
-			<div class="container">
-				<div class="row gutter-y-60">
-					<div class="col-lg-5">
-						<div class="about-seven__content">
-							<div class="section-title">
-								<p class="section-title__text">MISSION & VALEURS</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">Business Solutions <br> to Growth Business</h2>
-								<!-- /.section-title__title -->
-							</div><!-- /.section-title -->
-							<div class="about-seven__text">La naissance de CAPITAL Soft 
-								était le fruit du travail d’un groupe d’experts qui croyait à 
-								la technologie et l’évolution numérique pour 
-								le développement de l’entreprise au Maroc. </div><!-- /.about-seven__text -->
-							<!-- /.about-seven__btns -->
+				</div><!-- /.ro -->
 
-						</div><!-- /.about-seven__content -->
-					</div><!-- /.col-lg-5 -->
-					<div class="col-lg-7">
-						<ul class="about-seven__list">
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="000ms">
-								<i class="about-seven__list__icon icon-dashboard"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Disponibilité</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="100ms">
-								<i class="about-seven__list__icon icon-system"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Expertise<br>
-										Services</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="200ms">
-								<i class="about-seven__list__icon icon-cloud-data"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Performance</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="300ms">
-								<i class="about-seven__list__icon icon-data-visualization"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Proximité</a>
-								</h3>
-							</li>
-							<li class="about-seven__list__item text-center wow fadeInLeft" data-wow-duration="1500ms"
-								data-wow-delay="400ms">
-								<i class="about-seven__list__icon icon-software-engineer"></i>
-								<h3 class="about-seven__list__title">
-									<a href="service-infrastructure-plan.html">Qualité</a>
-								</h3>
-							</li>
-						</ul><!-- /.about-seven__list -->
-					</div><!-- /.col-lg-7 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>	
-		<!-- END MISSION & VALEURS  -->
-		<section class="black-bg section-padding-lg--top section-padding-lg--bottom cta-two">
-			<div class="cta-two__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-				style="background-image: url(../assets/images/background/cta-two-bg-1-1.jpg);"></div>
-			<div class="container">
-				<div class="cta-two__inner">
-					<h3 class="cta-two__title">Better IT Solutions And Services
-						At Your <span>Fingertips</span></h3><!-- /.cta-two__title -->
-					<a href="contact.html" class="thm-btn cta-two__btn"><span>LEarn More</span></a>
-					<!-- /.thm-btn cta-two__btn -->
-				</div><!-- /.cta-two__inner -->
 			</div><!-- /.container -->
 		</section>
-		<section
-			class="section-padding--bottom section-padding--top testimonials-two background-repeat-no background-position-top-center"
-			style="background-image: url(../assets/images/shapes/testi-bg-1-1.png);">
-			<div class="container">
-				<div class="row gutter-y-60">
-					<div class="col-lg-5">
-						<div class="testimonials-two__content">
-							<div class="section-title ">
-								<p class="section-title__text">Our clients</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">We Are Trusted
-									Worldwide Peoples</h2><!-- /.section-title__title -->
-							</div><!-- /.section-title -->
-							<div class="testimonials-two__content__text">Sed ut perspiciatis unde omnis natus error sit
-								voluptatem accusa ntium doloremque laudantium totam rem aperiamea queipsa quae abillo
-								inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
-							<!-- /.testimonials-two__content__text -->
-							<div class="testimonials-two__content__text">Pellentesque gravida lectus vitae nisi luctus,
-								Finibus aliquet ligula ultrices.</div><!-- /.testimonials-two__content__text -->
-							<a href="about.html" class="thm-btn testimonials-two__content__btn"><span>View All
-									feedbacks</span></a><!-- /.thm-btn testimonials-two__content__btn -->
-						</div><!-- /.testimonials-two__content -->
-					</div><!-- /.col-lg-5 -->
-					<div class="col-lg-7">
-						<div class="testimonials-two__items">
-							<div class="row gutter-y-30">
-								<div class="col-lg-12">
-									<div class="testimonials-one-card">
-										<div class="testimonials-one-card__image">
-											<img src="assets/images/resources/testi-1-1.jpg" alt="">
-										</div><!-- /.testimonials-one-card__image -->
-										<div class="testimonials-one-card__content">
-											<div class="testimonials-one-card__text">On the other hand denounc with
-												ghteo
-												indignation and dislike men who so beguiled and demoralized the charms
-												of
-												pleasure
-												the momen blinded by desire cannot foresee the pain and trouble.</div>
-											<!-- /.testimonials-one-card__text -->
-											<h3 class="testimonials-one-card__title">Michal Rahul</h3>
-											<!-- /.testimonials-one-card__title -->
-											<p class="testimonials-one-card__designation">Ul - UX Designer</p>
-											<!-- /.testimonials-one-card__designation -->
-											<i class="icon-right-quote testimonials-one-card__icon"></i>
-										</div><!-- /.testimonials-one-card__content -->
-									</div><!-- /.testimonials-one-card -->
-								</div><!-- /.col-lg-6 -->
-								<div class="col-lg-12">
-									<div class="testimonials-one-card">
-										<div class="testimonials-one-card__image">
-											<img src="assets/images/resources/testi-1-2.jpg" alt="">
-										</div><!-- /.testimonials-one-card__image -->
-										<div class="testimonials-one-card__content">
-											<div class="testimonials-one-card__text">On the other hand denounc with
-												ghteo
-												indignation and dislike men who so beguiled and demoralized the charms
-												of
-												pleasure
-												the momen blinded by desire cannot foresee the pain and trouble.</div>
-											<!-- /.testimonials-one-card__text -->
-											<h3 class="testimonials-one-card__title">Jessica Brown</h3>
-											<!-- /.testimonials-one-card__title -->
-											<p class="testimonials-one-card__designation">Ul - UX Designer</p>
-											<!-- /.testimonials-one-card__designation -->
-											<i class="icon-right-quote testimonials-one-card__icon"></i>
-										</div><!-- /.testimonials-one-card__content -->
-									</div><!-- /.testimonials-one-card -->
-								</div><!-- /.col-lg-6 -->
-							</div><!-- /.row -->
-						</div><!-- /.testimonials-two__items -->
-					</div><!-- /.col-lg-7 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
-		<div class="client-carousel client-carousel--two">
+
+		<div class="client-carousel">
 			<div class="container">
 				<div class="owl-carousel thm-owl__carousel" data-owl-options='{"loop": true,
 				"autoplay": true,
 				"autoplayTimeout": 5000,
 				"autoplayHoverPause": true,
-				"nav": true,
-				"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+				"nav": false,
 				"dots": false,
 				"margin": 30,
                 "items": 2,
@@ -379,6 +233,9 @@ require"inc/head.php";
 				</div><!-- /.thm-owl__carousel -->
 			</div><!-- /.container -->
 		</div><!-- /.client-carousel -->
+
+
+
 		<div class="footer-main section-padding--bottom section-padding--top">
 			<div class="container">
 				<div class="row gutter-y-30">

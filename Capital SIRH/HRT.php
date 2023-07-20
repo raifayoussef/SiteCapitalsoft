@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php 
+$currentpage="solutions";
+;?>
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,65 +42,8 @@
 	<div class="page-wrapper">
     <?php
         require"../inc/topbar.php"; 
+        require"../inc/header.php"; 
     ;?>
-		<nav class="main-menu sticky-header">
-			<div class="container-fluid">
-				<div class="main-menu__logo">
-					<a href="../index.php">
-						<img src="../assets/images/Logo/CapitalSoftLogo.png" width="98" height="auto" alt="Cretech">
-						<!-- <img src="../assets/images/Logo/CapitalSoftLogo.png" width="98" height="33" alt="Cretech"> -->
-					</a>
-				</div><!-- /.main-menu__logo -->
-
-				<ul class="main-menu__list">
-					<li class="menu-item-has-children">
-						<a href="index.php">Accueil</a>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="about.php">À propos</a>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="services-1.html">Services</a>
-						<ul>
-							<li><a href="projects.html">Études et analyses</a></li>
-							<li><a href="project-details.html">Développement sur mesure</a></li>
-							<li><a href="project-details.html">Intégration de solutions </a></li>
-							<li><a href="project-details.html">Formation et support</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="projects.html">Solutions</a>
-						<ul>
-							<li><a href="../Capital SIRH">Capital SIRH</a></li>
-							<li><a href="../Capital FINANCE">Capital FINANCE</a></li>
-							<li><a href="../Capital DISTIBUTION">Capital DISTIBUTION</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="blog.html">Carriére</a>
-					</li>
-				</ul><!-- /.main-menu__list -->
-
-				<div class="main-menu__right">
-					<a href="#" class="mobile-nav__toggler">
-						<span></span>
-						<span></span>
-						<span></span>
-					</a>
-					<a href="#" class="search-toggler">
-						<i class="icon-magnifying-glass"></i>
-					</a><!-- /.search-toggler -->
-					<a href="tel:+9288009860" class="main-menu__cta">
-						<i class="fa fa-phone-alt"></i>
-						<span class="main-menu__cta__text">
-							<b>+212 5 22 22 39 99</b>
-							Appelez à tout moment
-						</span><!-- /.main-menu__cta__text -->
-					</a><!-- /.main-menu__cta -->
-				</div><!-- /.main-menu__right -->
-
-			</div><!-- /.container-fluid -->
-		</nav><!-- /.main-menu -->
 
 
 

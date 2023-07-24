@@ -72,7 +72,18 @@
 			<li class="menu-item-has-children <?php if($currentpage=="carriere"){
 					echo "active"  ;
 				} ;?>">
-				<a href="blog.html">Carriére</a>
+				<?php
+					if($currentpage=="accueil"){
+						;?>
+						<a href="carriere">Carriére</a>
+						<?php
+					}else{
+						;?>
+						<a href="../carriere">Carriére</a>
+						<?php
+					}
+					;?>
+				
 			</li>
 		</ul><!-- /.main-menu__list -->
 

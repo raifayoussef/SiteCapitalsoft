@@ -149,11 +149,12 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 							<img src="assets/images/about/about.jpg" class="wow fadeInUp"
 								data-wow-duration="1500ms" alt="">
 							<img src="assets/images/about/about2.jpg" alt="">
-							<div class="about-five__video">
+							<!-- <div class="about-five__video">
 								<a href="https://www.youtube.com/watch?v=rzfmZC3kg3M" class="video-popup">
 									<i class="fa fa-play"></i>
 								</a>
-							</div><!-- /.about-five__video -->
+							</div> -->
+							<!-- /.about-five__video -->
 							<div class="about-five__images__caption count-box wow fadeInUp" data-wow-duration="1500ms">
 								<span class="count-text" data-stop="32" data-speed="2500">00</span>
 								Ans  <br>

@@ -65,14 +65,7 @@ $currentpage="solutions";
 						
 						<h3 class="service-details__title">GESTION COMMERCIALE</h3><!-- /.service-details__title -->
 						<div class="service-details__content">
-							<p>CapitalTime est une solution de gestion intégrée du temps conçue pour
-								 faciliter et optimiser la gestion des horaires, des présences et des 
-								 absences des employés au sein d'une entreprise. Elle offre une gamme 
-								 complète de fonctionnalités permettant aux entreprises de mieux contrôler 
-								 et gérer les données de temps, tout en simplifiant les processus de paie et 
-								 de planification des ressources humaines.
-							</br> 
-                            Simplifiez votre gestion du temps et gagnez en efficacité dès maintenant !</p>					
+							<p>Capital Commercial est une plateforme intégrée qui facilite la gestion des ventes, des stocks, des clients et des fournisseurs, permettant ainsi aux entreprises de suivre leurs opérations commerciales de manière transparente et efficace, et de gérer efficacement tous les aspects de leurs activités.</p>					
 						</div><!-- /.service-details__content -->
 						<div class="row" style="margin-top: -64px;">						
 							<div class="col-md-12">
@@ -82,29 +75,29 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion intégrée du temps <span
+											<h4>Gestion des habilitations  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
-											<div class="inner">
+											<!-- <div class="inner">
 												<p>-	La solution CapitalTime permet de gérer efficacement 
                                                     les horaires, les présences et les absences des employés. 
                                                     Elle est capable de se connecter aux différents systèmes 
                                                     de contrôle d'accès de l'entreprise pour récupérer les 
                                                     données de présence des employés et les utiliser dans les 
                                                     calculs et les rapports.</p>
-											</div>
+											</div> -->
 										</div>
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Calculs personnalisables  <span
+											<h4>Gestion des produits et des stocks   <span
 													class="accrodion-icon"></span></h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 												<p>La solution offre la possibilité de configurer des règles 
                                                     de calcul flexibles en fonction des politiques de 
@@ -115,16 +108,16 @@ $currentpage="solutions";
                                                     ce qui facilite la gestion précise des données de temps et
                                                      de présence.</p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Intégration avec les systèmes de paie <span
+											<h4>Gestion des devis, bons de commandes et de livraisons  <span
 													class="accrodion-icon"></span></h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution CapitalTime peut être intégrée avec différents 
                                                 systèmes de paie utilisés par l'entreprise. Elle permet de 
@@ -133,17 +126,17 @@ $currentpage="solutions";
                                                  paie. Cela réduit les erreurs de saisie manuelle et garantit 
                                                  l'exactitude des données de paie. </p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Synchronisation avec ESPACE RH pour les demandes de congés <span
+											<h4>Facturation et suivi des paiements  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution CapitalTime se synchronise avec la partie de 
                                                 demande de congés et de validation d'ESPACE RH. Lorsqu'un 
@@ -151,17 +144,17 @@ $currentpage="solutions";
                                                 les soldes de congés sont automatiquement mis à jour dans 
                                                 CapitalTime. </p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Rapports et analyses <span
+											<h4>Gestion des clients et fournisseurs <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution CapitalTime offre des fonctionnalités avancées 
                                                 de génération de rapports et d'analyses. Elle permet de 
@@ -172,7 +165,45 @@ $currentpage="solutions";
                                                  éclairées en matière de planification des ressources humaines
                                                  .</p>
 											</div>
+										</div> -->
+									</div>
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Inventaire et mise à jour des stocks  <span
+													class="accrodion-icon"></span>
+											</h4>
 										</div>
+										<!-- <div class="accrodion-content">
+											<div class="inner">
+											<p>La solution CapitalTime offre des fonctionnalités avancées 
+                                                de génération de rapports et d'analyses. Elle permet de 
+                                                visualiser les données de temps et de présence sous forme de 
+                                                tableaux de bord et de graphiques, offrant ainsi une meilleure 
+                                                visibilité sur l'utilisation du temps et les tendances. 
+                                                Ces informations peuvent être utiles pour prendre des décisions
+                                                 éclairées en matière de planification des ressources humaines
+                                                 .</p>
+											</div>
+										</div> -->
+									</div>
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Edition de rapports  <span
+													class="accrodion-icon"></span>
+											</h4>
+										</div>
+										<!-- <div class="accrodion-content">
+											<div class="inner">
+											<p>La solution CapitalTime offre des fonctionnalités avancées 
+                                                de génération de rapports et d'analyses. Elle permet de 
+                                                visualiser les données de temps et de présence sous forme de 
+                                                tableaux de bord et de graphiques, offrant ainsi une meilleure 
+                                                visibilité sur l'utilisation du temps et les tendances. 
+                                                Ces informations peuvent être utiles pour prendre des décisions
+                                                 éclairées en matière de planification des ressources humaines
+                                                 .</p>
+											</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
@@ -182,7 +213,7 @@ $currentpage="solutions";
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution CapitalTime est dotée d'une fonctionnalité de 
                                                 notification et d'alerte intégrée qui permet d'informer 
@@ -190,7 +221,7 @@ $currentpage="solutions";
                                                 importants liés à la gestion du temps. Cette fonctionnalité 
                                                 envoie des notifications automatisées par e-mails.</p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									
@@ -204,7 +235,7 @@ $currentpage="solutions";
 							<h3 class="sidebar__title">CAPITAL DISTIBUSTION</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
 									<li><a href="COMMERCIALE.php">Gestion Commerciale</a></li>
-									<li><a href="POINT_VENTE.php">Capital Caisse</a></li>
+									<li><a href="POINT_VENTE.php">Capital Point de vente</a></li>
 								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->
 							<div class="sidebar__item sidebar__item--cta">

@@ -52,7 +52,7 @@ $currentpage="solutions";
 			<!-- /.page-header__bg -->
 			<div class="container">
 				
-				<h2 class="page-header__title">Capital Caisse</h2>
+				<h2 class="page-header__title">Capital Point de vente</h2>
 				<p style="font-size: 1.5rem; color: #ffffff;" >......</p><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
@@ -62,10 +62,9 @@ $currentpage="solutions";
 				<div class="row ">
 					<div class="col-lg-8">
 						
-						<h3 class="service-details__title">Capital Caisse</h3><!-- /.service-details__title -->
+						<h3 class="service-details__title">Capital Point de vente</h3><!-- /.service-details__title -->
 						<div class="service-details__content">
-							<p>
-                                 </p>					
+							<p>Capital Point de vente CPV est une plateforme informatisée conçue pour aider les entreprises à gérer efficacement leurs opérations de vente au détail. Cette solution offre un système intégré qui facilite la gestion des transactions, des stocks, des ventes, et des rapports, permettant ainsi aux entreprises d'optimiser leurs activités en point de vente et d'améliorer l'expérience client.</p>					
 						</div><!-- /.service-details__content -->
 						<div class="row" style="margin-top: -64px;">						
 							<div class="col-md-12">
@@ -75,26 +74,26 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Planification et demande de congé en ligne<span
+											<h4>Interface de vente convivial <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 												<p>Les employés peuvent planifier leurs congés annuels, et soumettre 
-leurs demandes de congé via une interface conviviale en ligne, 
-spécifiant les dates, la durée et le type de congé.</p>
+													leurs demandes de congé via une interface conviviale en ligne, 
+													spécifiant les dates, la durée et le type de congé.</p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Workflow de validation <span
+											<h4>Gestion des produits et des stocks  <span
 													class="accrodion-icon"></span></h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 												<p>ESPACE RH gère le workflow de validation des congés en 
                                                     acheminant les demandes aux responsables appropriés pour 
@@ -102,16 +101,16 @@ spécifiant les dates, la durée et le type de congé.</p>
                                                     les demandes de congé en ligne, avec des fonctionnalités 
                                                     de commentaire pour une communication transparente.</p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Suivi des soldes de congés <span
+											<h4>Intégration avec le système de caisse  <span
 													class="accrodion-icon"></span></h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution ESPACE RH maintient à jour les soldes de congés des 
                                                 employés, en tenant compte des congés accordés, des congés 
@@ -120,49 +119,49 @@ spécifiant les dates, la durée et le type de congé.</p>
 												RH de visualiser rapidement les informations 
                                                 sur les congés de l’ensemble du personnel.</p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Digitalisation des bulletins de paie  <span
+											<h4>Gestion des promotions et des remises   <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution Espace RH permet aux employés  d’accéder à leurs 
 												bulletins de paie en ligne à tout moment, éliminant ainsi le besoin 
 												de versions papier.</p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Digitalisation des attestations  <span
+											<h4>Gestion des clients  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution Espace RH est dotée d’un workflow digital des différentes 
 												demandes des attestations courantes, telles que les attestations de travail,
  												les attestations de salaire, les attestations de domiciliation, etc. </p>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Notifications et alertes <span
+											<h4>Suivi des ventes en temps réel  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
+										<!-- <div class="accrodion-content">
 											<div class="inner">
 											<p>La solution ESPACE RH est équipée d'une fonctionnalité de 
                                                 notification et d'alerte intégrée qui permet d'informer 
@@ -172,9 +171,49 @@ spécifiant les dates, la durée et le type de congé.</p>
  												digitalisation des bulletins de paie et des attestations. 
 												Cette fonctionnalité envoie des notifications automatisées par e-mails,
  												assurant une communication efficace et instantanée.
-</p>
+												</p>
 											</div>
+										</div> -->
+									</div>
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Gestion des retours et des remboursements   <span
+													class="accrodion-icon"></span>
+											</h4>
 										</div>
+										<!-- <div class="accrodion-content">
+											<div class="inner">
+											<p>La solution ESPACE RH est équipée d'une fonctionnalité de 
+                                                notification et d'alerte intégrée qui permet d'informer 
+                                                rapidement les Responsables 
+												et Gestionnaires RH ainsi que les employés des événements importants 
+												liés à la gestion des congés, au workflow de validation et à la
+ 												digitalisation des bulletins de paie et des attestations. 
+												Cette fonctionnalité envoie des notifications automatisées par e-mails,
+ 												assurant une communication efficace et instantanée.
+												</p>
+											</div>
+										</div> -->
+									</div>
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Sécurité des données   <span
+													class="accrodion-icon"></span>
+											</h4>
+										</div>
+										<!-- <div class="accrodion-content">
+											<div class="inner">
+											<p>La solution ESPACE RH est équipée d'une fonctionnalité de 
+                                                notification et d'alerte intégrée qui permet d'informer 
+                                                rapidement les Responsables 
+												et Gestionnaires RH ainsi que les employés des événements importants 
+												liés à la gestion des congés, au workflow de validation et à la
+ 												digitalisation des bulletins de paie et des attestations. 
+												Cette fonctionnalité envoie des notifications automatisées par e-mails,
+ 												assurant une communication efficace et instantanée.
+												</p>
+											</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									
@@ -188,7 +227,7 @@ spécifiant les dates, la durée et le type de congé.</p>
 								<h3 class="sidebar__title">CAPITAL DISTIBUSTION</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
 									<li><a href="COMMERCIALE.php">Gestion Commerciale</a></li>
-									<li><a href="POINT_VENTE.php">Capital Caisse</a></li>
+									<li><a href="POINT_VENTE.php">Capital Point de vente</a></li>
 									
 								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->

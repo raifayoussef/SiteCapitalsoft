@@ -52,10 +52,7 @@ $currentpage="solutions";
 				style="background-image: url(../assets/images/solution/capitaltime.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../Capital SIRH/index.php">CAPITAL SIRH</a></li>
-					<li>HRT</li>
-				</ul>
+				
 				<h2 class="page-header__title">CAPITALTIME </h2>
 				<p style="font-size: 1.5rem; color: #ffffff;" >Gérez facilement le pointage et la présence 
                 de vos collaborateurs selon vos règles d'entreprise !</p><!-- /.page-header__title -->
@@ -205,11 +202,11 @@ $currentpage="solutions";
 					<div class="col-lg-4 sidebar-column">
 						<div class="sidebar">
 							<div class="sidebar__item sidebar__item--category">
-								<h3 class="sidebar__title">CAPITAL SIRH</h3><!-- /.sidebar__title -->
+								<h3 class="sidebar__title">CAPITAL FINANCE</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
-									<li><a href="HRT.php">Human Ressources Tools HRT</a></li>
-									<li><a href="Capitaltime.php">Capital Time</a></li>
-									<li><a href="EspaceRH.php">Espace Ressources Humaines</a></li>
+									<li><a href="COMPTA.php">Capital Compta</a></li>
+									<li><a href="IMMO.php">Capital Immo</a></li>
+									<li><a href="LIASSE.php">Capital Liasse</a></li>
 								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->
 							<div class="sidebar__item sidebar__item--cta">

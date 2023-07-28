@@ -51,10 +51,7 @@ $currentpage="solutions";
 				style="background-image: url(../assets/images/solution/ESPACERH.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../Capital SIRH/index.php">CAPITAL SIRH</a></li>
-					<li>HRT</li>
-				</ul>
+				
 				<h2 class="page-header__title">Espace RH</h2>
 				<p style="font-size: 1.5rem; color: #ffffff;" >Votre espace RH, simplifié et optimisé 
                 pour une gestion efficace du capital humain.</p><!-- /.page-header__title -->

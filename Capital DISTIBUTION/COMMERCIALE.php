@@ -52,13 +52,9 @@ $currentpage="solutions";
 				style="background-image: url(../assets/images/solution/capitaltime.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../Capital SIRH/index.php">CAPITAL SIRH</a></li>
-					<li>HRT</li>
-				</ul>
-				<h2 class="page-header__title">CAPITALTIME </h2>
-				<p style="font-size: 1.5rem; color: #ffffff;" >Gérez facilement le pointage et la présence 
-                de vos collaborateurs selon vos règles d'entreprise !</p><!-- /.page-header__title -->
+				
+				<h2 class="page-header__title">GESTION COMMERCIALE </h2>
+				<p style="font-size: 1.5rem; color: #ffffff;" >......</p><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
 
@@ -67,7 +63,7 @@ $currentpage="solutions";
 				<div class="row ">
 					<div class="col-lg-8">
 						
-						<h3 class="service-details__title">CAPITALTIME</h3><!-- /.service-details__title -->
+						<h3 class="service-details__title">GESTION COMMERCIALE</h3><!-- /.service-details__title -->
 						<div class="service-details__content">
 							<p>CapitalTime est une solution de gestion intégrée du temps conçue pour
 								 faciliter et optimiser la gestion des horaires, des présences et des 
@@ -205,11 +201,10 @@ $currentpage="solutions";
 					<div class="col-lg-4 sidebar-column">
 						<div class="sidebar">
 							<div class="sidebar__item sidebar__item--category">
-								<h3 class="sidebar__title">CAPITAL SIRH</h3><!-- /.sidebar__title -->
+							<h3 class="sidebar__title">CAPITAL DISTIBUSTION</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
-									<li><a href="HRT.php">Human Ressources Tools HRT</a></li>
-									<li><a href="Capitaltime.php">Capital Time</a></li>
-									<li><a href="EspaceRH.php">Espace Ressources Humaines</a></li>
+									<li><a href="COMMERCIALE.php">Gestion Commerciale</a></li>
+									<li><a href="POINT_VENTE.php">Capital Caisse</a></li>
 								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->
 							<div class="sidebar__item sidebar__item--cta">

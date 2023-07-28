@@ -52,10 +52,7 @@ $currentpage="solutions";
 				style="background-image: url(../assets/images/solution/capitaltime.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../Capital SIRH/index.php">CAPITAL SIRH</a></li>
-					<li>HRT</li>
-				</ul>
+				
 				<h2 class="page-header__title">CAPITALTIME </h2>
 				<p style="font-size: 1.5rem; color: #ffffff;" >Gérez facilement le pointage et la présence 
                 de vos collaborateurs selon vos règles d'entreprise !</p><!-- /.page-header__title -->

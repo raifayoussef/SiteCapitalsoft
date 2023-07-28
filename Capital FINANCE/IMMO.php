@@ -52,13 +52,8 @@ $currentpage="solutions";
 				style="background-image: url(../assets/images/solution/ESPACERH.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../Capital SIRH/index.php">CAPITAL SIRH</a></li>
-					<li>HRT</li>
-				</ul>
-				<h2 class="page-header__title">Espace RH</h2>
-				<p style="font-size: 1.5rem; color: #ffffff;" >Votre espace RH, simplifié et optimisé 
-                pour une gestion efficace du capital humain.</p><!-- /.page-header__title -->
+				<h2 class="page-header__title">Capital Immo</h2>
+				<p style="font-size: 1.5rem; color: #ffffff;" >.......</p><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
 
@@ -67,15 +62,15 @@ $currentpage="solutions";
 				<div class="row ">
 					<div class="col-lg-8">
 						
-						<h3 class="service-details__title">ESPACE RH</h3><!-- /.service-details__title -->
+						<h3 class="service-details__title">Capital Immo</h3><!-- /.service-details__title -->
 						<div class="service-details__content">
-							<p>Capital Espace RH est une solution complète de gestion des workflow 
-								de validation, ainsi que de digitalisation des bulletins de paie et
- 								des différentes attestations au sein d'une entreprise. Elle offre 
-								une plateforme centralisée pour la gestion efficace de toutes les 
-								demandes liées à la fonction RH, l'automatisation des processus de 
-								validation, et la numérisation des documents de paie et des 
-								attestations courantes.
+							<p>Capital Immo est une solution informatisée spécialement conçu pour
+								 aider les entreprises à gérer efficacement leurs actifs immobilisés. 
+								 Cette solution vise à automatiser le suivi et la gestion de toutes 
+								 les immobilisations, qu'il s'agisse de biens matériels tels que les 
+								 équipements, les véhicules ou les propriétés, afin de garantir une 
+								 comptabilité précise et conforme aux normes comptables en vigueur au 
+								 Maroc.
                                  </p>					
 						</div><!-- /.service-details__content -->
 						<div class="row" style="margin-top: -64px;">						
@@ -86,15 +81,13 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Planification et demande de congé en ligne<span
+											<h4>Enregistrement des immobilisations <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-												<p>Les employés peuvent planifier leurs congés annuels, et soumettre 
-leurs demandes de congé via une interface conviviale en ligne, 
-spécifiant les dates, la durée et le type de congé.</p>
+												<p></p>
 											</div>
 										</div>
 									</div>
@@ -102,16 +95,12 @@ spécifiant les dates, la durée et le type de congé.</p>
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Workflow de validation <span
+											<h4>Paramétrage du mode d’amortissement  <span
 													class="accrodion-icon"></span></h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-												<p>ESPACE RH gère le workflow de validation des congés en 
-                                                    acheminant les demandes aux responsables appropriés pour 
-                                                    approbation. Les responsables peuvent valider ou rejeter
-                                                    les demandes de congé en ligne, avec des fonctionnalités 
-                                                    de commentaire pour une communication transparente.</p>
+												<p></p>
 											</div>
 										</div>
 									</div>
@@ -119,17 +108,12 @@ spécifiant les dates, la durée et le type de congé.</p>
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Suivi des soldes de congés <span
+											<h4>Calcul automatique des dotations <span
 													class="accrodion-icon"></span></h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>La solution ESPACE RH maintient à jour les soldes de congés des 
-                                                employés, en tenant compte des congés accordés, des congés 
-                                                restants et des congés déjà pris. Cela permet aux employés 
-                                                et aux Responsables et Gestionnaires 
-												RH de visualiser rapidement les informations 
-                                                sur les congés de l’ensemble du personnel.</p>
+											<p></p>
 											</div>
 										</div>
 									</div>
@@ -137,15 +121,13 @@ spécifiant les dates, la durée et le type de congé.</p>
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Digitalisation des bulletins de paie  <span
+											<h4>Suivi des mouvements des immobilisations   <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>La solution Espace RH permet aux employés  d’accéder à leurs 
-												bulletins de paie en ligne à tout moment, éliminant ainsi le besoin 
-												de versions papier.</p>
+											<p></p>
 											</div>
 										</div>
 									</div>
@@ -153,15 +135,13 @@ spécifiant les dates, la durée et le type de congé.</p>
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Digitalisation des attestations  <span
+											<h4>Gestion des réparations et entretiens  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>La solution Espace RH est dotée d’un workflow digital des différentes 
-												demandes des attestations courantes, telles que les attestations de travail,
- 												les attestations de salaire, les attestations de domiciliation, etc. </p>
+											<p></p>
 											</div>
 										</div>
 									</div>
@@ -169,21 +149,39 @@ spécifiant les dates, la durée et le type de congé.</p>
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Notifications et alertes <span
+											<h4>Edition de rapports <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>La solution ESPACE RH est équipée d'une fonctionnalité de 
-                                                notification et d'alerte intégrée qui permet d'informer 
-                                                rapidement les Responsables 
-												et Gestionnaires RH ainsi que les employés des événements importants 
-												liés à la gestion des congés, au workflow de validation et à la
- 												digitalisation des bulletins de paie et des attestations. 
-												Cette fonctionnalité envoie des notifications automatisées par e-mails,
- 												assurant une communication efficace et instantanée.
-</p>
+											<p></p>
+											</div>
+										</div>
+									</div>
+									<!-- End Faq One Single-->
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Intégration avec la comptabilité générale  <span
+													class="accrodion-icon"></span>
+											</h4>
+										</div>
+										<div class="accrodion-content">
+											<div class="inner">
+											<p></p>
+											</div>
+										</div>
+									</div>
+									<!-- End Faq One Single-->
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Inventaire des actifs  <span
+													class="accrodion-icon"></span>
+											</h4>
+										</div>
+										<div class="accrodion-content">
+											<div class="inner">
+											<p></p>
 											</div>
 										</div>
 									</div>
@@ -196,11 +194,11 @@ spécifiant les dates, la durée et le type de congé.</p>
 					<div class="col-lg-4 sidebar-column">
 						<div class="sidebar">
 							<div class="sidebar__item sidebar__item--category">
-								<h3 class="sidebar__title">CAPITAL SIRH</h3><!-- /.sidebar__title -->
+								<h3 class="sidebar__title">CAPITAL FINANCE</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
-									<li><a href="HRT.php">Human Ressources Tools HRT</a></li>
-									<li><a href="Capitaltime.php">Capital Time</a></li>
-									<li><a href="EspaceRH.php">Espace Ressources Humaines</a></li>
+									<li><a href="COMPTA.php">Capital Compta</a></li>
+									<li><a href="IMMO.php">Capital Immo</a></li>
+									<li><a href="LIASSE.php">Capital Liasse</a></li>
 								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->
 							<div class="sidebar__item sidebar__item--cta">

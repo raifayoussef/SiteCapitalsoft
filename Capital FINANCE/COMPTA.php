@@ -52,13 +52,9 @@ $currentpage="solutions";
 				style="background-image: url(../assets/images/solution/hrt.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../Capital SIRH/index.php">CAPITAL SIRH</a></li>
-					<li>HRT</li>
-				</ul>
-				<h2 class="page-header__title">Human Resources Tools  </h2>
-				<p style="font-size: 1.5rem; color: #ffffff;" >Simplifiez vos processus de gestion de 
-				la paie conformément aux règles et réglementations en vigueur.</p><!-- /.page-header__title -->
+				
+				<h2 class="page-header__title">Capital Compta  </h2>
+				<p style="font-size: 1.5rem; color: #ffffff;" >.....</p><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
 
@@ -67,14 +63,16 @@ $currentpage="solutions";
 				<div class="row ">
 					<div class="col-lg-8">
 						
-						<h3 class="service-details__title">Human Resources Tools HRT </h3><!-- /.service-details__title -->
+						<h3 class="service-details__title">Capital Compta </h3><!-- /.service-details__title -->
 						<div class="service-details__content">
-							<p>Est une solution complète et fiable pour les entreprises qui souhaitent 
-								simplifier et automatiser leurs processus de gestion de la paie tout en respectant les règles et 
-								réglementations en vigueur au Maroc. Conçue spécifiquement pour répondre aux exigences du marché marocain,
- 								notre solution vous permet de gérer efficacement les salaires, les cotisations sociales, les avantages 
- 								sociaux et les déclarations sociales et fiscales, vous permettant ainsi de vous concentrer sur le 
- 								développement de votre entreprise.
+							<p>Capital Compta est un système informatisé spécialement conçu
+								 pour aider les entreprises et les professionnels de la comptabilité
+								  à gérer leurs opérations financières conformément à la législation 
+								  comptable marocaine. 
+									Cette solution vise à automatiser et à simplifier le processus 
+									de comptabilité, à améliorer l'efficacité et à garantir la 
+									conformité avec les normes comptables en vigueur au Maroc.
+
 							</p>					
 						</div><!-- /.service-details__content -->
 						<div class="row" style="margin-top: -64px;">						
@@ -85,18 +83,13 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Calcul automatique des salaires<span
+											<h4>Paramétrage du plan comptable (Modèle normal & Simplifié)<span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-												<p>-	HRT effectue automatiquement le calcul des 
-													salaires bruts en fonction des heures travaillées, des taux
-													 horaires, des primes et des indemnités.</p>
-													 <p>-	HRT prend en compte les différentes catégories de 
-														personnel, les niveaux hiérarchiques et les échelons 
-														salariaux conformément à la législation marocaine.</p>
+												<p></p>
 											</div>
 										</div>
 									</div>
@@ -104,16 +97,12 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion des données employés <span
+											<h4>Saisie des écritures comptables <span
 													class="accrodion-icon"></span></h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-												<p>-	Enregistrement des informations personnelles des 
-													employés. </p>
-												<p>-	Suivi des informations contractuelles 
-														(date d'embauche, type de contrat, durée, etc.). </p>
-												<p>-	Gestion des congés payés, des absences et des congés maladie. </p>
+												<p></p>
 											</div>
 										</div>
 									</div>
@@ -121,16 +110,12 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion des cotisations sociales <span
+											<h4>Calcul automatique des taxes (TVA)<span
 													class="accrodion-icon"></span></h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>-	Prise en charge des avantages sociaux tels que les tickets 
-												restaurants, les allocations familiales, les primes spécifiques,
-												 etc.</p>
-												<p>-	Suivi des avantages accordés à chaque employé et intégration
-													 dans le calcul des salaires. </p>
+											<p> </p>
 											</div>
 										</div>
 									</div>
@@ -138,19 +123,13 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Edition des bulletins de paie <span
+											<h4>Création des modèles de saisie  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>-	Génération automatique des bulletins de paie détaillés 
-												pour chaque employé. </p>
-												<p>-	Inclusion des informations salariales, des cotisations 
-													sociales, des avantages sociaux et des retenues éventuelles 
-													(impôts, avances, etc.).</p>
-												<p>-	Personnalisation des bulletins de paie conformément aux 
-													exigences légales et aux spécificités de l'entreprise.</p>
+											<p></p>
 											
 											</div>
 										</div>
@@ -159,16 +138,13 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Déclarations fiscales <span
+											<h4>Rapprochement bancaire  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>-	Préparation des déclarations fiscales mensuelles, 
-												trimestrielles et annuelles relatives à la paie. </p>
-											<p>-	Calcul automatique des retenues à la source pour 
-												l'impôt sur le revenu.</p>
+											<p></p>
 											</div>
 										</div>
 									</div>
@@ -176,17 +152,13 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion des variables spécifiques <span
+											<h4>Génération automatique du report à nouveau  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>-	Possibilité de gérer des variables spécifiques propres à 
-												l'entreprise ou au secteur d'activité (indemnités spéciales, 
-												primes exceptionnelles, etc.). </p>
-												<p>-	Flexibilité pour configurer et adapter 
-													les variables selon les besoins de l'entreprise.</p>
+											<p></p>
 											</div>
 										</div>
 									</div>
@@ -194,16 +166,13 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Rapports et analyses <span
+											<h4>Edition de la balance et du GL <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<div class="accrodion-content">
 											<div class="inner">
-											<p>-	Génération de rapports détaillés sur les coûts de la masse 
-												salariale, les charges sociales, les avantages sociaux, etc.</p>
-												<p>-	Analyse des tendances salariales, des écarts et des 
-													données statistiques relatives à la paie.</p>											
+											<p></p>											
 											</div>
 										</div>
 									</div>
@@ -215,11 +184,11 @@ $currentpage="solutions";
 					<div class="col-lg-4 sidebar-column">
 						<div class="sidebar">
 							<div class="sidebar__item sidebar__item--category">
-								<h3 class="sidebar__title">CAPITAL SIRH</h3><!-- /.sidebar__title -->
+								<h3 class="sidebar__title">CAPITAL FINANCE</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
-									<li><a href="HRT.php">Human Ressources Tools HRT</a></li>
-									<li><a href="Capitaltime.php">Capital Time</a></li>
-									<li><a href="EspaceRH.php">Espace Ressources Humaines</a></li>
+									<li><a href="COMPTA.php">Capital Compta</a></li>
+									<li><a href="IMMO.php">Capital Immo</a></li>
+									<li><a href="LIASSE.php">Capital Liasse</a></li>
 								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->
 							<div class="sidebar__item sidebar__item--cta">

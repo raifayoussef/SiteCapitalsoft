@@ -75,7 +75,7 @@ $currentpage="solutions";
 							<div class="project-card-one__content">
 								<div class="project-card-one__content__inner">
 									<p class="project-card-one__text">FINANCE</p>
-									<h3 class="project-card-one__title"><a href="COMPTA.php">COMPTABILITE</a></h3><!-- /.project-card-one__title -->
+									<h3 class="project-card-one__title"><a href="COMPTA.php">Capital Compta</a></h3><!-- /.project-card-one__title -->
 									<a href="COMPTA.php" class="project-card-one__more">
 										<i class="fa fa-angle-right"></i>
 									</a><!-- /.project-card-one__more -->
@@ -92,7 +92,7 @@ $currentpage="solutions";
 							<div class="project-card-one__content">
 								<div class="project-card-one__content__inner">
 									<p class="project-card-one__text">FINANCE</p>
-									<h3 class="project-card-one__title"><a href="LIASSE.php">LIASSE</a></h3><!-- /.project-card-one__title -->
+									<h3 class="project-card-one__title"><a href="LIASSE.php">Capital Liasse</a></h3><!-- /.project-card-one__title -->
 									<a href="LIASSE.php" class="project-card-one__more">
 										<i class="fa fa-angle-right"></i>
 									</a><!-- /.project-card-one__more -->
@@ -109,7 +109,7 @@ $currentpage="solutions";
 							<div class="project-card-one__content">
 								<div class="project-card-one__content__inner">
 									<p class="project-card-one__text">FINANCE</p>
-									<h3 class="project-card-one__title"><a href="IMMO.php">IMMOBILISATIONS</a></h3><!-- /.project-card-one__title -->
+									<h3 class="project-card-one__title"><a href="IMMO.php">Capital Immo</a></h3><!-- /.project-card-one__title -->
 									<a href="IMMO.php" class="project-card-one__more">
 										<i class="fa fa-angle-right"></i>
 									</a><!-- /.project-card-one__more -->

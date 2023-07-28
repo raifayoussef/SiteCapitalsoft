@@ -72,7 +72,7 @@ $currentpage="solutions";
 							<div class="project-card-one__content">
 								<div class="project-card-one__content__inner">
 									<p class="project-card-one__text">DISTIBUTION</p>
-									<h3 class="project-card-one__title"><a href="COMMERCIALE.php">COMMERCIALE</a></h3><!-- /.project-card-one__title -->
+									<h3 class="project-card-one__title"><a href="COMMERCIALE.php">GESTION COMMERCIALE</a></h3><!-- /.project-card-one__title -->
 									<a href="COMMERCIALE.php" class="project-card-one__more">
 										<i class="fa fa-angle-right"></i>
 									</a><!-- /.project-card-one__more -->

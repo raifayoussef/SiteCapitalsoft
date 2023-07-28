@@ -51,13 +51,9 @@ $currentpage="solutions";
 				style="background-image: url(../assets/images/solution/ESPACERH.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../Capital SIRH/index.php">CAPITAL SIRH</a></li>
-					<li>HRT</li>
-				</ul>
-				<h2 class="page-header__title">Espace RH</h2>
-				<p style="font-size: 1.5rem; color: #ffffff;" >Votre espace RH, simplifié et optimisé 
-                pour une gestion efficace du capital humain.</p><!-- /.page-header__title -->
+				
+				<h2 class="page-header__title">Capital Caisse</h2>
+				<p style="font-size: 1.5rem; color: #ffffff;" >......</p><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
 
@@ -66,15 +62,9 @@ $currentpage="solutions";
 				<div class="row ">
 					<div class="col-lg-8">
 						
-						<h3 class="service-details__title">ESPACE RH</h3><!-- /.service-details__title -->
+						<h3 class="service-details__title">Capital Caisse</h3><!-- /.service-details__title -->
 						<div class="service-details__content">
-							<p>Capital Espace RH est une solution complète de gestion des workflow 
-								de validation, ainsi que de digitalisation des bulletins de paie et
- 								des différentes attestations au sein d'une entreprise. Elle offre 
-								une plateforme centralisée pour la gestion efficace de toutes les 
-								demandes liées à la fonction RH, l'automatisation des processus de 
-								validation, et la numérisation des documents de paie et des 
-								attestations courantes.
+							<p>
                                  </p>					
 						</div><!-- /.service-details__content -->
 						<div class="row" style="margin-top: -64px;">						
@@ -195,11 +185,11 @@ spécifiant les dates, la durée et le type de congé.</p>
 					<div class="col-lg-4 sidebar-column">
 						<div class="sidebar">
 							<div class="sidebar__item sidebar__item--category">
-								<h3 class="sidebar__title">CAPITAL SIRH</h3><!-- /.sidebar__title -->
+								<h3 class="sidebar__title">CAPITAL DISTIBUSTION</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
-									<li><a href="HRT.php">Human Ressources Tools HRT</a></li>
-									<li><a href="Capitaltime.php">Capital Time</a></li>
-									<li><a href="EspaceRH.php">Espace Ressources Humaines</a></li>
+									<li><a href="COMMERCIALE.php">Gestion Commerciale</a></li>
+									<li><a href="POINT_VENTE.php">Capital Caisse</a></li>
+									
 								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->
 							<div class="sidebar__item sidebar__item--cta">

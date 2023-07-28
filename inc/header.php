@@ -10,7 +10,8 @@
 				} ;?>" width="98" height="auto" alt="Cretech">
 				<!-- <img src="assets/images/Logo/CapitalSoftLogo.png" width="98" height="33" alt="Cretech"> -->
 			</a>
-		</div><!-- /.main-menu__logo -->
+		</div>
+		<!-- /.main-menu__logo -->
 
 		<ul class="main-menu__list">
 			<li class="menu-item-has-children <?php if($currentpage=="accueil"){

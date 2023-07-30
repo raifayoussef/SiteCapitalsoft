@@ -120,6 +120,23 @@ $currentpage="propos";
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
+		<section class="about-four section-padding--top" style="border: 3px solid #192d84;margin:50px;padding:30px;border-radius: 112px;
+border-top-left-radius: 10px;">
+			<div class="container">
+				<div class="row gutter-y-60">
+					<div class="col-lg-12">
+						<div class="about-four__content">
+							<div class="section-title ">
+								<p class="section-title__text">Mission</p><!-- /.section-title__text -->
+							</div><!-- /.section-title -->
+							<div class="about-four__text" >Fournir des solutions et un soutien de qualité dans une recherche constante de la satisfaction du client.
+							</div>
+							<!-- /.about-four__text -->
+						</div><!-- /.about-four__content -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
 		<section class="section-padding--bottom section-padding--top service-one">
 			<div class="container-fluid">
 				<div class="section-title ">
@@ -156,13 +173,12 @@ $currentpage="propos";
 						<div class="service-card-one gray-bg">
 							<div class="service-card-one__image">
 								<img src="../assets/images/services/service-1-1.jpg" alt="">
-								<div class="service-card-one__logo">G</div><!-- /.service-card-one__logo -->
+								<!-- <div class="service-card-one__logo">G</div> -->
+								<!-- /.service-card-one__logo -->
 							</div><!-- /.service-card-one__image -->
 							<div class="service-card-one__content">
-								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Gaming and
-										Entertainment</a></h3><!-- /.service-card-one__title -->
-								<p class="service-card-one__text">Lorem Ipsum is dummy text of the new design printng
-									and type setting Ipsum has been the is industrys.</p>
+								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Expertise </a></h3><!-- /.service-card-one__title -->
+								<p class="service-card-one__text">Notre équipe est composée d'experts hautement qualifiés et expérimentés dans leur domaine. Leur savoir-faire et leurs compétences nous permettent de fournir des solutions adaptées et efficaces à nos clients.</p>
 								<!-- /.service-card-one__text -->
 							</div><!-- /.service-card-one__content -->
 						</div><!-- /.service-card-one -->
@@ -171,13 +187,12 @@ $currentpage="propos";
 						<div class="service-card-one gray-bg">
 							<div class="service-card-one__image">
 								<img src="../assets/images/services/service-1-2.jpg" alt="">
-								<div class="service-card-one__logo">B</div><!-- /.service-card-one__logo -->
+								<!-- <div class="service-card-one__logo">B</div> -->
+								<!-- /.service-card-one__logo -->
 							</div><!-- /.service-card-one__image -->
 							<div class="service-card-one__content">
-								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Business and
-										Finance</a></h3><!-- /.service-card-one__title -->
-								<p class="service-card-one__text">Lorem Ipsum is dummy text of the new design printng
-									and type setting Ipsum has been the is industrys.</p>
+								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Performance</a></h3><!-- /.service-card-one__title -->
+								<p class="service-card-one__text">Nous nous engageons à offrir des performances exceptionnelles dans tout ce que nous entreprenons. Que ce soit dans la réalisation de projets, la livraison de produits ou la prestation de services, nous visons l'excellence et la réussite.</p>
 								<!-- /.service-card-one__text -->
 							</div><!-- /.service-card-one__content -->
 						</div><!-- /.service-card-one -->
@@ -186,13 +201,40 @@ $currentpage="propos";
 						<div class="service-card-one gray-bg">
 							<div class="service-card-one__image">
 								<img src="../assets/images/services/service-1-3.jpg" alt="">
-								<div class="service-card-one__logo">T</div><!-- /.service-card-one__logo -->
+								<!-- <div class="service-card-one__logo">T</div> -->
+								<!-- /.service-card-one__logo -->
 							</div><!-- /.service-card-one__image -->
 							<div class="service-card-one__content">
-								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Information
-										and Technology</a></h3><!-- /.service-card-one__title -->
-								<p class="service-card-one__text">Lorem Ipsum is dummy text of the new design printng
-									and type setting Ipsum has been the is industrys.</p>
+								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Qualité </a></h3><!-- /.service-card-one__title -->
+								<p class="service-card-one__text">La qualité est au cœur de notre démarche. Nous nous efforçons de maintenir des normes élevées dans toutes nos activités afin de garantir la satisfaction de nos clients et de répondre à leurs attentes les plus exigeantes.</p>
+								<!-- /.service-card-one__text -->
+							</div><!-- /.service-card-one__content -->
+						</div><!-- /.service-card-one -->
+					</div><!-- /.item -->
+					<div class="item">
+						<div class="service-card-one gray-bg">
+							<div class="service-card-one__image">
+								<img src="../assets/images/services/service-1-3.jpg" alt="">
+								<!-- <div class="service-card-one__logo">T</div> -->
+								<!-- /.service-card-one__logo -->
+							</div><!-- /.service-card-one__image -->
+							<div class="service-card-one__content">
+								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Disponibilité  </a></h3><!-- /.service-card-one__title -->
+								<p class="service-card-one__text">Nous sommes toujours là pour nos clients. Notre équipe est disponible pour répondre à vos questions, résoudre vos problèmes et vous assister à tout moment, assurant ainsi une expérience client fluide et sans tracas.</p>
+								<!-- /.service-card-one__text -->
+							</div><!-- /.service-card-one__content -->
+						</div><!-- /.service-card-one -->
+					</div><!-- /.item -->
+					<div class="item">
+						<div class="service-card-one gray-bg">
+							<div class="service-card-one__image">
+								<img src="../assets/images/services/service-1-3.jpg" alt="">
+								<!-- <div class="service-card-one__logo">T</div> -->
+								<!-- /.service-card-one__logo -->
+							</div><!-- /.service-card-one__image -->
+							<div class="service-card-one__content">
+								<h3 class="service-card-one__title"><a href="service-cyber-security.html">Proximité   </a></h3><!-- /.service-card-one__title -->
+								<p class="service-card-one__text">Nous attachons une grande importance à la proximité avec nos clients. Nous sommes à l'écoute de leurs besoins spécifiques, et nous nous engageons à construire des relations solides et durables basées sur la confiance et la transparence.</p>
 								<!-- /.service-card-one__text -->
 							</div><!-- /.service-card-one__content -->
 						</div><!-- /.service-card-one -->

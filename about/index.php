@@ -120,8 +120,7 @@ $currentpage="propos";
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
-		<section class="about-four section-padding--top" style="border: 3px solid #192d84;margin:50px;padding:30px;border-radius: 112px;
-border-top-left-radius: 10px;">
+		<section class="about-four section-padding--top" style="border: 3px solid #192d84;margin:50px;padding:30px;border-radius: 112px;border-top-left-radius: 10px;">
 			<div class="container">
 				<div class="row gutter-y-60">
 					<div class="col-lg-12">
@@ -241,6 +240,83 @@ border-top-left-radius: 10px;">
 					</div><!-- /.item -->
 				</div><!-- /.row -->
 			</div><!-- /.container-fluid -->
+		</section>
+		<section
+			class="section-padding--bottom section-padding--top testimonials-one background-repeat-no background-position-top-center"
+			style="background-image: url(assets/images/shapes/testi-bg-2-1.png);padding:30PX">
+			<div class="container">
+				<div class="section-title text-center">
+					<p class="section-title__text">Témoignages</p><!-- /.section-title__text -->
+					<!-- <h2 class="section-title__title">Trusted Worldwide Peoples</h2> -->
+					<!-- /.section-title__title -->
+				</div><!-- /.section-title -->
+				<div class="row gutter-y-30">
+					<div class="col-lg-6">
+						<div class="testimonials-one-card">
+							<div class="testimonials-one-card__image">
+								<img src="../assets/images/resources/testi-1-1.jpg" alt="">
+							</div><!-- /.testimonials-one-card__image -->
+							<div class="testimonials-one-card__content">
+								<div class="testimonials-one-card__text">Je tiens à exprimer ma satisfaction totale envers Capital Soft. Leur équipe de développeurs a su répondre parfaitement à nos besoins spécifiques en matière de développement logiciel. Leur expertise technique et leur approche professionnelle nous ont permis de concrétiser notre projet avec succès. Nous avons été impressionnés par leur réactivité et leur capacité à livrer le projet dans les délais impartis. Je recommande vivement Capital Soft pour tout projet de développement informatique.</div>
+								<!-- /.testimonials-one-card__text -->
+								<h3 class="testimonials-one-card__title">Mr Société</h3>
+								<!-- /.testimonials-one-card__title -->
+								<!-- <p class="testimonials-one-card__designation">Ul - UX Designer</p> -->
+								<!-- /.testimonials-one-card__designation -->
+								<i class="icon-right-quote testimonials-one-card__icon"></i>
+							</div><!-- /.testimonials-one-card__content -->
+						</div><!-- /.testimonials-one-card -->
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="testimonials-one-card">
+							<div class="testimonials-one-card__image">
+								<img src="../assets/images/resources/testi-1-2.jpg" alt="">
+							</div><!-- /.testimonials-one-card__image -->
+							<div class="testimonials-one-card__content">
+								<div class="testimonials-one-card__text">Collaborer avec Capital Soft a été un véritable atout pour notre entreprise. Leur savoir-faire en développement web et leur flexibilité nous ont permis de relever des défis techniques complexes. Leur équipe s'est intégrée harmonieusement à notre équipe interne, et ensemble, nous avons atteint des résultats exceptionnels. Leur engagement envers la qualité et leur approche centrée sur le client font d'eux un partenaire de choix. Nous sommes ravis de poursuivre cette collaboration fructueuse dans le futur.</div>
+								<!-- /.testimonials-one-card__text -->
+								<h3 class="testimonials-one-card__title">Mr Société</h3>
+								<!-- /.testimonials-one-card__title -->
+								<!-- <p class="testimonials-one-card__designation">Ul - UX Designer</p> -->
+								<!-- /.testimonials-one-card__designation -->
+								<i class="icon-right-quote testimonials-one-card__icon"></i>
+							</div><!-- /.testimonials-one-card__content -->
+						</div><!-- /.testimonials-one-card -->
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="testimonials-one-card">
+							<div class="testimonials-one-card__image">
+								<img src="../assets/images/resources/testi-1-2.jpg" alt="">
+							</div><!-- /.testimonials-one-card__image -->
+							<div class="testimonials-one-card__content">
+								<div class="testimonials-one-card__text">Depuis que nous travaillons avec Capital Soft, nous avons vu notre activité progresser de manière significative. Leurs solutions logicielles sur mesure ont amélioré notre efficacité opérationnelle et renforcé notre compétitivité sur le marché. Leur équipe est toujours à l'écoute de nos besoins et propose des solutions innovantes adaptées à notre secteur d'activité. Leur professionnalisme et leur engagement envers l'excellence font de Capital Soft un partenaire de confiance sur lequel nous pouvons compter.</div>
+								<!-- /.testimonials-one-card__text -->
+								<h3 class="testimonials-one-card__title">Mr Société</h3>
+								<!-- /.testimonials-one-card__title -->
+								<!-- <p class="testimonials-one-card__designation">Ul - UX Designer</p> -->
+								<!-- /.testimonials-one-card__designation -->
+								<i class="icon-right-quote testimonials-one-card__icon"></i>
+							</div><!-- /.testimonials-one-card__content -->
+						</div><!-- /.testimonials-one-card -->
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="testimonials-one-card">
+							<div class="testimonials-one-card__image">
+								<img src="../assets/images/resources/testi-1-2.jpg" alt="">
+							</div><!-- /.testimonials-one-card__image -->
+							<div class="testimonials-one-card__content">
+								<div class="testimonials-one-card__text">Je tiens à remercier chaleureusement l'équipe de support technique de Capital Soft. Leur réactivité et leur expertise nous ont été d'une grande aide lorsque nous avons rencontré des problèmes techniques critiques. Grâce à leur intervention rapide et leur approche méthodique, nous avons pu reprendre notre activité sans interruption. Leur disponibilité et leur professionnalisme nous ont véritablement impressionnés, et nous savons que nous pouvons compter sur eux à tout moment.</div>
+								<!-- /.testimonials-one-card__text -->
+								<h3 class="testimonials-one-card__title">Mr Société</h3>
+								<!-- /.testimonials-one-card__title -->
+								<!-- <p class="testimonials-one-card__designation">Ul - UX Designer</p> -->
+								<!-- /.testimonials-one-card__designation -->
+								<i class="icon-right-quote testimonials-one-card__icon"></i>
+							</div><!-- /.testimonials-one-card__content -->
+						</div><!-- /.testimonials-one-card -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.ro -->
+			</div><!-- /.container -->
 		</section>
 
 		<?php

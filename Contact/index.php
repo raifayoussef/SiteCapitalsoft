@@ -65,7 +65,7 @@ $currentpage="";
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8">
-						<form action="EnvoyerMail.php" class="contact-one__form contact-form-validated">
+						<form action="EnvoyerMail.php" class="contact-one__form contact-form-validated" class="contact-one__form contact-form-validated">
 							<div class="section-title">
 								<p class="section-title__text">Contact with us</p><!-- /.section-title__text -->
 								<h2 class="section-title__title">Join Us To Get IT Free

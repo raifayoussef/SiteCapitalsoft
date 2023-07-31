@@ -196,7 +196,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/close-up-affaires-tenant-mallette.jpg" alt="">
-								<a href="#" class="hover-text" style="color: white; text-align: left;">Est au cœur de tout ce que nous faisons. Notre équipe est composée de professionnels compétents et expérimentés qui maîtrisent leur domaine d'expertise. Nous travaillons avec rigueur, respectant les normes les plus élevées de l'industrie, et nous nous efforçons constamment de nous améliorer.</a>
+								<a href="#" class="hover-text" style="color: white; ">Est au cœur de tout ce que nous faisons. Notre équipe est composée de professionnels compétents et expérimentés qui maîtrisent leur domaine d'expertise. Nous travaillons avec rigueur, respectant les normes les plus élevées de l'industrie, et nous nous efforçons constamment de nous améliorer.</a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">	
 								<h3 class="blog-card-one__title">Le professionnalisme</h3>
@@ -208,7 +208,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/concept-graphique-restreint-confidentialite-personnelle.jpg" alt="">
-								<a href="#" class="hover-text" style="color: white; text-align: left;">Est une valeur essentielle dans notre entreprise. Nous comprenons l'importance de protéger les informations sensibles de nos clients. Nous garantissons la sécurité et la confidentialité totales de vos données et nous prenons des mesures strictes pour nous assurer que toutes les informations confidentielles sont traitées avec le plus grand soin.</a>
+								<a href="#" class="hover-text" style="color: white; ">Est une valeur essentielle dans notre entreprise. Nous comprenons l'importance de protéger les informations sensibles de nos clients. Nous garantissons la sécurité et la confidentialité totales de vos données et nous prenons des mesures strictes pour nous assurer que toutes les informations confidentielles sont traitées avec le plus grand soin.</a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">	
 								<h3 class="blog-card-one__title">La confidentialité</h3>
@@ -220,7 +220,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/commentaires-commentaires-sondage-support-reponse-barre-mot.jpg" alt="">
-								<a href="#" class="hover-text" style="color: white; text-align: left;">Est une de nos priorités absolues. Nous comprenons que le temps est précieux et que chaque minute compte. C'est pourquoi nous nous engageons à répondre rapidement à vos demandes et à vos besoins. Nous mettons en place des processus efficaces pour assurer une résolution rapide des problèmes et des questions, et nous faisons tout notre possible pour respecter les délais convenus.</a>
+								<a href="#" class="hover-text" style="color: white; ">Est une de nos priorités absolues. Nous comprenons que le temps est précieux et que chaque minute compte. C'est pourquoi nous nous engageons à répondre rapidement à vos demandes et à vos besoins. Nous mettons en place des processus efficaces pour assurer une résolution rapide des problèmes et des questions, et nous faisons tout notre possible pour respecter les délais convenus.</a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">	
 								<h3 class="blog-card-one__title">La réactivité</h3>
@@ -232,7 +232,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/businesspeople-having-discussion-office.jpg" alt="">
-								<a href="#" class="hover-text" style="color: white; text-align: left;">Est la clé de notre approche client. Nous croyons fermement en l'importance de comprendre pleinement les besoins et les objectifs de nos clients. Nous sommes à l'écoute de vos préoccupations, de vos idées et de vos suggestions. Nous nous engageons à travailler en étroite collaboration avec vous, en vous consultant à chaque étape du processus, pour garantir que nos solutions répondent précisément à vos attentes.</a>
+								<a href="#" class="hover-text" style="color: white; ">Est la clé de notre approche client. Nous croyons fermement en l'importance de comprendre pleinement les besoins et les objectifs de nos clients. Nous sommes à l'écoute de vos préoccupations, de vos idées et de vos suggestions. Nous nous engageons à travailler en étroite collaboration avec vous, en vous consultant à chaque étape du processus, pour garantir que nos solutions répondent précisément à vos attentes.</a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">	
 								<h3 class="blog-card-one__title">L'écoute</h3>
@@ -244,7 +244,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/hands-close-up-homme-tenant-stylo.jpg" alt="">
-								<a href="#" class="hover-text" style="color: white; text-align: left;">Est une valeur ajoutée que nous offrons à nos clients. Nous ne nous contentons pas de fournir des solutions techniques, nous vous guidons également dans vos choix. Forts de notre expertise, nous vous conseillons sur les meilleures pratiques, les technologies émergentes et les stratégies gagnantes. Nous sommes là pour vous aider à prendre des décisions éclairées qui soutiendront votre croissance et votre succès.</a>
+								<a href="#" class="hover-text" style="color: white; ">Est une valeur ajoutée que nous offrons à nos clients. Nous ne nous contentons pas de fournir des solutions techniques, nous vous guidons également dans vos choix. Forts de notre expertise, nous vous conseillons sur les meilleures pratiques, les technologies émergentes et les stratégies gagnantes. Nous sommes là pour vous aider à prendre des décisions éclairées qui soutiendront votre croissance et votre succès.</a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">	
 								<h3 class="blog-card-one__title">Le conseil</h3>
@@ -256,7 +256,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/concept-schema-plan-investissement-objectif-commercial.jpg" alt="">
-								<a href="#" class="hover-text" style="color: white; text-align: left;">Est le socle de notre entreprise. Nous sommes des experts dans notre domaine et nous investissons continuellement dans notre développement professionnel pour rester à la pointe des dernières avancées technologiques. Vous pouvez compter sur notre expertise approfondie pour vous fournir des solutions innovantes, fiables et adaptées à vos besoins spécifiques.</a>
+								<a href="#" class="hover-text" style="color: white; ">Est le socle de notre entreprise. Nous sommes des experts dans notre domaine et nous investissons continuellement dans notre développement professionnel pour rester à la pointe des dernières avancées technologiques. Vous pouvez compter sur notre expertise approfondie pour vous fournir des solutions innovantes, fiables et adaptées à vos besoins spécifiques.</a>
 							</div><!-- /.blog-card-one__image -->
 							<div class="blog-card-one__content">	
 								<h3 class="blog-card-one__title">L'expertise</h3>

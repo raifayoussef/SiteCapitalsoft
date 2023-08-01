@@ -167,7 +167,7 @@ $currentpage="propos";
 							"margin": 30
 						}
 					}
-				}'>
+					}'>
 					<div class="item">
 						<div class="service-card-one gray-bg">
 							<div class="service-card-one__image">

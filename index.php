@@ -120,16 +120,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 
 </div>
 							<!-- /.about-four__text -->
-							<div class="about-four__meta">
-								<div class="about-four__author">
-									<img src="assets/images/resources/about-four-author-1.jpg" alt="">
-									<div class="about-four__author__content">
-										<h3 class="about-four__author__title">Mr FAKKAR mostapha</h3>
-										<!-- /.about-four__author__title -->
-										<div class="about-four__author__designation">Founder CEO</div>
-										<!-- /.about-four__author__designation -->
-									</div><!-- /.about-four__author__content -->
-								</div><!-- /.about-four__author -->
+					
 								<!--<a href="services-1.html" class="thm-btn about-four__btn"><span>Learn More</span></a>-->
 								<!-- /.thm-btn about-four__btn -->
 							</div><!-- /.about-four__meta -->
@@ -182,7 +173,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 </br>
 </br>
 </br>
-<section class="section-padding--top section-padding--bottom">
+		<section class="section-padding--top section-padding--bottom">
 			<div class="container">
 			<div class="section-title text-center">
 					<p class="section-title__text">Engagements</p><!-- /.section-title__text -->
@@ -293,7 +284,9 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
-		<section>
+		
+			<br>
+			<br>
 	 <!-- Chiffres clés -->
 		<section class=" about-six">
 			<div class="container">
@@ -373,15 +366,15 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 			"responsive": {
 				"0": {
 					"margin": 30,
-					"items": 2
+					"items": 1
 				},
 				"375": {
 					"margin": 30,
-					"items": 2
+					"items": 1
 				},
 				"575": {
-					"margin": 30,
-					"items": 3
+					"margin": 20,
+					"items": 1
 				},
 				"767": {
 					"margin": 50,
@@ -393,27 +386,28 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 				},
 				"1199": {
 					"margin": 20,
-					"items": 3
+					"items": 2
+					
 				}
 			}
 			}'>
-			<div class="item">
-				<a href="assets/images/clients/bprem.png" target="_blank"><img src="assets/images/clients/bprem.png" alt=""></a>
+			<div class="item" >
+				<a href="#"><img src="assets/images/clients/bprem.png" alt=""></a>
 			</div>
 			<div class="item">
-				<a href="assets/images/clients/HPS.png" target="_blank"><img src="assets/images/clients/HPS.png" alt=""></a>
+				<a href="#"><img src="assets/images/clients/HPS.png" alt=""></a>
 			</div>
 			<div class="item">
-				<a href="assets/images/clients/MATIS.png" target="_blank"><img src="assets/images/clients/MATIS.png" alt=""></a>
+				<a href="#"><img src="assets/images/clients/MATIS.png" alt=""></a>
 			</div>
 			<div class="item">
-				<a href="assets/images/clients/safran.png" target="_blank"><img src="assets/images/clients/safran.png" alt=""></a>
+				<a href="#"><img src="assets/images/clients/safran.png" alt=""></a>
 			</div>
 			<div class="item">
-				<a href="assets/images/clients/saham.png" target="_blank"><img src="assets/images/clients/saham.png" alt=""></a>
+				<a href="#"><img src="assets/images/clients/saham.png" alt=""></a>
 			</div>
 			<div class="item">
-				<a href="assets/images/clients/zine.png" target="_blank"><img src="assets/images/clients/zine.png" alt=""></a>
+				<a href="#"><img src="assets/images/clients/zine.png" alt=""></a>
 			</div>
 		</div>
 	</div>
@@ -538,107 +532,7 @@ Née d’une véritable passion pour l’innovation et le développement numéri
 			</div><!-- /.container -->
 		</section>
 		<!-- END solution -->
-		<section class="section-padding--bottom section-padding--top project-one" style="display: none;">
-			<div class="container">
-				<div class="project-one__top">
-					<div class="row">
-						<div class="col-lg-9">
-							<div class="section-title ">
-								<p class="section-title__text">Solutions CAPITAL Soft</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">CAPITAL Soft est l’éditeur du système d’information intégré <br> «CAPITAL Suite» avec 3 composantes : </h2>
-								<!-- /.section-title__title -->
-							</div><!-- /.section-title -->
-						</div><!-- /.col-lg-7 -->
-						<div class="col-lg-3">
-							<div class="project-one__top__content">
-								
-								<div class="project-one__top__btns">
-									<a href="projects.html" class="thm-btn project-one__top__btn">
-										<span>View All Projects</span>
-									</a><!-- /.thm-btn project-one__top__btn -->
-								</div><!-- /.project-one__top__btns -->
 
-							</div><!-- /.project-one__top__content -->
-						</div><!-- /.col-lg-5 -->
-					</div><!-- /.row -->
-				</div><!-- /.project-one__top -->
-				<div class="owl-carousel thm-owl__carousel project-one__carousel thm-owl__carousel--with-shadow"
-					data-owl-options='{"loop": true,
-				"autoplay": true,
-				"autoplayTimeout": 5000,
-				"autoplayHoverPause": true,
-				"nav": true,
-				"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-				"dots": false,
-				"margin": 0,
-                "items": 1,
-				"smartSpeed": 700,
-				"responsive": {
-					"0": {
-						"margin": 0,
-						"items": 1
-					},
-					"768": {
-						"margin": 30,
-						"items": 2
-					},
-					"992": {
-						"margin": 30,
-						"items": 3
-					}
-				}}'>
-					<div class="item">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="assets/images/solution/RH.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text"></p>
-									<h3 class="project-card-one__title"><a href="project-details.html">Capital SIRH</a></h3><!-- /.project-card-one__title -->
-									<a href="project-details.html" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="item">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="assets/images/solution/finance.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text"></p>
-									<h3 class="project-card-one__title"><a href="project-details.html">Capital Finance</a></h3><!-- /.project-card-one__title -->
-									<a href="project-details.html" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="item">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="assets/images/solution/DISTRIBUTion.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text"></p>
-									<h3 class="project-card-one__title"><a href="project-details.html">Capital Distribution </a></h3><!-- /.project-card-one__title -->
-									<a href="project-details.html" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					
-				</div><!-- /.owl-carousel -->
-			</div><!-- /.container -->
-		</section>
 
 		<!-- partenaire -->
 		<div class="row gutter-y-30 service-details__box-wrapper" style="padding: 50px;">

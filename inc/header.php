@@ -2,13 +2,13 @@
 	<div class="container-fluid">
 		<div class="main-menu__logo">
 			<a href="index.php">
-				<!-- <img src="assets/images/Logo/CapitalSoftLogo.png" width="98" height="auto" alt="Cretech"> -->
+				<!-- <img src="assets/images/Logo/capitalsoft white.png" width="98" height="auto" alt="Cretech"> -->
 				<img src="<?php if($currentpage=="accueil"){
-					echo "assets/images/Logo/CapitalSoftLogo.png"  ;
+					echo "assets/images/Logo/capitalsoft white.png"  ;
 				}else{
-					echo "../assets/images/Logo/CapitalSoftLogo.png";
-				} ;?>" width="98" height="auto" alt="Cretech">
-				<!-- <img src="assets/images/Logo/CapitalSoftLogo.png" width="98" height="33" alt="Cretech"> -->
+					echo "../assets/images/Logo/capitalsoft white.png";
+				} ;?>" width="100" height="auto" alt="Cretech">
+				<!-- <img src="assets/images/Logo/capitalsoft white.png" width="98" height="33" alt="Cretech"> -->
 			</a>
 		</div>
 		<!-- /.main-menu__logo -->
@@ -94,9 +94,6 @@
 				<span></span>
 				<span></span>
 			</a>
-			<a href="#" class="search-toggler">
-				<i class="icon-magnifying-glass"></i>
-			</a><!-- /.search-toggler -->
 			<a href="tel:+9288009860" class="main-menu__cta">
 				<i class="fa fa-phone-alt"></i>
 				<span class="main-menu__cta__text">
@@ -108,4 +105,3 @@
 
 	</div><!-- /.container-fluid -->
 </nav><!-- /.main-menu -->
-

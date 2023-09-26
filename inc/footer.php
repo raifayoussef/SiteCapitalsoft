@@ -8,11 +8,11 @@
 								<?php
 								if($currentpage=='accueil'){
 									;?>
-									<img src="assets/images/Logo/CapitalSoftLogo.png" width="150" height="auto" alt="Cretech" style="background-color: white;padding:10px" >
+									<img src="assets/images/Logo/capitalsoft white.png" width="150" height="auto" alt="Cretech" >
 									<?php
 								}else{
 									?>
-									<img src="../assets/images/Logo/CapitalSoftLogo.png" width="150" height="auto" alt="Cretech" style="background-color: white;padding:10px" >
+									<img src="../assets/images/Logo/capitalsoft white.png" width="150" height="auto" alt="Cretech" >
 									<?php
 								}
 								;?>

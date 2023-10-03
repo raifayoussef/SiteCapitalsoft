@@ -40,11 +40,11 @@ $currentpage = "accueil";; ?>
 	</div>
 
 	<div class="page-wrapper">
-		<div class="header-three">
+		
 			<?php require "inc/topbar.php"	 ;?>
 			<?php require "inc/header.php"	 ;?>
 
-		</div><!-- /.header-three -->
+		
 
 		<div class="slider-one slider-three">
 			<div class="slider-one__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{"loop": true, "items": 1, "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"], "margin": 0, "dots": true, "nav": true, "animateOut": "slideOutDown", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 7000, "autoplayHoverPause": false}'>
@@ -55,11 +55,11 @@ $currentpage = "accueil";; ?>
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
 					<div class="container">
 						<div class="slider-one__content text-center">
-							<div class="slider-one__floated lettering-text">technology</div>
+							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
 							<!-- /.slider-one__floated -->
 							<p class="slider-one__text">Welcome to best IT Solutions</p><!-- /.slider-one__text -->
 							<div class="slider-one__title-wrapper">
-								<h2 class="slider-one__title">Future Belongs to <br>Technology</h2>
+								<h2 class="slider-one__title">Future Belongs to <br>CAPITALSOFT</h2>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
@@ -76,11 +76,11 @@ $currentpage = "accueil";; ?>
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
 					<div class="container">
 						<div class="slider-one__content text-center">
-							<div class="slider-one__floated lettering-text">technology</div>
+							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
 							<!-- /.slider-one__floated -->
 							<p class="slider-one__text">Welcome to best IT Solutions</p><!-- /.slider-one__text -->
 							<div class="slider-one__title-wrapper">
-								<h2 class="slider-one__title">Future Belongs to<br> Technology</h2>
+								<h2 class="slider-one__title">Future Belongs to<br> CAPITALSOFT</h2>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
@@ -98,14 +98,14 @@ $currentpage = "accueil";; ?>
 				<div class="row gutter-y-60">
 					<div class="col-lg-6">
 						<div class="about-four__image">
-							<img src="assets/images/resources/experience-knowledge-skills-observation-meet.jpg" class="wow fadeInUp" data-wow-duration="1500ms" alt="">
+							<img src="assets/images/resources/experience-knowledge-skills-observation-meet.jpg" class="wow fadeInUp" data-wow-duration="500ms" alt="">
 						</div><!-- /.about-four__image -->
 					</div><!-- /.col-lg-6 -->
 					<div class="col-lg-6">
 						<div class="about-four__content">
 							<div class="section-title ">
 								</BR>
-								<p class="section-title__text">Présentation de Capital Soft</p><!-- /.section-title__text -->
+								<p class="section-title__text">Qui sommes-nous</p><!-- /.section-title__text -->
 
 							</div><!-- /.section-title -->
 
@@ -128,28 +128,11 @@ $currentpage = "accueil";; ?>
 	<section class="section-padding--bottom section-padding--top about-five">
 		<div class="container">
 			<div class="row gutter-y-60">
-				<div class="col-lg-6">
-					<div class="about-five__images">
-						<div class="about-five__images__shape"></div><!-- /.about-five__images__shape -->
-						<img src="assets/images/about/about.jpg" class="wow fadeInUp" data-wow-duration="1500ms" alt="">
-						<img src="assets/images/about/about2.jpg" alt="">
-						<!-- <div class="about-five__video">
-								<a href="https://www.youtube.com/watch?v=rzfmZC3kg3M" class="video-popup">
-									<i class="fa fa-play"></i>
-								</a>
-							</div> -->
-						<!-- /.about-five__video -->
-						<div class="about-five__images__caption count-box wow fadeInUp" data-wow-duration="1500ms">
-							<span class="count-text" data-stop="32" data-speed="2500">00</span>
-							Ans <br>
-							D'expérience
-						</div><!-- /.about-five__images__caption -->
-					</div><!-- /.about-five__images -->
-				</div><!-- /.col-lg-6 -->
+
 				<div class="col-lg-6">
 					<div class="about-five__content">
 						<div class="section-title ">
-							<p class="section-title__text">Savoir-faire</p>
+							<p class="section-title__text">Nos compétences</p>
 							<!-- .section-title__text -->
 							<h2 class="section-title__title"></h2>
 							<!-- /.section-title__title -->
@@ -160,6 +143,24 @@ $currentpage = "accueil";; ?>
 						</div><!-- /.about-five__content -->
 					</div><!-- /.col-lg-6 -->
 				</div><!-- /.row -->
+				<div class="col-lg-6">
+					<div class="about-five__images">
+						<div class="about-five__images__shape"></div><!-- /.about-five__images__shape -->
+						<img src="assets/images/about/about.jpg" class="wow fadeInUp" data-wow-duration="500ms" alt="" style="height: 500px;width:auto">
+						<img src="assets/images/about/about2.jpg" alt="">
+						<!-- <div class="about-five__video">
+								<a href="https://www.youtube.com/watch?v=rzfmZC3kg3M" class="video-popup">
+									<i class="fa fa-play"></i>
+								</a>
+							</div> -->
+						<!-- /.about-five__video -->
+						<div class="about-five__images__caption count-box wow fadeInUp" data-wow-duration="500ms">
+							<span class="count-text" data-stop="32" data-speed="2500">00</span>
+							Ans <br>
+							D'expérience
+						</div><!-- /.about-five__images__caption -->
+					</div><!-- /.about-five__images -->
+				</div><!-- /.col-lg-6 -->
 			</div><!-- /.container -->
 	</section>
 	<!--END Savoir faire -->
@@ -169,13 +170,13 @@ $currentpage = "accueil";; ?>
 	<section class="section-padding--top section-padding--bottom">
 		<div class="container">
 			<div class="section-title text-center">
-				<p class="section-title__text">Engagements</p><!-- /.section-title__text -->
+				<p class="section-title__text">engagements</p><!-- /.section-title__text -->
 				</br>
 				<h2 class="section-title__title">Notre entreprise est guidée par des valeurs fondamentales qui se reflètent dans nos engagements envers nos clients. Nous nous engageons à offrir un service de qualité supérieure en mettant en avant les principes du professionnalisme, de la confidentialité, de la réactivité, de l'écoute, du conseil et de l'expertise. </h2>
 				<!-- /.section-title__title -->
 			</div><!-- /.section-title -->
 			<div class="row gutter-y-30">
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/blog/close-up-affaires-tenant-mallette.jpg" alt="">
@@ -186,7 +187,7 @@ $currentpage = "accueil";; ?>
 						</div><!-- /.blog-card-one__content -->
 					</div><!-- /.blog-card-one -->
 				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/blog/concept-graphique-restreint-confidentialite-personnelle.jpg" alt="">
@@ -197,7 +198,7 @@ $currentpage = "accueil";; ?>
 						</div><!-- /.blog-card-one__content -->
 					</div><!-- /.blog-card-one -->
 				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/blog/commentaires-commentaires-sondage-support-reponse-barre-mot.jpg" alt="">
@@ -208,7 +209,7 @@ $currentpage = "accueil";; ?>
 						</div><!-- /.blog-card-one__content -->
 					</div><!-- /.blog-card-one -->
 				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/blog/businesspeople-having-discussion-office.jpg" alt="">
@@ -219,7 +220,7 @@ $currentpage = "accueil";; ?>
 						</div><!-- /.blog-card-one__content -->
 					</div><!-- /.blog-card-one -->
 				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/blog/hands-close-up-homme-tenant-stylo.jpg" alt="">
@@ -230,7 +231,7 @@ $currentpage = "accueil";; ?>
 						</div><!-- /.blog-card-one__content -->
 					</div><!-- /.blog-card-one -->
 				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/blog/concept-schema-plan-investissement-objectif-commercial.jpg" alt="">
@@ -250,7 +251,7 @@ $currentpage = "accueil";; ?>
 			<div class="row gutter-y-60">
 				<div class="col-lg-6">
 					<div class="about-four__image">
-						<img src="assets/images/resources/colleagues-giving-fist-bump.jpg" class="wow fadeInUp" data-wow-duration="1500ms" alt="">
+						<img src="assets/images/resources/colleagues-giving-fist-bump.jpg" class="wow fadeInUp" data-wow-duration="500ms" alt="">
 					</div><!-- /.about-four__image -->
 				</div><!-- /.col-lg-6 -->
 				<div class="col-lg-6">
@@ -284,7 +285,7 @@ $currentpage = "accueil";; ?>
 
 					<ul>
 						<div class="row">
-							<div class="col-lg-2">
+							<div class="col-lg-4">
 								<li class="about-six__list__item">
 									<i class="far fa-check-circle about-six__list__icon"></i>
 									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="32" data-speed="1500">00</span><!-- /.count-text -->
@@ -293,7 +294,7 @@ $currentpage = "accueil";; ?>
 									<!-- /.about-six__list__text -->
 								</li>
 							</div><!-- /.about-six__list__item -->
-							<div class="col-lg-2">
+							<div class="col-lg-4">
 								<li class="about-six__list__item">
 									<i class="far fa-check-circle about-six__list__icon"></i>
 									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="769" data-speed="1500">00</span><!-- /.count-text -->
@@ -303,7 +304,7 @@ $currentpage = "accueil";; ?>
 									<!-- /.about-six__list__text -->
 								</li>
 							</div><!-- /.about-six__list__item -->
-							<div class="col-lg-2">
+							<div class="col-lg-4">
 								<li class="about-six__list__item">
 									<i class="far fa-check-circle about-six__list__icon"></i>
 									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="825" data-speed="1500">00</span><!-- /.count-text -->
@@ -313,7 +314,7 @@ $currentpage = "accueil";; ?>
 									<!-- /.about-six__list__text -->
 								</li>
 							</div>
-							<div class="col-lg-6">
+							<div class="col-lg-6" style="display: none;">
 								<div class="about-six__text"></BR>Chez Capital Soft, nous sommes fiers de partager avec vous nos chiffres clés,
 									qui témoignent de notre expertise et de notre engagement envers l'excellence dans le développement informatique et le support technique.
 								</div>
@@ -341,8 +342,9 @@ $currentpage = "accueil";; ?>
 			"autoplay": true,
 			"autoplayTimeout": 5000,
 			"autoplayHoverPause": true,
-			"nav": false,
+			"nav": true,
 			"dots": false,
+			"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
 			"margin": 30,
 			"items": 2,
 			"smartSpeed": 700,
@@ -369,7 +371,7 @@ $currentpage = "accueil";; ?>
 				},
 				"1199": {
 					"margin": 20,
-					"items": 2
+					"items": 4
 					
 				}
 			}
@@ -401,13 +403,13 @@ $currentpage = "accueil";; ?>
 	<section class="section-padding--top section-padding--bottom">
 		<div class="container">
 			<div class="section-title text-center">
-				<p class="section-title__text">SERVICES POPULAIRES</p><!-- /.section-title__text -->
+				<p class="section-title__text">Nos services</p><!-- /.section-title__text -->
 				<h2 class="section-title__title">Nous offrons le meilleur à nos clients<br>
 					Services de solutions informatiques
 				</h2><!-- /.section-title__title -->
 			</div><!-- /.section-title -->
 			<div class="row gutter-y-30">
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/resources/about.jpg" alt="">
@@ -419,13 +421,13 @@ $currentpage = "accueil";; ?>
 
 
 							<a href="blog-details.html" class="blog-card-one__more">
-								Read More
+								Voir plus
 								<i class="fa fa-arrow-right"></i>
 							</a><!-- /.blog-card-one__more -->
 						</div><!-- /.blog-card-one__content -->
 					</div><!-- /.blog-card-one -->
 				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/resources/helpdesk.jpg" alt="">
@@ -436,13 +438,13 @@ $currentpage = "accueil";; ?>
 							<h3 class="blog-card-one__title"><a href="blog-details.html">Support</a></h3>
 
 							<a href="blog-details.html" class="blog-card-one__more">
-								Read More
+								Voir plus
 								<i class="fa fa-arrow-right"></i>
 							</a><!-- /.blog-card-one__more -->
 						</div><!-- /.blog-card-one__content -->
 					</div><!-- /.blog-card-one -->
 				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 					<div class="blog-card-one">
 						<div class="blog-card-one__image">
 							<img src="assets/images/resources/conseil.jpg" alt="">
@@ -454,7 +456,7 @@ $currentpage = "accueil";; ?>
 
 
 							<a href="blog-details.html" class="blog-card-one__more">
-								Read More
+								Voir plus
 								<i class="fa fa-arrow-right"></i>
 							</a><!-- /.blog-card-one__more -->
 						</div><!-- /.blog-card-one__content -->

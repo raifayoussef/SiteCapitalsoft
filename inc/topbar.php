@@ -1,4 +1,5 @@
-        <div class="topbar">
+<div class="header-three">
+	<div class="topbar">
 			<div class="container-fluid">
 				<p class="topbar__text">Bienvenue sur site CapitalSoft</p><!-- /.topbar__text -->
 				<ul class="topbar__info">
@@ -18,4 +19,5 @@
 					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 				</ul><!-- /.topbar__social -->
 			</div><!-- /.container-fluid -->
-		</div><!-- /.topbar -->
+	</div>
+	<!-- /.topbar -->

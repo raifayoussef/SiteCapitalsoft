@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php 
-$currentpage="contact";
+$currentpage="";
 ;?>
 <head>
 	<meta charset="UTF-8">
@@ -41,12 +41,10 @@ $currentpage="contact";
 	</div>
 
 	<div class="page-wrapper">
-		
-		<?php
-			require "../inc/topbar.php"; 
-			require "../inc/header.php"; 
-		;?>
-		
+    <?php
+        require "../inc/topbar.php"; 
+        require "../inc/header.php"; 
+    ;?>
 
 
 
@@ -66,11 +64,12 @@ $currentpage="contact";
 		<section class="contact-one section-padding--top section-padding--bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-8">
 						<form action="EnvoyerMail.php" class="contact-one__form contact-form-validated" class="contact-one__form contact-form-validated">
 							<div class="section-title">
-								<p class="section-title__text">CONTACTEZ-NOUS</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">Rejoignez-nous pour obtenir des consultations informatiques .</h2><!-- /.section-title__title -->
+								<p class="section-title__text">Contact with us</p><!-- /.section-title__text -->
+								<h2 class="section-title__title">Join Us To Get IT Free
+									Consultations</h2><!-- /.section-title__title -->
 							</div><!-- /.section-title -->
                                 <div class="row ">
                                     <div class="col-lg-6 col-md-12">
@@ -86,6 +85,16 @@ $currentpage="contact";
                                         <input type="text" placeholder="Numéro de téléphone" name="phone" required>
                                     </div><!-- /.col-lg-6 col-md-12 -->
                                     <div class="col-lg-12 col-md-12">
+                                        <input type="text" placeholder="Raison Sociale" name="company" required>
+                                    </div><!-- /.col-lg-6 col-md-12 -->
+                                    <div class="col-lg-12 col-md-12">
+                                        <select name="objet" id="objet" class="objet" required class="niceselect">
+                                            <option value="" selected>Sélectionner</option>
+                                            <option value="Informations sur les produits">Informations sur les produits</option>
+                                            <option value="Informations sur les tarifs">Informations sur les tarifs</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
                                         <textarea name="message" placeholder="Message"></textarea>
                                     </div><!-- /.col-lg-6 col-md-12 -->
                                     <div class="col-md-12">
@@ -95,22 +104,130 @@ $currentpage="contact";
 						</form><!-- /.contact-one__form -->
 						<div class="result"></div><!-- / -->
 					</div><!-- /.col-lg-8 -->
+					<div class="col-lg-4">
+						<div class="contact-one__info wow fadeInRight" data-wow-duration="1500ms"
+							style="background-image: url(assets/images/background/contact-one-bg-1-1.png);">
+							<div class="contact-one__item">
+								<h3 class="contact-one__item__title">Address</h3><!-- /.contact-one__item__title -->
+								<p class="contact-one__item__text">88 New Street, Washington DC <br>
+									United States, America</p><!-- /.contact-one__item__text -->
+							</div><!-- /.contact-one__item -->
+							<div class="contact-one__item">
+								<h3 class="contact-one__item__title">Phone</h3><!-- /.contact-one__item__title -->
+								<p class="contact-one__item__text">Local: <a href="tel:222999888">222 999 888</a><br>
+									Mobile: <a href="tel:0008888999">000 8888 999</a></p>
+								<!-- /.contact-one__item__text -->
+							</div><!-- /.contact-one__item -->
+							<div class="contact-one__item">
+								<h3 class="contact-one__item__title">Email</h3><!-- /.contact-one__item__title -->
+								<p class="contact-one__item__text"><a
+										href="mailto:needhelp@company.com">needhelp@company.com</a><br><a
+										href="mailto:inquiry@company.com">inquiry@company.com</a></p>
+								<!-- /.contact-one__item__text -->
+							</div><!-- /.contact-one__item -->
+							<div class="contact-one__item">
+								<ul class="contact-one__social">
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								</ul><!-- /.contact-one__social -->
+							</div><!-- /.contact-one__item -->
+						</div><!-- /.contact-one__info -->
+					</div><!-- /.col-lg-4 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- /.contact-one -->
 
 		<!--Google Map Start-->
-		<section class="google-map google-map--contact" >
+		<section class="google-map google-map--contact">
 			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12721.95909669797!2d-7.612491!3d33.5850151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda632cb3452d5e9%3A0x6a60fa93c1ec2e25!2sCapital%20Soft%20SARL!5e0!3m2!1sfr!2sfr!4v1633311812340!5m2!1sfr!2sfr"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
 				class="google-map__one" allowfullscreen></iframe>
 
 		</section>
 		<!--Google Map End-->
 
-		<?php 
-		require "../inc/footer.php"
-		;?>
+		<div class="footer-main section-padding--bottom section-padding--top">
+			<div class="container">
+				<div class="row gutter-y-30">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="footer-widget footer-widget--about">
+							<a href="index.html" class="footer-widget__logo">
+								<img src="../assets/images/logo-light.png" width="119" height="40" alt="Cretech">
+							</a>
+							<p class="footer-widget__text">We work with a passion of taking challenges and creating new
+								ones in advertising sector.</p><!-- /.footer-widget__text -->
+							<ul class="footer-widget__social">
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							</ul><!-- /.footer-widget__social -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="footer-widget footer-widget--links">
+							<h3 class="footer-widget__title">Services</h3><!-- /.footer-widget__title -->
+							<ul class="footer-widget__links">
+								<li>
+									<a href="service-cyber-security.html">Cyber Security</a>
+								</li>
+								<li>
+									<a href="service-it-management.html">IT Management</a>
+								</li>
+								<li>
+									<a href="service-qa-testing.html">QA & Testing</a>
+								</li>
+								<li>
+									<a href="service-infrastructure-plan.html">Infrastructure Plan</a>
+								</li>
+								<li>
+									<a href="service-it-consultent.html">IT Consultent</a>
+								</li>
+							</ul><!-- /.footer-widget__links -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="footer-widget footer-widget--newsletter">
+							<h3 class="footer-widget__title">Subscribe</h3><!-- /.footer-widget__title -->
+							<p class="footer-widget__text">Sign up to receive the latest articles</p>
+							<!-- /.footer-widget__text -->
+							<form action="#" class="footer-widget__newsletter mc-form"
+								data-url="ADD_YOUR_MAILCHIMP_FORM_URL_HERE">
+								<input type="email" name="EMAIL" placeholder="Enter Your Email">
+								<button class="thm-btn footer-widget__newsletter__btn"><span>Register</span></button>
+							</form>
+							<div class="mc-form__response"></div><!-- /.mc-form__response -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="footer-widget footer-widget--contact">
+							<h3 class="footer-widget__title">Contact</h3><!-- /.footer-widget__title -->
+							<ul class="footer-widget__contact">
+								<li>
+									<i class="fa fa-phone"></i>
+									<a href="tel:+8898006802">+ 88 ( 9800 ) 6802</a>
+								</li>
+								<li>
+									<i class="fa fa-envelope"></i>
+									<a href="mailto:needhelp@company.com">needhelp@company.com</a>
+								</li>
+								<li>
+									<i class="fa fa-map-marker-alt"></i>
+									88 Broklyn Golden Road Street <br> New York. USA
+								</li>
+							</ul><!-- /.footer-widget__contact -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.footer-main -->
+		<div class="footer-bottom">
+			<div class="container">
+				<p>&copy; All Copyright <span class="dynamic-year"></span> by Cretech</p>
+			</div><!-- /.container -->
+		</div><!-- /.footer-bottom -->
 	</div><!-- /.page-wrapper -->
 
 

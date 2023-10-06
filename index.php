@@ -290,7 +290,7 @@ $currentpage = "accueil";; ?>
 									<i class="far fa-check-circle about-six__list__icon"></i>
 									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="32" data-speed="1500">00</span><!-- /.count-text -->
 									</h3>
-									<div class="about-six__list__text" style="font-size:17px">Années d'expérience</div>
+									<div class="about-six__list__text" style="font-size:24px">Années d'expérience</div>
 									<!-- /.about-six__list__text -->
 								</li>
 							</div><!-- /.about-six__list__item -->
@@ -299,7 +299,7 @@ $currentpage = "accueil";; ?>
 									<i class="far fa-check-circle about-six__list__icon"></i>
 									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="769" data-speed="1500">00</span><!-- /.count-text -->
 									</h3>
-									<div class="about-six__list__text" style="font-size:17px">Clients satisfaits</div>
+									<div class="about-six__list__text" style="font-size:24px">Clients satisfaits</div>
 
 									<!-- /.about-six__list__text -->
 								</li>
@@ -309,7 +309,7 @@ $currentpage = "accueil";; ?>
 									<i class="far fa-check-circle about-six__list__icon"></i>
 									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="825" data-speed="1500">00</span><!-- /.count-text -->
 									</h3>
-									<div class="about-six__list__text" style="font-size:17px">Projets réussis</div>
+									<div class="about-six__list__text" style="font-size:24px">Projets réussis</div>
 
 									<!-- /.about-six__list__text -->
 								</li>
@@ -331,6 +331,72 @@ $currentpage = "accueil";; ?>
 	</section>
 	<!-- END Chiffres clés -->
 	</BR>
+
+	<section class="section-padding--top section-padding--bottom">
+		<div class="container">
+			<div class="section-title text-center">
+				<p class="section-title__text">Nos services</p><!-- /.section-title__text -->
+				<h2 class="section-title__title">Nous offrons le meilleur à nos clients<br>
+					Services de solutions informatiques
+				</h2><!-- /.section-title__title -->
+			</div><!-- /.section-title -->
+			<div class="row gutter-y-30">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+					<div class="blog-card-one">
+						<div class="blog-card-one__image">
+							<img src="assets/images/resources/about.jpg" alt="">
+							<a href="blog-details.html"></a>
+						</div><!-- /.blog-card-one__image -->
+						<div class="blog-card-one__content">
+
+							<h3 class="blog-card-one__title"><a href="blog-details.html">Développement de solutions</a></h3>
+
+
+							<a href="blog-details.html" class="blog-card-one__more">
+								Voir plus
+								<i class="fa fa-arrow-right"></i>
+							</a><!-- /.blog-card-one__more -->
+						</div><!-- /.blog-card-one__content -->
+					</div><!-- /.blog-card-one -->
+				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+					<div class="blog-card-one">
+						<div class="blog-card-one__image">
+							<img src="assets/images/resources/helpdesk.jpg" alt="">
+							<a href="blog-details.html"></a>
+						</div><!-- /.blog-card-one__image -->
+						<div class="blog-card-one__content">
+
+							<h3 class="blog-card-one__title"><a href="blog-details.html">Support</a></h3>
+
+							<a href="blog-details.html" class="blog-card-one__more">
+								Voir plus
+								<i class="fa fa-arrow-right"></i>
+							</a><!-- /.blog-card-one__more -->
+						</div><!-- /.blog-card-one__content -->
+					</div><!-- /.blog-card-one -->
+				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+					<div class="blog-card-one">
+						<div class="blog-card-one__image">
+							<img src="assets/images/resources/conseil.jpg" alt="">
+							<a href="blog-details.html"></a>
+						</div><!-- /.blog-card-one__image -->
+						<div class="blog-card-one__content">
+
+							<h3 class="blog-card-one__title"><a href="blog-details.html">Conseils & Expertise</a></h3>
+
+
+							<a href="blog-details.html" class="blog-card-one__more">
+								Voir plus
+								<i class="fa fa-arrow-right"></i>
+							</a><!-- /.blog-card-one__more -->
+						</div><!-- /.blog-card-one__content -->
+					</div><!-- /.blog-card-one -->
+				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
+			</div><!-- /.row gutter-y-30 -->
+		</div><!-- /.container -->
+	</section>
 	<!-- Client  -->
 	<div class="client-carousel client-carousel--two">
 		<div class="container">
@@ -400,71 +466,7 @@ $currentpage = "accueil";; ?>
 
 	<!-- /.client-carousel -->
 
-	<section class="section-padding--top section-padding--bottom">
-		<div class="container">
-			<div class="section-title text-center">
-				<p class="section-title__text">Nos services</p><!-- /.section-title__text -->
-				<h2 class="section-title__title">Nous offrons le meilleur à nos clients<br>
-					Services de solutions informatiques
-				</h2><!-- /.section-title__title -->
-			</div><!-- /.section-title -->
-			<div class="row gutter-y-30">
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-					<div class="blog-card-one">
-						<div class="blog-card-one__image">
-							<img src="assets/images/resources/about.jpg" alt="">
-							<a href="blog-details.html"></a>
-						</div><!-- /.blog-card-one__image -->
-						<div class="blog-card-one__content">
 
-							<h3 class="blog-card-one__title"><a href="blog-details.html">Développement de solutions</a></h3>
-
-
-							<a href="blog-details.html" class="blog-card-one__more">
-								Voir plus
-								<i class="fa fa-arrow-right"></i>
-							</a><!-- /.blog-card-one__more -->
-						</div><!-- /.blog-card-one__content -->
-					</div><!-- /.blog-card-one -->
-				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-					<div class="blog-card-one">
-						<div class="blog-card-one__image">
-							<img src="assets/images/resources/helpdesk.jpg" alt="">
-							<a href="blog-details.html"></a>
-						</div><!-- /.blog-card-one__image -->
-						<div class="blog-card-one__content">
-
-							<h3 class="blog-card-one__title"><a href="blog-details.html">Support</a></h3>
-
-							<a href="blog-details.html" class="blog-card-one__more">
-								Voir plus
-								<i class="fa fa-arrow-right"></i>
-							</a><!-- /.blog-card-one__more -->
-						</div><!-- /.blog-card-one__content -->
-					</div><!-- /.blog-card-one -->
-				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-					<div class="blog-card-one">
-						<div class="blog-card-one__image">
-							<img src="assets/images/resources/conseil.jpg" alt="">
-							<a href="blog-details.html"></a>
-						</div><!-- /.blog-card-one__image -->
-						<div class="blog-card-one__content">
-
-							<h3 class="blog-card-one__title"><a href="blog-details.html">Conseils & Expertise</a></h3>
-
-
-							<a href="blog-details.html" class="blog-card-one__more">
-								Voir plus
-								<i class="fa fa-arrow-right"></i>
-							</a><!-- /.blog-card-one__more -->
-						</div><!-- /.blog-card-one__content -->
-					</div><!-- /.blog-card-one -->
-				</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-			</div><!-- /.row gutter-y-30 -->
-		</div><!-- /.container -->
-	</section>
 	</BR>
 	</BR>
 	<!-- solution -->
@@ -514,7 +516,7 @@ $currentpage = "accueil";; ?>
 		</div><!-- /.container -->
 	</section>
 	<BR></BR>
-	<section class="section-padding--bottom section-padding--top service-one">
+	<section class="section-padding--bottom section-padding--top service-one" style="display: none;">
 		<div class="container-fluid">
 			<div class="section-title text-center">
 				<p class="section-title__text">SOLUTIONS CAPITAL SOFT</p><!-- /.section-title__text -->

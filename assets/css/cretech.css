@@ -32,7 +32,7 @@
 ***********************/
 @import url(https://db.onlinewebfonts.com/c/5c1ae13eaa5872f70f187c85a6717bb2?family=Hero+New+Regular);
 :root {
-  --cretech-font: 'Open Sans', sans-serif;
+  --cretech-font: 'Hero New', sans-serif;
   --cretech-primary: #1D6B93;
   --cretech-primary-rgb: 106, 46, 237;
   --cretech-secondary: #a2ff86;
@@ -1020,7 +1020,7 @@ a:visited {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: auto;
+    margin-left: 50px;
   }
 }
 
@@ -1034,7 +1034,7 @@ a:visited {
 
 @media (min-width: 1270px) {
   .main-menu__list > li + li {
-    margin-left: 58px;
+    margin-left: 25px;
   }
 }
 
@@ -1227,7 +1227,7 @@ a:visited {
 
 .main-menu__cta b {
   letter-spacing: 0;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: capitalize;
   display: block;
@@ -1276,8 +1276,8 @@ a:visited {
 
 @media (min-width: 992px) {
   .main-menu__cta > i {
-    width: 49px;
-    height: 49px;
+    width: 25px;
+    height: 25px;
   }
 }
 
@@ -1443,6 +1443,7 @@ a:visited {
 
 .header-three .main-menu__list > li > a {
   color: #fff;
+  font-size: 16px;
 }
 
 .header-three .main-menu__list > li:hover > a,

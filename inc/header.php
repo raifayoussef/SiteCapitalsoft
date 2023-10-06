@@ -12,39 +12,39 @@
 						echo "assets/images/Logo/capitalsoft white.png"  ;
 					}else{
 						echo "../assets/images/Logo/capitalsoft white.png";
-					} ;?>" width="100" height="auto" alt="Cretech">
+					} ;?>" width="150" height="auto" alt="Cretech">
 					<!-- <img src="assets/images/Logo/capitalsoft white.png" width="98" height="33" alt="Cretech"> -->
 				</a>
 			</div>
 			<!-- /.main-menu__logo -->
 
 			<ul class="main-menu__list">
-				<li class="menu-item-has-children <?php if($currentpage=="accueil"){
-						echo "active"  ;
-					} ;?>">
-					<a href="<?php if($currentpage=="accueil"){
-						echo "./"  ;
-					}else{
-						echo "../";
-					} ;?>">Accueil</a>
-				</li>
+				
 				<li class="menu-item-has-children <?php if($currentpage=="propos"){
 						echo "active"  ;
 					} ;?>">
-					<?php if($currentpage=="accueil"){
+					<?php if($currentpage=="propos"){
 						;?>
-						<a href="about">À propos</a>
+						<a href="#" class="menu-item-has-childre">À propos</a>
+						<ul>
+							<li><a href="Societe">Societé</a></li>
+							<li><a href="Equipe">Equipe</a></li>
+						</ul>
 						<?php
 					}else{
 						;?>
-						<a href="../about">À propos</a>
+						<a href="#" class="menu-item-has-childre">À propos</a>
+						<ul>
+							<li><a href="Societe">Societé</a></li>
+							<li><a href="Equipe">Equipe</a></li>
+						</ul>
 						<?php
 					} ;?>
 				</li>
 				<li class="menu-item-has-children <?php if($currentpage=="service"){
 						echo "active"  ;
 					} ;?>" >
-					<a href="#">Services</a>
+					<a href="#">Nos Services</a>
 					<ul>
 						<li><a href="projects.html">Études et analyses</a></li>
 						<li><a href="project-details.html">Développement sur mesure</a></li>
@@ -55,7 +55,7 @@
 				<li class="menu-item-has-children <?php if($currentpage=="solutions"){
 						echo "active"  ;
 					} ;?>">
-					<a href="#">Solutions</a>
+					<a href="#">Nos Solutions</a>
 					<ul>
 						<?php
 						if($currentpage=="accueil"){
@@ -75,17 +75,30 @@
 						
 					</ul>
 				</li>
+				<li class="menu-item-has-children <?php if($currentpage=="reference"){
+						echo "active"  ;
+					} ;?>">
+					<?php if($currentpage=="reference"){
+						;?>
+						<a href="about">Nos références</a>
+						<?php
+					}else{
+						;?>
+						<a href="../about">Nos références</a>
+						<?php
+					} ;?>
+				</li>
 				<li class="menu-item-has-children <?php if($currentpage=="carriere"){
 						echo "active"  ;
 					} ;?>">
 					<?php
 						if($currentpage=="accueil"){
 							;?>
-							<a href="carriere">Carriére</a>
+							<a href="carriere">Nous rejoindre</a>
 							<?php
 						}else{
 							;?>
-							<a href="../carriere">Carriére</a>
+							<a href="../carriere">Nous rejoindre</a>
 							<?php
 						}
 						;?>
@@ -101,12 +114,15 @@
 				</a>
 				<a href="tel:+9288009860" class="main-menu__cta">
 					<i class="fa fa-phone-alt"></i>
-					<span class="main-menu__cta__text">
-						<b>+212 5 22 22 39 99</b>
-						Appelez à tout moment
-					</span><!-- /.main-menu__cta__text -->
-				</a><!-- /.main-menu__cta -->
-			</div><!-- /.main-menu__right -->
+					<span class="main-menu__cta__text" style="">
+						<b>Assistance 24h/24 & 7j/7</b>
+						+212 5 22 22 39 99
+					</span>
+					<!-- /.main-menu__cta__text -->
+				</a>
+				<!-- /.main-menu__cta -->
+			</div>
+			<!-- /.main-menu__right -->
 
 		</div><!-- /.container-fluid -->
 	</nav><!-- /.main-menu -->

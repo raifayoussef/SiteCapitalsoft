@@ -1,8 +1,13 @@
 <div class="header-three">
 	<div class="topbar">
 			<div class="container-fluid">
-				<p class="topbar__text">Bienvenue sur site CapitalSoft</p><!-- /.topbar__text -->
 				<ul class="topbar__info">
+					<li>
+						<i class="fa fa-phone-alt"></i>
+						<a href="tel:+212522223999">
+							+212 5 22 22 39 99
+						</a>
+					</li>
 					<li>
 						<i class="fa fa-envelope"></i>
 						<a href="mailto:capitalsoft@capitalsoft.ma">capitalsoft@capitalsoft.ma</a>

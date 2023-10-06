@@ -19,8 +19,8 @@
 					
 				</ul><!-- /.topbar__info -->
 				<ul class="topbar__social">
-					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=61551832514043" target="_blank"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/capitalsoft.ma/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
 				</ul><!-- /.topbar__social -->
 			</div><!-- /.container-fluid -->

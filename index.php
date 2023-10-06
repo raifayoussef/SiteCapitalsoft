@@ -57,13 +57,13 @@ $currentpage = "accueil";; ?>
 						<div class="slider-one__content text-center">
 							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
 							<!-- /.slider-one__floated -->
-							<p class="slider-one__text">Welcome to best IT Solutions</p><!-- /.slider-one__text -->
+							<p class="slider-one__text">Bienvenue sur CapitalSoft</p><!-- /.slider-one__text -->
 							<div class="slider-one__title-wrapper">
-								<h2 class="slider-one__title">Future Belongs to <br>CAPITALSOFT</h2>
+								<h2 class="slider-one__title">La performance au <br>service de l’entreprise</h2>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
-								<a href="about.html" class="thm-btn slider-one__btn"><span>Learn More</span></a>
+								<a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a>
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
@@ -78,13 +78,13 @@ $currentpage = "accueil";; ?>
 						<div class="slider-one__content text-center">
 							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
 							<!-- /.slider-one__floated -->
-							<p class="slider-one__text">Welcome to best IT Solutions</p><!-- /.slider-one__text -->
+							<p class="slider-one__text">Bienvenue sur CapitalSoft</p><!-- /.slider-one__text -->
 							<div class="slider-one__title-wrapper">
-								<h2 class="slider-one__title">Future Belongs to<br> CAPITALSOFT</h2>
+							<h2 class="slider-one__title">La performance au <br>service de l’entreprise</h2>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
-								<a href="about.html" class="thm-btn slider-one__btn"><span>Learn More</span></a>
+								<a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a>
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
@@ -94,7 +94,7 @@ $currentpage = "accueil";; ?>
 		</div><!-- /.slider-one -->
 
   
-			<div class="container">
+			<div class="container" style="display: none;">
 				<div class="row gutter-y-60">
 					<div class="col-lg-6">
 						<div class="about-four__image">
@@ -115,7 +115,7 @@ $currentpage = "accueil";; ?>
 							</div>
 							<!-- /.about-four__text -->
 
-							<!--<a href="services-1.html" class="thm-btn about-four__btn"><span>Learn More</span></a>-->
+							<!--<a href="services-1.html" class="thm-btn about-four__btn"><span>Voir Plus</span></a>-->
 							<!-- /.thm-btn about-four__btn -->
 						</div><!-- /.about-four__meta -->
 					</div><!-- /.about-four__content -->
@@ -123,9 +123,9 @@ $currentpage = "accueil";; ?>
 			</div><!-- /.row -->
 	</div><!-- /.container -->
 	</section>
-	</br>
+
 	<!-- Savoir faire -->
-	<section class="section-padding--bottom section-padding--top about-five">
+	<section class="section-padding--bottom section-padding--top about-five" style="display: none;">
 		<div class="container">
 			<div class="row gutter-y-60">
 
@@ -164,10 +164,8 @@ $currentpage = "accueil";; ?>
 			</div><!-- /.container -->
 	</section>
 	<!--END Savoir faire -->
-	</br>
-	</br>
-	</br>
-	<section class="section-padding--top section-padding--bottom">
+
+	<section class="section-padding--top section-padding--bottom" style="display: none;">
 		<div class="container">
 			<div class="section-title text-center">
 				<p class="section-title__text">engagements</p><!-- /.section-title__text -->
@@ -246,7 +244,7 @@ $currentpage = "accueil";; ?>
 		</div><!-- /.container -->
 	</section>
 	</br>
-	<section class="about-four section-padding--top">
+	<section class="about-four section-padding--top" style="display: none;">
 		<div class="container">
 			<div class="row gutter-y-60">
 				<div class="col-lg-6">
@@ -271,67 +269,6 @@ $currentpage = "accueil";; ?>
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section>
-
-	<br>
-	<br>
-	<!-- Chiffres clés -->
-	<section class=" about-six">
-		<div class="container">
-			<div class="row gutter-y-60 justify-content-center">
-				<div class="about-six__content">
-					<div class="section-title">
-						<p class="section-title__text">Chiffres clés</p><!-- /.section-title__text -->
-					</div><!-- /.section-title -->
-
-					<ul>
-						<div class="row">
-							<div class="col-lg-4">
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="32" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text" style="font-size:24px">Années d'expérience</div>
-									<!-- /.about-six__list__text -->
-								</li>
-							</div><!-- /.about-six__list__item -->
-							<div class="col-lg-4">
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="769" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text" style="font-size:24px">Clients satisfaits</div>
-
-									<!-- /.about-six__list__text -->
-								</li>
-							</div><!-- /.about-six__list__item -->
-							<div class="col-lg-4">
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="825" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text" style="font-size:24px">Projets réussis</div>
-
-									<!-- /.about-six__list__text -->
-								</li>
-							</div>
-							<div class="col-lg-6" style="display: none;">
-								<div class="about-six__text"></BR>Chez Capital Soft, nous sommes fiers de partager avec vous nos chiffres clés,
-									qui témoignent de notre expertise et de notre engagement envers l'excellence dans le développement informatique et le support technique.
-								</div>
-							</div>
-						</div>
-						<!-- /.about-six__list__item -->
-					</ul><!-- /.about-six__list -->
-
-				</div><!-- /.about-six__content -->
-
-
-			</div><!-- /.row -->
-		</div><!-- /.container -->
-	</section>
-	<!-- END Chiffres clés -->
-	</BR>
-
 	<section class="section-padding--top section-padding--bottom">
 		<div class="container">
 			<div class="section-title text-center">
@@ -397,10 +334,112 @@ $currentpage = "accueil";; ?>
 			</div><!-- /.row gutter-y-30 -->
 		</div><!-- /.container -->
 	</section>
+	<section class="section-padding--bottom">
+		<div class="container">
+			<div class="section-title text-center">
+				<p class="section-title__text">SOLUTIONS CAPITAL SOFT</p><!-- /.section-title__text -->
+				<h2 class="section-title__title">CAPITAL Soft est l’éditeur du système d’information intégré <br> «CAPITAL Suite» avec 3 composantes : </h2>
+				<!-- /.section-title__title -->
+			</div><!-- /.section-title -->
+			<div class="row gutter-y-30">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="service-card-two gray-bg">
+						<h3 class="service-card-two__title"><a href="Capital SIRH">Capital SIRH</a></h3>
+						<!-- /.service-card-two__title -->
+						<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
+						</p><!-- /.service-card-two__text -->
+						<div class="service-card-two__icon">
+							<img src="assets/images/resources/recruitment.PNG" alt="">
+						</div><!-- /.service-card-two__icon -->
+					</div><!-- /.service-card-two -->
+				</div><!-- /.col-lg-3 -->
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="service-card-two gray-bg">
+						<h3 class="service-card-two__title"><a href="team.html">Capital Finance</a></h3>
+						<!-- /.service-card-two__title -->
+						<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
+						</p><!-- /.service-card-two__text -->
+						<div class="service-card-two__icon">
+							<img src="assets/images/resources/accounting.PNG" alt="">
+						</div><!-- /.service-card-two__icon -->
+					</div><!-- /.service-card-two -->
+				</div><!-- /.col-lg-3 -->
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="service-card-two gray-bg">
+						<h3 class="service-card-two__title"><a href="contact.html">Capital Distribution</a></h3>
+						<!-- /.service-card-two__title -->
+						<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
+						</p><!-- /.service-card-two__text -->
+						<div class="service-card-two__icon">
+							<img src="assets/images/resources/distribution-center.PNG" alt="">
+						</div><!-- /.service-card-two__icon -->
+					</div><!-- /.service-card-two -->
+				</div><!-- /.col-lg-3 -->
+
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
+	<!-- Chiffres clés -->
+	<section class=" about-six">
+		<div class="container">
+			<div class="row gutter-y-60 justify-content-center">
+				<div class="about-six__content">
+					<div class="section-title">
+						<p class="section-title__text">Nous Chiffres clés</p><!-- /.section-title__text -->
+					</div><!-- /.section-title -->
+
+					<ul>
+						<div class="row">
+							<div class="col-lg-4">
+								<li class="about-six__list__item">
+									<i class="far fa-check-circle about-six__list__icon"></i>
+									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="32" data-speed="1500">00</span><!-- /.count-text -->
+									</h3>
+									<div class="about-six__list__text" style="font-size:24px">Années d'expérience</div>
+									<!-- /.about-six__list__text -->
+								</li>
+							</div><!-- /.about-six__list__item -->
+							<div class="col-lg-4">
+								<li class="about-six__list__item">
+									<i class="far fa-check-circle about-six__list__icon"></i>
+									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="769" data-speed="1500">00</span><!-- /.count-text -->
+									</h3>
+									<div class="about-six__list__text" style="font-size:24px">Clients satisfaits</div>
+
+									<!-- /.about-six__list__text -->
+								</li>
+							</div><!-- /.about-six__list__item -->
+							<div class="col-lg-4">
+								<li class="about-six__list__item">
+									<i class="far fa-check-circle about-six__list__icon"></i>
+									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="825" data-speed="1500">00</span><!-- /.count-text -->
+									</h3>
+									<div class="about-six__list__text" style="font-size:24px">Projets réussis</div>
+
+									<!-- /.about-six__list__text -->
+								</li>
+							</div>
+							<div class="col-lg-6" style="display: none;">
+								<div class="about-six__text"></BR>Chez Capital Soft, nous sommes fiers de partager avec vous nos chiffres clés,
+									qui témoignent de notre expertise et de notre engagement envers l'excellence dans le développement informatique et le support technique.
+								</div>
+							</div>
+						</div>
+						<!-- /.about-six__list__item -->
+					</ul><!-- /.about-six__list -->
+
+				</div><!-- /.about-six__content -->
+
+
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
+	<!-- END Chiffres clés -->
+
 	<!-- Client  -->
 	<div class="client-carousel client-carousel--two">
 		<div class="container">
-			<div class="section-title">
+			<div class="section-title" >
 				<p class="section-title__text">Nos clients</p>
 			</div>
 			<div class="owl-carousel thm-owl__carousel" data-owl-options='{
@@ -467,10 +506,8 @@ $currentpage = "accueil";; ?>
 	<!-- /.client-carousel -->
 
 
-	</BR>
-	</BR>
 	<!-- solution -->
-	<section class="section-padding--bottom">
+	<section class="section-padding--bottom" style="display: none;">
 		<div class="container">
 			<div class="section-title text-center">
 				<p class="section-title__text">SOLUTIONS CAPITAL SOFT</p><!-- /.section-title__text -->
@@ -515,7 +552,6 @@ $currentpage = "accueil";; ?>
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section>
-	<BR></BR>
 	<section class="section-padding--bottom section-padding--top service-one" style="display: none;">
 		<div class="container-fluid">
 			<div class="section-title text-center">

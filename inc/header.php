@@ -35,8 +35,8 @@
 						;?>
 						<a href="#" class="menu-item-has-childre">À propos</a>
 						<ul>
-							<li><a href="Societe">Societé</a></li>
-							<li><a href="Equipe">Equipe</a></li>
+							<li><a href="Societe">Société</a></li>
+							<li><a href="Equipe">équipe</a></li>
 						</ul>
 						<?php
 					} ;?>

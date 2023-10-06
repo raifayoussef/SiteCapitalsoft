@@ -784,7 +784,7 @@ a:visited {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .topbar__info li {
@@ -796,7 +796,7 @@ a:visited {
           align-items: center;
   font-size: 13px;
   font-weight: 500;
-  color: var(--cretech-text-light, #a39eae);
+  color: white;
 }
 
 .topbar__info li + li {
@@ -845,7 +845,7 @@ a:visited {
 
 @media (min-width: 1200px) {
   .topbar__social {
-    margin-left: 60px;
+    margin-left: auto;
   }
 }
 
@@ -1000,7 +1000,7 @@ a:visited {
 
 @media (min-width: 992px) {
   .main-menu .container-fluid {
-    padding-left: 60px;
+    padding-left: 30px;
     padding-right: 0px;
   }
 }

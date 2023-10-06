@@ -63,7 +63,7 @@ $currentpage = "accueil";; ?>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
-								<a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a>
+								<!-- <a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a> -->
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
@@ -84,7 +84,7 @@ $currentpage = "accueil";; ?>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
-								<a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a>
+								<!-- <a href="about.html" class="thm-b	tn slider-one__btn"><span>Voir Plus</span></a> -->
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->

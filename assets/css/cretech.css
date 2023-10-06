@@ -3588,10 +3588,10 @@ a:visited {
 * Footer
 ***********************/
 .footer-main {
-  background-image: url(../images/background/footer-bg-1-1.png);
+  /* background-image: url(../images/background/footer-bg-1-1.png); */
   background-repeat: no-repeat;
   background-position: left center;
-  background-color: #1D6B93;
+  background-color: #174c61;
   background-blend-mode: luminosity;
 }
 
@@ -3712,7 +3712,7 @@ a:visited {
 .footer-widget__links li {
   font-size: 16px;
   line-height: 36px;
-  color: var(--cretech-link-light, #877e9b);
+  color: white;
 }
 
 .footer-widget__links li a {
@@ -3722,7 +3722,7 @@ a:visited {
 }
 
 .footer-widget__links li a:hover {
-  color: #fff;
+  color: #A2FF86;
 }
 
 .footer-widget__contact {

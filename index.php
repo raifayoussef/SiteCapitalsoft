@@ -58,7 +58,7 @@ $currentpage = "accueil";; ?>
 		<div class="slider-one slider-three">
 			<div class="slider-one__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{"loop": true, "items": 1, "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"], "margin": 0, "dots": true, "nav": true, "animateOut": "slideOutDown", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 7000, "autoplayHoverPause": false}'>
 				<div class="item slider-one__slide-1">
-					<div class="slider-one__bg" style="background-image: url(assets/images/sliders/SLIDER\ \(1\).jpg);">
+					<div class="slider-one__bg" style="background-image: url(assets/images/sliders/6.png);">
 					</div><!-- /.slider-one__bg -->
 					<div class="slider-one__shape-1"></div><!-- /.slider-one__shape-1 -->
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
@@ -66,36 +66,37 @@ $currentpage = "accueil";; ?>
 						<div class="slider-one__content text-center">
 							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
 							<!-- /.slider-one__floated -->
-							<p class="slider-one__text">Bienvenue sur CapitalSoft</p><!-- /.slider-one__text -->
+							<!-- <p class="slider-one__text">Bienvenue sur CapitalSoft</p> -->
+							<!-- /.slider-one__text -->
 							<div class="slider-one__title-wrapper">
-								<h2 class="slider-one__title">La performance au <br>service de l’entreprise</h2>
+								<h2 class="slider-one__title">La <i><b>performance</b></i> au <br>service de <i><b>l’entreprise</b></i></h2>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
+							<BR><BR>
 							<div class="slider-one__btns">
-								<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
+								<a href="about.html" class="thm-btn slider-o ne__btn"><span>Découvrir</span></a>
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
 					</div><!-- /.container -->
-				</div><!-- /.item -->
+				</div>
+				<!-- /.item -->
 				<div class="item slider-one__slide-2">
-					<div class="slider-one__bg" style="background-image: url(assets/images/sliders/SLIDER\ \(2\).jpg);">
+					<div class="slider-one__bg" style="background-image: url(assets/images/sliders/mm-05.png);">
 					</div><!-- /.slider-one__bg -->
 					<div class="slider-one__shape-1"></div><!-- /.slider-one__shape-1 -->
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
 					<div class="container">
 						<div class="slider-one__content text-center">
-							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
+							<!-- <div class="slider-one__floated lettering-text">CAPITALSOFT</div> -->
 							<!-- /.slider-one__floated -->
-							<p class="slider-one__text">Bienvenue sur CapitalSoft</p><!-- /.slider-one__text -->
-							<div class="slider-one__title-wrapper">
-							<h2 class="slider-one__title">La performance au <br>service de l’entreprise</h2>
+							<!-- <p class="slider-one__text">Bienvenue sur CapitalSoft</p> -->
+							<!-- /.slider-one__text -->
+							<div class="slider-one__title-wrapper" style="display: flex; justify-content:center;align-items:center;flex-direction:column">
+								<img src="assets/images/sliders/s-02.png" class="slider-one__title" alt="" style="height: 400px;width:auto">
+								<img src="assets/images/Logo/capitalsoft white.png" class="slider-one__title" alt="" style="height: 100px;width:auto">
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
-							<div class="slider-one__btns">
-								<a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a>
-								<!-- /.thm-btn slider-one__btn -->
-							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
 					</div><!-- /.container -->
 				</div><!-- /.item -->
@@ -374,14 +375,14 @@ $currentpage = "accueil";; ?>
 							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
 					</div>
-					<div class="col-md-6" style="background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/services/service-d-7.png'); background-size: cover;">
+					<div class="col-md-6" style="background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/resources/support.png'); background-size: cover;">
 						<!-- Empty div for the gradient background -->
 					</div>
 				</div>
 			</div>
 			<div class="mb-12" style="margin-top: 20px;">
 				<div class="row g-0">
-					<div class="col-md-6" style="background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/services/service-d-7.png'); background-size: cover;">
+					<div class="col-md-6" style="background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/resources/7.png'); background-size: cover;">
 						<!-- Empty div for the gradient background -->
 					</div>
 					<div class="col-md-6">

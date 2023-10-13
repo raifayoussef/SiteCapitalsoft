@@ -88,14 +88,9 @@ $currentpage = "accueil";; ?>
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
 					<div class="container">
 						<div class="slider-one__content text-center">
-							<!-- <div class="slider-one__floated lettering-text">CAPITALSOFT</div> -->
-							<!-- /.slider-one__floated -->
-							<!-- <p class="slider-one__text">Bienvenue sur CapitalSoft</p> -->
-							<!-- /.slider-one__text -->
-							<div class="slider-one__title-wrapper" style="display: flex; justify-content:center;align-items:center;flex-direction:column">
-								<img src="assets/images/sliders/s-02.png" class="slider-one__title" alt="" style="height: 400px;width:auto">
-								<img src="assets/images/Logo/capitalsoft white.png" class="slider-one__title" alt="" style="height: 100px;width:auto">
-								<!-- /.slider-one__title -->
+							<div class="slider-one__title-wrapper" style="display: flex; justify-content:center;align-items:center;flex-direction:column;height:70VH">
+								<img src="assets/images/sliders/s-02.png" class="slider-one__title" alt="" style="height: 250px;width:auto">
+								<img src="assets/images/Logo/capitalsoft white.png" class="slider-one__title" alt="" style="height: 80px;width:auto">
 							</div><!-- /.slider-one__title-wrapper -->
 						</div><!-- /.slider-one__content -->
 					</div><!-- /.container -->

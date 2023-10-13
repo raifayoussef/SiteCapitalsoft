@@ -1,0 +1,155 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --first-color: hsl(38, 92%, 58%);
+  --first-color-light: hsl(38, 100%, 78%);
+  --first-color-alt: hsl(32, 75%, 50%);
+  --second-color: hsl(195, 75%, 52%);
+  --dark-color: hsl(212, 40%, 12%);
+  --white-color: hsl(212, 4%, 95%);
+  --body-color: hsl(212, 42%, 15%);
+  --container_client-color: hsl(212, 42%, 20%);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Bai Jamjuree", sans-serif;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+}
+
+/*=============== CARD ===============*/
+.container_client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  flex-direction: column;
+}
+
+.card__container_client {
+  padding: 5rem;
+  max-width: 100%; /* Ensure it's responsive for all screen sizes */
+}
+
+.card__content {
+  margin: 0 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.card__article {
+  width: 100%;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.card__image {
+  position: relative;
+}
+
+.card__image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.card__data {
+  background-color: var(--container_client-color);
+  padding: 1.5rem 2rem; /* Adjust padding as needed */
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.card__img {
+  width: 180px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.card__shadow {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  filter: blur(45px);
+}
+
+.card__name {
+  font-size: var(--h2-font-size);
+  color: var(--second-color);
+  margin-bottom: 0.75rem;
+}
+
+.card__description {
+  font-weight: 500;
+  margin-bottom: 1.75rem;
+}
+
+.card__button {
+  display: inline-block;
+  background-color: var(--first-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  color: var(--dark-color);
+  font-weight: 600;
+}
+
+/* Swiper class styles go here */
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: #a2ff86;
+  /* display: none; */
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: #a2ff8679;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #a2ff86;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .card__name {
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  .card__description {
+    font-weight: 400; /* Adjust font weight as needed */
+  }
+
+  .card__data {
+    padding: 1rem;
+  }
+}
+

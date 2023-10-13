@@ -23,12 +23,12 @@
 				<li class="menu-item-has-children <?php if($currentpage=="propos"){
 						echo "active"  ;
 					} ;?>">
-					<?php if($currentpage=="propos"){
+					<?php if($currentpage!="accueil"){
 						;?>
 						<a href="#" class="menu-item-has-childre">À propos</a>
 						<ul>
-							<li><a href="Societe">Societé</a></li>
-							<li><a href="Equipe">Equipe</a></li>
+							<li><a href="../Societe">Societé</a></li>
+							<li><a href="../Equipe">Equipe</a></li>
 						</ul>
 						<?php
 					}else{
@@ -78,13 +78,13 @@
 				<li class="menu-item-has-children <?php if($currentpage=="reference"){
 						echo "active"  ;
 					} ;?>">
-					<?php if($currentpage=="reference"){
+					<?php if($currentpage=="accueil"){
 						;?>
-						<a href="about">Nos références</a>
+						<a href="reference">Nos références</a>
 						<?php
 					}else{
 						;?>
-						<a href="../about">Nos références</a>
+						<a href="../reference">Nos références</a>
 						<?php
 					} ;?>
 				</li>

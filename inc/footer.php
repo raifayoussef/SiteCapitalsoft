@@ -20,10 +20,9 @@
 							<p class="footer-widget__text">We work with a passion of taking challenges and creating new
 								ones in advertising sector.</p><!-- /.footer-widget__text -->
 							<ul class="footer-widget__social">
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=61551832514043" target="_blank"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/capitalsoft.ma/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/capital-soft-234418227/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 							</ul><!-- /.footer-widget__social -->
 						</div><!-- /.footer-widget -->
 					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
@@ -52,11 +51,11 @@
 							<h3 class="footer-widget__title">S'abonner</h3><!-- /.footer-widget__title -->
 							<p class="footer-widget__text">Abonnez-vous pour recevoir les derniers articles</p>
 							<!-- /.footer-widget__text -->
-							<form action="#" class="footer-widget__newsletter mc-form"
-								data-url="ADD_YOUR_MAILCHIMP_FORM_URL_HERE">
-								<input type="email" name="EMAIL" placeholder="Entrez votre adresse E-mail">
-								<button class="thm-btn footer-widget__newsletter__btn"><span>S'inscrire</span></button>
+							<form action="actions/abonner.php" class="footer-widget__newsletter" method="POST" id="subscription-form">
+								<input type="email" name="EMAIL" id="email" placeholder="Entrez votre adresse E-mail">
+								<button class="thm-btn" type="submit" id="subscribe-button"><span>S'inscrire</span></button>
 							</form>
+							<div id="result-message"></div>
 							<div class="mc-form__response"></div><!-- /.mc-form__response -->
 						</div><!-- /.footer-widget -->
 					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
@@ -78,7 +77,15 @@
 									Residence titrit 2 Immeuble B,<br> Rue Hadj Omar Riffi, Casablanca
 								</li>
 							</ul><!-- /.footer-widget__contact -->
+							<?php if($currentpage!="accueil"){
+						;?>
+							<a href="../contact" class="thm-btn footer-widget__newsletter__btn"><span> Contactez-nous </span></a>
+						<?php
+					}else{
+						;?>
 							<a href="contact" class="thm-btn footer-widget__newsletter__btn"><span> Contactez-nous </span></a>
+						<?php
+					} ;?>
 						</div><!-- /.footer-widget -->
 					</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
 				</div><!-- /.row -->

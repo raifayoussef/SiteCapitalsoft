@@ -28,6 +28,15 @@ $currentpage = "accueil";; ?>
 	<link rel="stylesheet" href="assets/vendors/youtube-popup/youtube-popup.css">
 	<!-- templates css -->
 	<link rel="stylesheet" href="assets/css/cretech.css">
+	<link rel="stylesheet" href="style.css">
+	      <!--=============== REMIXICONS ===============-->
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+<!--=============== SWIPER CSS ===============-->
+<link rel="stylesheet" href="assets2/css/swiper-bundle.min.css">
+
+<!--=============== CSS ===============-->
+<link rel="stylesheet" href="assets2/css/styles.css">
 </head>
 
 <body class="custom-cursor">
@@ -63,7 +72,7 @@ $currentpage = "accueil";; ?>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
-								<!-- <a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a> -->
+								<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
@@ -84,7 +93,7 @@ $currentpage = "accueil";; ?>
 								<!-- /.slider-one__title -->
 							</div><!-- /.slider-one__title-wrapper -->
 							<div class="slider-one__btns">
-								<!-- <a href="about.html" class="thm-b	tn slider-one__btn"><span>Voir Plus</span></a> -->
+								<a href="about.html" class="thm-btn slider-one__btn"><span>Voir Plus</span></a>
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
@@ -269,8 +278,8 @@ $currentpage = "accueil";; ?>
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section>
-	<section class="section-padding--top section-padding--bottom">
-		<div class="container">
+	<section class="section-padding--bottom section-padding--top service-one" style="display: none;">
+		<div class="container-fluid">
 			<div class="section-title text-center">
 				<p class="section-title__text">Nos services</p><!-- /.section-title__text -->
 				<h2 class="section-title__title">Nous offrons le meilleur à nos clients<br>
@@ -334,110 +343,180 @@ $currentpage = "accueil";; ?>
 			</div><!-- /.row gutter-y-30 -->
 		</div><!-- /.container -->
 	</section>
-	<section class="section-padding--bottom">
+	<section class="section-padding--top section-padding--bottom">
 		<div class="container">
 			<div class="section-title text-center">
-				<p class="section-title__text">SOLUTIONS CAPITAL SOFT</p><!-- /.section-title__text -->
-				<h2 class="section-title__title">CAPITAL Soft est l’éditeur du système d’information intégré <br> «CAPITAL Suite» avec 3 composantes : </h2>
-				<!-- /.section-title__title -->
+				<p class="section-title__text">Nos services</p><!-- /.section-title__text -->
+				<h2 class="section-title__title">Nous offrons le meilleur à nos clients<br>
+					Services de solutions informatiques
+				</h2><!-- /.section-title__title -->
 			</div><!-- /.section-title -->
-			<div class="row gutter-y-30">
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="service-card-two gray-bg">
-						<h3 class="service-card-two__title"><a href="Capital SIRH">Capital SIRH</a></h3>
-						<!-- /.service-card-two__title -->
-						<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
-						</p><!-- /.service-card-two__text -->
-						<div class="service-card-two__icon">
-							<img src="assets/images/resources/recruitment.PNG" alt="">
-						</div><!-- /.service-card-two__icon -->
-					</div><!-- /.service-card-two -->
-				</div><!-- /.col-lg-3 -->
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="service-card-two gray-bg">
-						<h3 class="service-card-two__title"><a href="team.html">Capital Finance</a></h3>
-						<!-- /.service-card-two__title -->
-						<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
-						</p><!-- /.service-card-two__text -->
-						<div class="service-card-two__icon">
-							<img src="assets/images/resources/accounting.PNG" alt="">
-						</div><!-- /.service-card-two__icon -->
-					</div><!-- /.service-card-two -->
-				</div><!-- /.col-lg-3 -->
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="service-card-two gray-bg">
-						<h3 class="service-card-two__title"><a href="contact.html">Capital Distribution</a></h3>
-						<!-- /.service-card-two__title -->
-						<p class="service-card-two__text">Lorem ipsum dolor sit amet consectetur adipisicing.
-						</p><!-- /.service-card-two__text -->
-						<div class="service-card-two__icon">
-							<img src="assets/images/resources/distribution-center.PNG" alt="">
-						</div><!-- /.service-card-two__icon -->
-					</div><!-- /.service-card-two -->
-				</div><!-- /.col-lg-3 -->
+			<div class="mb-12" style="margin-top: 20px;">
+				<div class="row g-0">
+					<div class="col-md-6" style="background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/services/service-d-7.png'); background-size: cover;">
+						<!-- Empty div for the gradient background -->
+					</div>
+					<div class="col-md-6">
+						<div class="card-body">
+							<p class="service-card-two__title text-center">Développement de solutions</p><!-- /.section-title__text -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, commodi! Ipsum autem expedita, quod aperiam saepe aliquam perferendis. Ducimus, sint fugit! Aliquid dolorum atque accusantium eveniet magni, quae qui asperiores?</p>
+							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mb-12" style="margin-top: 20px;">
+				<div class="row g-0">
+					<div class="col-md-6">
+						<div class="card-body">
+							<p class="service-card-two__title text-center">Support</p><!-- /.section-title__text -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, commodi! Ipsum autem expedita, quod aperiam saepe aliquam perferendis. Ducimus, sint fugit! Aliquid dolorum atque accusantium eveniet magni, quae qui asperiores?</p>
+							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
+						</div>
+					</div>
+					<div class="col-md-6" style="background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/services/service-d-7.png'); background-size: cover;">
+						<!-- Empty div for the gradient background -->
+					</div>
+				</div>
+			</div>
+			<div class="mb-12" style="margin-top: 20px;">
+				<div class="row g-0">
+					<div class="col-md-6" style="background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/services/service-d-7.png'); background-size: cover;">
+						<!-- Empty div for the gradient background -->
+					</div>
+					<div class="col-md-6">
+						<div class="card-body">
+							<p class="service-card-two__title text-center">Conseils & Expertise</p><!-- /.section-title__text -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, commodi! Ipsum autem expedita, quod aperiam saepe aliquam perferendis. Ducimus, sint fugit! Aliquid dolorum atque accusantium eveniet magni, quae qui asperiores?</p>
+							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-			</div><!-- /.row -->
-		</div><!-- /.container -->
+	</section>
+
+	<section class="section-padding--bottom section-padding--top service-one" style="margin-top: 30PX;">
+		<div class="section-title text-center">
+			<p class="section-title__text">SOLUTIONS CAPITAL SOFT</p><!-- /.section-title__text -->
+			<h2 class="section-title__title">CAPITAL Soft est l’éditeur du système d’information intégré<br>
+			«CAPITAL Suite» avec 3 composantes :
+			</h2><!-- /.section-title__title -->
+		</div><!-- /.section-title -->
+		<div class="All-caards">
+			<div class="caard">
+				<div class="caard-title">
+					<a href="#" class="toggle-info btono">
+						<span class="left"></span>
+						<span class="right"></span>
+					</a>
+					<h2>
+						Capital SIRH
+					</h2>
+					<br>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequatur!</p>
+				</div>
+				<div class="caard-flap flap1">
+					<div class="caard-actions">
+						<a href="Capital SIRH/HRT.php" class="bton">Human Resources Tools HRT</a>
+					</div>
+					<div class="caard-actions">
+						<a href="#" class="bton">CAPITAL TIME</a>
+					</div>
+					<div class="caard-actions">
+						<a href="#" class="bton">CAPITAL ESPACE RESSOURCES HUMAINES</a>
+					</div>
+				</div>
+			</div>
+			<div class="caard" style="background: #174B60;">
+				
+				<div class="caard-title">
+				<a href="#" class="toggle-info bton">
+					<span class="left"></span>
+					<span class="right"></span>
+				</a>
+				<h2>
+					Capital Finance
+				</h2>
+				<br>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequatur!</p>
+				</div>
+				<div class="caard-flap flap1">
+					<div class="caard-actions">
+					<a href="#" class="bton">Read more</a>
+					</div>
+				<div class="caard-actions">
+					<a href="#" class="bton">Read more</a>
+				</div>
+				</div>
+			</div>
+			<div class="caard" style="background: #174B60;">
+				
+				<div class="caard-title">
+				<a href="#" class="toggle-info bton">
+					<span class="left"></span>
+					<span class="right"></span>
+				</a>
+				<h2>
+					Capital Commercial
+				</h2>
+				<br>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequatur!</p>
+				</div>
+				<div class="caard-flap flap1">
+					<div class="caard-actions">
+						<a href="#" class="bton">Human Resources Tools HRT</a>
+					</div>
+					<div class="caard-actions">
+						<a href="#" class="bton">CAPITAL TIME</a>
+					</div>
+					<div class="caard-actions">
+						<a href="#" class="bton">CAPITAL ESPACE RESSOURCES HUMAINES</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- Chiffres clés -->
-	<section class=" about-six">
-		<div class="container">
-			<div class="row gutter-y-60 justify-content-center">
-				<div class="about-six__content">
-					<div class="section-title">
+
+	<section class="funfact-one">
+			<div class="container">
+			<div class="section-title">
 						<p class="section-title__text">Nous Chiffres clés</p><!-- /.section-title__text -->
 					</div><!-- /.section-title -->
-
-					<ul>
-						<div class="row">
-							<div class="col-lg-4">
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="32" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text" style="font-size:24px">Années d'expérience</div>
-									<!-- /.about-six__list__text -->
-								</li>
-							</div><!-- /.about-six__list__item -->
-							<div class="col-lg-4">
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="769" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text" style="font-size:24px">Clients satisfaits</div>
-
-									<!-- /.about-six__list__text -->
-								</li>
-							</div><!-- /.about-six__list__item -->
-							<div class="col-lg-4">
-								<li class="about-six__list__item">
-									<i class="far fa-check-circle about-six__list__icon"></i>
-									<h3 class="about-six__list__title count-box"><span class="count-text" data-stop="825" data-speed="1500">00</span><!-- /.count-text -->
-									</h3>
-									<div class="about-six__list__text" style="font-size:24px">Projets réussis</div>
-
-									<!-- /.about-six__list__text -->
-								</li>
-							</div>
-							<div class="col-lg-6" style="display: none;">
-								<div class="about-six__text"></BR>Chez Capital Soft, nous sommes fiers de partager avec vous nos chiffres clés,
-									qui témoignent de notre expertise et de notre engagement envers l'excellence dans le développement informatique et le support technique.
-								</div>
-							</div>
-						</div>
-						<!-- /.about-six__list__item -->
-					</ul><!-- /.about-six__list -->
-
-				</div><!-- /.about-six__content -->
-
-
-			</div><!-- /.row -->
-		</div><!-- /.container -->
-	</section>
+				<div class="funfact-one__inner wow fadeInUp background-size-cover" data-wow-duration="1500ms"
+					style="background-image: url(assets/images/shapes/funfact-one-bg.png);">
+					<ul class="funfact-one__list">
+						<li class="funfact-one__list__item">
+							<h3 class="funfact-one__list__title count-box">
+								<span data-stop="32" data-speed="2500" class="count-text">00</span>
+							</h3><!-- /.funfact-one__list__title -->
+							<p class="funfact-one__list__text">Années d'expérience</p>
+							<!-- /.funfact-one__list__text -->
+						</li>
+						<li class="funfact-one__list__item">
+							<h3 class="funfact-one__list__title count-box">
+								<span data-stop="325" data-speed="2500" class="count-text">00</span>
+							</h3><!-- /.funfact-one__list__title -->
+							<p class="funfact-one__list__text">Clients satisfaits</p>
+							<!-- /.funfact-one__list__text -->
+						</li>
+						<li class="funfact-one__list__item">
+							<h3 class="funfact-one__list__title count-box">
+								<span data-stop="569" data-speed="2500" class="count-text">00</span>
+							</h3><!-- /.funfact-one__list__title -->
+							<p class="funfact-one__list__text">Projets réussis</p>
+							<!-- /.funfact-one__list__text -->
+						</li>
+					</ul><!-- /.funfact-one__list -->
+				</div><!-- /.funfact-one__inner -->
+			</div><!-- /.container -->
+		</section>
 	<!-- END Chiffres clés -->
 
 	<!-- Client  -->
-	<div class="client-carousel client-carousel--two">
+	<div class="client-carousel client-carousel--two" style="display: none;">
 		<div class="container">
 			<div class="section-title" >
 				<p class="section-title__text">Nos clients</p>
@@ -505,6 +584,74 @@ $currentpage = "accueil";; ?>
 
 	<!-- /.client-carousel -->
 
+	<section class="container_client">
+			<div class="section-title" style="padding-bottom:0px">
+				<p class="section-title__text">Nos clients</p>
+			</div>
+         <div class="card__container_client swiper">
+
+            <div class="card__content">
+               <div class="swiper-wrapper">
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/images/clients/HPS.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/images/clients/bprem.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/images/clients/MATIS.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/images/clients/safran.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+                  </article>
+
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/images/clients/saham.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+                  </article>
+
+				  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/images/clients/zine.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+                  </article>
+               </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+               <i class="ri-arrow-right-s-line"></i>
+            </div>
+            
+            <div class="swiper-button-prev">
+               <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
 
 	<!-- solution -->
 	<section class="section-padding--bottom" style="display: none;">
@@ -748,6 +895,12 @@ $currentpage = "accueil";; ?>
 	<script src="assets/vendors/youtube-popup/youtube-popup.jquery.js"></script>
 	<!-- template js -->
 	<script src="assets/js/cretech.js"></script>
+	<script src="script.js"></script>
+	      <!--=============== SWIPER JS ===============-->
+		  <script src="assets2/js/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets2/js/main.js"></script>
 
 	<script>
 		// Sélectionnez toutes les divs de contenu des cartes
@@ -767,6 +920,28 @@ $currentpage = "accueil";; ?>
 			cardContents[i].style.height = maxHeight + 'px';
 		}
 	</script>
+<script>
+$(document).ready(function() {
+    $("#subscription-form").submit(function(e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        var email = $("#email").val();
+        
+        $.ajax({
+            type: "POST",
+            url: "actions/abonner.php",
+            data: { EMAIL: email },
+            success: function(response) {
+                if (response === "success") {
+                    $("#result-message").html("Subscription successful.");
+                } else {
+                    $("#result-message").html("Error: " + response);
+                }
+            }
+        });
+    });
+});
+</script>
 </body>
 
 </html>

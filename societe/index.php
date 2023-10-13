@@ -371,11 +371,6 @@ $currentpage="propos";
 		<?php
 		require "../inc/footer.php"; 
 		;?>
-		<div class="footer-bottom">
-			<div class="container">
-				<p>&copy; All Copyright <span class="dynamic-year"></span> by Cretech</p>
-			</div><!-- /.container -->
-		</div><!-- /.footer-bottom -->
 	</div><!-- /.page-wrapper -->
 
 

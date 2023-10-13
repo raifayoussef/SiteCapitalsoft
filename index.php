@@ -58,7 +58,7 @@ $currentpage = "accueil";; ?>
 		<div class="slider-one slider-three">
 			<div class="slider-one__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{"loop": true, "items": 1, "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"], "margin": 0, "dots": true, "nav": true, "animateOut": "slideOutDown", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 7000, "autoplayHoverPause": false}'>
 				<div class="item slider-one__slide-1">
-					<div class="slider-one__bg" style="background-image: url(assets/images/sliders/6.png);">
+					<div class="slider-one__bg" style="background-image: url(assets/images/sliders/man.jpg);">
 					</div><!-- /.slider-one__bg -->
 					<div class="slider-one__shape-1"></div><!-- /.slider-one__shape-1 -->
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
@@ -343,13 +343,13 @@ $currentpage = "accueil";; ?>
 		<div class="container">
 			<div class="section-title text-center">
 				<p class="section-title__text">Nos services</p><!-- /.section-title__text -->
-				<h2 class="section-title__title">Nous offrons le meilleur à nos clients<br>
-					Services de solutions informatiques
-				</h2><!-- /.section-title__title -->
+				<!-- <h2 class="section-title__title">Nous offrons le meilleur à nos clients
+				</h2> -->
+				<!-- /.section-title__title -->
 			</div><!-- /.section-title -->
 			<div class="mb-12" style="margin-top: 20px;">
 				<div class="row g-0">
-					<div class="col-md-6" style="background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/services/service-d-7.png'); background-size: cover;">
+					<div class="col-md-6" style="background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/resources/1.png'); background-size: cover;">
 						<!-- Empty div for the gradient background -->
 					</div>
 					<div class="col-md-6">
@@ -370,7 +370,7 @@ $currentpage = "accueil";; ?>
 							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
 					</div>
-					<div class="col-md-6" style="background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/resources/support.png'); background-size: cover;">
+					<div class="col-md-6" style="background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('./assets/images/resources/crm.jpg'); background-size: cover;">
 						<!-- Empty div for the gradient background -->
 					</div>
 				</div>
@@ -425,7 +425,7 @@ $currentpage = "accueil";; ?>
 					</div>
 				</div>
 			</div>
-			<div class="caard" style="background: #174B60;">
+			<div class="caard">
 				
 				<div class="caard-title">
 				<a href="#" class="toggle-info bton">
@@ -447,7 +447,7 @@ $currentpage = "accueil";; ?>
 				</div>
 				</div>
 			</div>
-			<div class="caard" style="background: #174B60;">
+			<div class="caard">
 				
 				<div class="caard-title">
 				<a href="#" class="toggle-info bton">
@@ -484,18 +484,19 @@ $currentpage = "accueil";; ?>
 				<div class="funfact-one__inner wow fadeInUp background-size-cover" data-wow-duration="1500ms"
 					style="background-image: url(assets/images/shapes/funfact-one-bg.png);">
 					<ul class="funfact-one__list">
-						<li class="funfact-one__list__item">
-							<h3 class="funfact-one__list__title count-box">
-								<span data-stop="32" data-speed="2500" class="count-text">00</span>
-							</h3><!-- /.funfact-one__list__title -->
-							<p class="funfact-one__list__text">Années d'expérience</p>
-							<!-- /.funfact-one__list__text -->
-						</li>
+						
 						<li class="funfact-one__list__item">
 							<h3 class="funfact-one__list__title count-box">
 								<span data-stop="325" data-speed="2500" class="count-text">00</span>
 							</h3><!-- /.funfact-one__list__title -->
 							<p class="funfact-one__list__text">Clients satisfaits</p>
+							<!-- /.funfact-one__list__text -->
+						</li>
+						<li class="funfact-one__list__item">
+							<h3 class="funfact-one__list__title count-box">
+								<span data-stop="32" data-speed="2500" class="count-text">00</span>
+							</h3><!-- /.funfact-one__list__title -->
+							<p class="funfact-one__list__text">Années d'expérience</p>
 							<!-- /.funfact-one__list__text -->
 						</li>
 						<li class="funfact-one__list__item">

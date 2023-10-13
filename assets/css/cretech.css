@@ -571,7 +571,7 @@ a:visited {
   text-transform: uppercase;
   color:  #1D6B93;
   letter-spacing: .1em;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   margin-top: -10px;
   text-align: center;
@@ -3052,7 +3052,7 @@ a:visited {
 .funfact-one__list__title {
   margin: 0;
   color: #fff;
-  font-size: 38px;
+  font-size: 88px;
   font-weight: bold;
   letter-spacing: -0.025em;
 }
@@ -3065,14 +3065,18 @@ a:visited {
 
 @media (min-width: 992px) {
   .funfact-one__list__title {
-    font-size: 48px;
+    font-size: 88px;
     margin-bottom: 4px;
+    text-align: center;
   }
 }
 
 .funfact-one__list__text {
   margin: 0;
   color: var(--cretech-bg-black);
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 /***********************

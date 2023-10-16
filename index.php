@@ -478,10 +478,10 @@ $currentpage = "accueil";; ?>
 						<a href="Capital DISTIBUTION/COMMERCIALE.php" class="bton">Capital Commercial</a>
 					</div>
 					<div class="caard-actions">
-						<a href="Capital DISTIBUTION/index.php" class="bton">Capital Point de vente</a>
+						<a href="Capital DISTIBUTION/POINT_VENTE.php" class="bton">Capital Point de vente</a>
 					</div>
 					<div class="caard-actions">
-						<a href="Capital DISTIBUTION/POINT_VENTE.php" class="bton">Capital Espace Collaboratif</a>
+						<a href="Capital DISTIBUTION/" class="bton">Capital Espace Collaboratif</a>
 					</div>
 				</div>
 			</div>

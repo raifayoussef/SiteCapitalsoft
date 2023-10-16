@@ -73,14 +73,17 @@ $currentpage="contact";
 								<h2 class="section-title__title">Rejoignez-nous pour obtenir des consultations informatiques .</h2><!-- /.section-title__title -->
 							</div><!-- /.section-title -->
                                 <div class="row ">
-                                    <div class="col-lg-6 col-md-12">
+                                    <div class="col-lg-4 col-md-12">
+                                        <input type="text" placeholder="Raison Sociale" name="raison_social" required>
+                                    </div><!-- /.col-lg-6 col-md-12 -->
+                                    <div class="col-lg-4 col-md-12">
                                         <input type="text" placeholder="Votre Nom" name="name" required>
                                     </div><!-- /.col-lg-6 col-md-12 -->
-                                    <div class="col-lg-6 col-md-12">
-                                        <input type="text" placeholder="Votre Prenom" name="prenom" required>
+                                    <div class="col-lg-4 col-md-12">
+                                        <input type="text" placeholder="Votre Prénom" name="prenom" required>
                                     </div><!-- /.col-lg-6 col-md-12 -->
                                     <div class="col-lg-6 col-md-12">
-                                        <input type="email" placeholder="Email address" name="email" required>
+                                        <input type="email" placeholder="Adresse email" name="email" required>
                                     </div><!-- /.col-lg-6 col-md-12 -->
                                     <div class="col-lg-6 col-md-12">
                                         <input type="text" placeholder="Numéro de téléphone" name="phone" required>

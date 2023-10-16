@@ -94,14 +94,36 @@ div.caard .caard__image-holder {
 }
 
 div.caard .caard-title {
-  background: var(--white);
-  padding: 6px 15px 10px;
   position: relative;
   z-index: 0;
+  padding: 6px 15px 10px;
+  background: var(--white);
+  overflow: hidden;
+  min-height: 350PX;
 }
 
-div.caard .caard-title p {
+div.caard:nth-child(1) .caard-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #174B60;
+  height: 5%;
+  transition: height 0.3s ease;
+  z-index: -1;
+}
+
+div.caard:nth-child(1) .caard-title:hover::before {
+  height: 100%;
+}
+
+
+div.caard:nth-child(1) .caard-title p {
   font-size: 1rem;
+}
+div.caard:nth-child(1) .caard-title:hover p {
+  color: white; /* Set the text color to white when hovering over .caard-title */
 }
 
 div.caard .caard-title a.toggle-info {
@@ -141,7 +163,86 @@ div.caard .caard-title h2 {
   letter-spacing: -0.05em;
   margin: 0;
   padding: 0;
+  color: #174B60;
 }
+div.caard:nth-child(1) .caard-title:hover h2 {
+  color: white; /* Set the text color to white when hovering over .caard-title */
+}
+
+div.caard:nth-child(2) .caard-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1F1B3D; /* Color for the second child */
+  height: 5%;
+  transition: height 0.3s ease;
+  z-index: -1;
+}
+
+div.caard:nth-child(2) .caard-title:hover::before {
+  height: 100%;
+}
+
+div.caard:nth-child(2) .caard-title p {
+  font-size: 1rem;
+}
+
+div.caard:nth-child(2) .caard-title:hover p {
+  color: white;
+}
+
+div.caard:nth-child(2) .caard-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 0;
+  color: #1F1B3D; /* Text color for the second child */
+}
+
+div.caard:nth-child(2) .caard-title:hover h2 {
+  color: white;
+}
+
+div.caard:nth-child(3) .caard-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4FC0CF; /* Color for the third child */
+  height: 5%;
+  transition: height 0.3s ease;
+  z-index: -1;
+}
+
+div.caard:nth-child(3) .caard-title:hover::before {
+  height: 100%;
+}
+
+div.caard:nth-child(3) .caard-title p {
+  font-size: 1rem;
+}
+
+div.caard:nth-child(3) .caard-title:hover p {
+  color: white;
+}
+
+div.caard:nth-child(3) .caard-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 0;
+  color: #4FC0CF; /* Text color for the third child */
+}
+
+div.caard:nth-child(3) .caard-title:hover h2 {
+  color: white;
+}
+
 
 div.caard .caard-title h2 small {
   display: block;

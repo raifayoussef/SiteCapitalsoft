@@ -88,9 +88,9 @@ $currentpage = "accueil";; ?>
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
 					<div class="container">
 						<div class="slider-one__content text-center">
-							<div class="slider-one__title-wrapper" style="display: flex; justify-content:center;align-items:center;flex-direction:column;height:70VH">
-								<img src="assets/images/sliders/s-02.png" class="slider-one__title" alt="" style="height: 250px;width:auto">
-								<img src="assets/images/Logo/capitalsoft white.png" class="slider-one__title" alt="" style="height: 80px;width:auto">
+							<div class="slider-one__title-wrapper" style="display: flex; justify-content:center;align-items:center;flex-direction:column">
+								<img src="assets/images/sliders/s-02.png" class="slider-one__title" alt="" style="height: 280px;width:auto;">
+								<img src="assets/images/Logo/capitalsoft white.png" class="slider-one__title" alt="" style="height: 70px;width:auto">
 							</div><!-- /.slider-one__title-wrapper -->
 						</div><!-- /.slider-one__content -->
 					</div><!-- /.container -->
@@ -355,7 +355,11 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Développement de solutions</p><!-- /.section-title__text -->
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, commodi! Ipsum autem expedita, quod aperiam saepe aliquam perferendis. Ducimus, sint fugit! Aliquid dolorum atque accusantium eveniet magni, quae qui asperiores?</p>
+							<p>•Développement de progiciels de gestion <br>
+								•Intégration de nouvelles technologies <br>
+								•Web / Cloud / Clients serveurs <br>
+								•Internet / Intranet / Commerce électronique 
+							</p>
 							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
 					</div>
@@ -366,7 +370,11 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Support</p><!-- /.section-title__text -->
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, commodi! Ipsum autem expedita, quod aperiam saepe aliquam perferendis. Ducimus, sint fugit! Aliquid dolorum atque accusantium eveniet magni, quae qui asperiores?</p>
+							<p>•Support de 2éme niveau <br>
+								•Formation, assistance aux utilisateurs <br>
+								•Délégation de personnel<br>
+								•Configuration, installation et administration des serveurs
+							</p>
 							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
 					</div>
@@ -383,7 +391,7 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Conseils & Expertise</p><!-- /.section-title__text -->
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, commodi! Ipsum autem expedita, quod aperiam saepe aliquam perferendis. Ducimus, sint fugit! Aliquid dolorum atque accusantium eveniet magni, quae qui asperiores?</p>
+							<p>L'expertise est au cœur de notre entreprise, avec une équipe hautement qualifiée et expérimentée composée de professionnels compétents dans leur domaine. Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins spécifiques, analyser leur environnement, et leur fournir des conseils stratégiques adaptés.</p>
 							<a href="about.html" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
 					</div>
@@ -411,19 +419,21 @@ $currentpage = "accueil";; ?>
 						Capital SIRH
 					</h2>
 					<br>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequatur!</p>
+					<p>Sont conçues pour soutenir les départements RH en offrant une gamme de fonctionnalités complètes. Elles permettent aux équipes RH de gérer leurs collaborateurs de manière plus efficace et de piloter leurs opérations avec une grande performance.</p>
+					
 				</div>
 				<div class="caard-flap flap1">
 					<div class="caard-actions">
-						<a href="Capital SIRH/HRT.php" class="bton">Human Resources Tools HRT</a>
+						<a href="Capital SIRH/HRT.php" class="bton">Capital RH paie</a>
 					</div>
 					<div class="caard-actions">
-						<a href="#" class="bton">CAPITAL TIME</a>
+						<a href="#" class="bton">Capital Time</a>
 					</div>
 					<div class="caard-actions">
-						<a href="#" class="bton">CAPITAL ESPACE RESSOURCES HUMAINES</a>
+						<a href="#" class="bton">Capital Espace RH</a>
 					</div>
 				</div>
+				
 			</div>
 			<div class="caard">
 				
@@ -436,15 +446,18 @@ $currentpage = "accueil";; ?>
 					Capital Finance
 				</h2>
 				<br>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequatur!</p>
+				<p>Sont spécialement conçues pour les équipes financières, offrant une couverture fonctionnelle complète. Elles donnent aux professionnels de la finance une plus grande flexibilité pour gérer l'administration de l'entreprise et piloter ses activités avec une grande efficacité.</p>
 				</div>
 				<div class="caard-flap flap1">
 					<div class="caard-actions">
-					<a href="#" class="bton">Read more</a>
+						<a href="capital finance/COMPTA.php" class="bton">Capital Compta</a>
 					</div>
-				<div class="caard-actions">
-					<a href="#" class="bton">Read more</a>
-				</div>
+					<div class="caard-actions">
+						<a href="capital finance/IMMO.php" class="bton">Capital Immo</a>
+					</div>
+					<div class="caard-actions">
+						<a href="capital finance/LIASSE.php" class="bton">Capital Liasse</a>
+					</div>
 				</div>
 			</div>
 			<div class="caard">
@@ -458,17 +471,17 @@ $currentpage = "accueil";; ?>
 					Capital Commercial
 				</h2>
 				<br>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequatur!</p>
+				<p>Sont conçues pour répondre aux besoins des départements Commerciaux, Achats et Stocks. Elles offrent une gamme complète de fonctionnalités, permettant à ces équipes de gérer leur activité commerciale de manière plus agile et de piloter leurs opérations avec une grande performance.</p>
 				</div>
 				<div class="caard-flap flap1">
 					<div class="caard-actions">
-						<a href="#" class="bton">Human Resources Tools HRT</a>
+						<a href="Capital DISTIBUTION/COMMERCIALE.php" class="bton">Capital Commercial</a>
 					</div>
 					<div class="caard-actions">
-						<a href="#" class="bton">CAPITAL TIME</a>
+						<a href="Capital DISTIBUTION/index.php" class="bton">Capital Point de vente</a>
 					</div>
 					<div class="caard-actions">
-						<a href="#" class="bton">CAPITAL ESPACE RESSOURCES HUMAINES</a>
+						<a href="Capital DISTIBUTION/POINT_VENTE.php" class="bton">Capital Espace Collaboratif</a>
 					</div>
 				</div>
 			</div>

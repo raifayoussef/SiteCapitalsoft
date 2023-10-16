@@ -20,7 +20,7 @@ let swiperCards = new Swiper(".card__content", {
       slidesPerView: 1,
     },
     968: {
-      slidesPerView: 5,
+      slidesPerView: 4,
     },
   },
   

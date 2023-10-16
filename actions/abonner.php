@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $mail = $_POST['EMAIL'];
 
-    $sql = "INSERT INTO abonnement (email) VALUES ('$mail')";
+    $sql = "INSERT INTO newslater (email) VALUES ('$mail')";
 
     if ($conn->query($sql) === TRUE) {
         echo "success"; // Return "success" upon successful insertion

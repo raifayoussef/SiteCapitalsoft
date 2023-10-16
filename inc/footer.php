@@ -17,8 +17,7 @@
 								}
 								;?>
 							</a>
-							<p class="footer-widget__text">We work with a passion of taking challenges and creating new
-								ones in advertising sector.</p><!-- /.footer-widget__text -->
+							<p class="footer-widget__text">Nous travaillons avec passion pour relever des défis et en créer de nouveaux dans le secteur de la publicité.</p><!-- /.footer-widget__text -->
 							<ul class="footer-widget__social">
 							<li><a href="https://www.facebook.com/profile.php?id=61551832514043" target="_blank"><i class="fab fa-facebook"></i></a></li>
 					<li><a href="https://www.instagram.com/capitalsoft.ma/" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -31,16 +30,13 @@
 							<h3 class="footer-widget__title">Services</h3><!-- /.footer-widget__title -->
 							<ul class="footer-widget__links">
 								<li>
-									<a href="service-cyber-security.html">Études et analyses</a>
+									<a href="#">Développement de solutions</a>
 								</li>
 								<li>
-									<a href="service-it-management.html">Développement sur mesure</a>
+									<a href="#">Support</a>
 								</li>
 								<li>
-									<a href="service-qa-testing.html">Intégration de solutions</a>
-								</li>
-								<li>
-									<a href="service-infrastructure-plan.html">Formation et support</a>
+									<a href="#">Conseils & Expertise</a>
 								</li>
 
 							</ul><!-- /.footer-widget__links -->
@@ -51,10 +47,48 @@
 							<h3 class="footer-widget__title">S'abonner</h3><!-- /.footer-widget__title -->
 							<p class="footer-widget__text">Abonnez-vous pour recevoir les derniers articles</p>
 							<!-- /.footer-widget__text -->
-							<form action="actions/abonner.php" class="footer-widget__newsletter" method="POST" id="subscription-form">
-								<input type="email" name="EMAIL" id="email" placeholder="Entrez votre adresse E-mail">
-								<button class="thm-btn" type="submit" id="subscribe-button"><span>S'inscrire</span></button>
-							</form>
+							<?php 
+							if ($currentpage!="accueil"){
+								;?>
+								<form action="../actions/abonner.php" class="footer-widget__newsletter" method="POST" id="subscription-form">
+									<input type="email" name="EMAIL" id="email" placeholder="Entrez votre adresse E-mail">
+									<button class="thm-btn" type="submit" id="subscribe-button"><span>S'inscrire</span></button>
+								</form>
+								<script src="../assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+								<script>
+									$(document).ready(function() {
+										$("#subscription-form").submit(function(e) {
+											e.preventDefault(); // Prevent the default form submission
+
+											var email = $("#email").val();
+											
+											$.ajax({
+												type: "POST",
+												url: "../actions/abonner.php",
+												data: { EMAIL: email },
+												success: function(response) {
+													if (response === "success") {
+														$("#result-message").html("Subscription successful.");
+														$("#email").val('');
+													} else {
+														$("#result-message").html("Error: " + response);
+													}
+												}
+											});
+										});
+									});
+								</script>
+								<?php
+							}else{
+								;?>
+								<form action="actions/abonner.php" class="footer-widget__newsletter" method="POST" id="subscription-form">
+									<input type="email" name="EMAIL" id="email" placeholder="Entrez votre adresse E-mail">
+									<button class="thm-btn" type="submit" id="subscribe-button"><span>S'inscrire</span></button>
+								</form>
+								<?php
+							}
+							;?>
+							
 							<div id="result-message"></div>
 							<div class="mc-form__response"></div><!-- /.mc-form__response -->
 						</div><!-- /.footer-widget -->

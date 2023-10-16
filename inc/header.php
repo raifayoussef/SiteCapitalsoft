@@ -46,10 +46,9 @@
 					} ;?>" >
 					<a href="#">Nos Services</a>
 					<ul>
-						<li><a href="projects.html">Études et analyses</a></li>
-						<li><a href="project-details.html">Développement sur mesure</a></li>
-						<li><a href="project-details.html">Intégration de solutions </a></li>
-						<li><a href="project-details.html">Formation et support</a></li>
+						<li><a href="#">Développement de solutions</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">Conseils & Expertise</a></li>
 					</ul>
 				</li>
 				<li class="menu-item-has-children <?php if($currentpage=="solutions"){

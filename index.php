@@ -661,7 +661,7 @@ $currentpage = "accueil";; ?>
             <!-- Pagination -->
             <div class="swiper-pagination"></div>
          </div>
-      </section>
+	</section>
 
 	<!-- solution -->
 	<section class="section-padding--bottom" style="display: none;">

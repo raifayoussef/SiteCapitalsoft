@@ -99,7 +99,7 @@ div.caard .caard-title {
   padding: 6px 15px 10px;
   background: var(--white);
   overflow: hidden;
-  min-height: 350PX;
+  
 }
 
 div.caard:nth-child(1) .caard-title::before {
@@ -121,6 +121,11 @@ div.caard:nth-child(1) .caard-title:hover::before {
 
 div.caard:nth-child(1) .caard-title p {
   font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Nombre de lignes à afficher */
+  -webkit-box-orient: vertical;
 }
 div.caard:nth-child(1) .caard-title:hover p {
   color: white; /* Set the text color to white when hovering over .caard-title */
@@ -187,6 +192,11 @@ div.caard:nth-child(2) .caard-title:hover::before {
 
 div.caard:nth-child(2) .caard-title p {
   font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Nombre de lignes à afficher */
+  -webkit-box-orient: vertical;
 }
 
 div.caard:nth-child(2) .caard-title:hover p {
@@ -224,7 +234,11 @@ div.caard:nth-child(3) .caard-title:hover::before {
 
 div.caard:nth-child(3) .caard-title p {
   font-size: 1rem;
-}
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Nombre de lignes à afficher */
+  -webkit-box-orient: vertical;}
 
 div.caard:nth-child(3) .caard-title:hover p {
   color: white;

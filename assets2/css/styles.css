@@ -43,6 +43,8 @@
   width: 100%;
   border-radius: 1.25rem;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .card__image {
@@ -51,8 +53,8 @@
 
 .card__image img {
   display: block;
-  width: 100%;
-  max-width: 100%;
+  /* width: 100%;
+  max-width: 100%; */
   height: auto;
 }
 
@@ -66,15 +68,15 @@
 }
 
 .card__img {
-  width: 180px;
+  width: 400px; /* Increase the width to make the images larger */
   margin: 0 auto;
   position: relative;
   z-index: 5;
 }
 
 .card__shadow {
-  width: 200px;
-  height: 200px;
+  /* width: 60px; /* Adjust the shadow size accordingly */
+  /* height: 260px;  */
   border-radius: 50%;
   position: absolute;
   top: 3.75rem;

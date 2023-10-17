@@ -111,7 +111,7 @@
 					<span></span>
 					<span></span>
 				</a>
-				<a href="tel:+9288009860" class="main-menu__cta">
+				<a href="tel:+212522223999" class="main-menu__cta">
 					<i class="fa fa-phone-alt" style="color: #A2FF86;"></i>
 					<span class="main-menu__cta__text">
 						<b>Assistance 24h/24 & 7j/7</b>

@@ -45,7 +45,7 @@ $currentpage = "propos";; ?>
 
 
 		<div class="page-header">
-			<div class="page-header__bg" style="background-image: url(assets/images/background/page-header-bg-1-1.jpg);"></div>
+			<div class="page-header__bg" style="background-image: url(../assets/images/background/equipe.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">

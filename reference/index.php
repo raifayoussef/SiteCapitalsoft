@@ -172,10 +172,7 @@ $currentpage = "reference";; ?>
 				<div id="toutes" class="tabcontent2">
 					<div class="flex-container">
 						<?php
-						$conn = mysqli_connect("localhost", "root", "", "capitalsoft");
-						if ($conn->connect_error) {
-							die("Connection Failed:" . $conn->connect_error);
-						}
+						require "../actions/connexion/database.php";
 						$sql = "SELECT `Logo`,`NomClient` FROM `clients` ; ";
 						$result = $conn->query($sql);
 
@@ -203,10 +200,7 @@ $currentpage = "reference";; ?>
 				<div id="Home" class="tabcontent2">
 					<div class="flex-container">
 						<?php
-						$conn = mysqli_connect("localhost", "root", "", "capitalsoft");
-						if ($conn->connect_error) {
-							die("Connection Failed:" . $conn->connect_error);
-						}
+						require "../actions/connexion/database.php";
 						$sql = "SELECT `Logo` FROM `clients` WHERE categorie='Ministères, Administrations et Entreprises Publiques'; ";
 						$result = $conn->query($sql);
 
@@ -228,10 +222,7 @@ $currentpage = "reference";; ?>
 					<div id="News" class="tabcontent2">
 						<div class="flex-container">
 							<?php
-							$conn = mysqli_connect("localhost", "root", "", "capitalsoft");
-							if ($conn->connect_error) {
-								die("Connection Failed:" . $conn->connect_error);
-							}
+							require "../actions/connexion/database.php";
 							$sql = "SELECT `Logo` FROM `clients` WHERE categorie='Banque Et Assurance'; ";
 							$result = $conn->query($sql);
 
@@ -254,10 +245,7 @@ $currentpage = "reference";; ?>
 						<div id="Contact" class="tabcontent2">
 							<div class="flex-container">
 								<?php
-								$conn = mysqli_connect("localhost", "root", "", "capitalsoft");
-								if ($conn->connect_error) {
-									die("Connection Failed:" . $conn->connect_error);
-								}
+								require "../actions/connexion/database.php";
 								$sql = "SELECT `Logo` FROM `clients` WHERE categorie='Industrie Et BTP'; ";
 								$result = $conn->query($sql);
 
@@ -281,10 +269,7 @@ $currentpage = "reference";; ?>
 							<div id="About" class="tabcontent2">
 								<div class="flex-container">
 									<?php
-									$conn = mysqli_connect("localhost", "root", "", "capitalsoft");
-									if ($conn->connect_error) {
-										die("Connection Failed:" . $conn->connect_error);
-									}
+									require "../actions/connexion/database.php";
 									$sql = "SELECT `Logo` FROM `clients` WHERE categorie='Education'; ";
 									$result = $conn->query($sql);
 
@@ -307,10 +292,7 @@ $currentpage = "reference";; ?>
 								<div id="Ab" class="tabcontent2">
 									<div class="flex-container">
 										<?php
-										$conn = mysqli_connect("localhost", "root", "", "capitalsoft");
-										if ($conn->connect_error) {
-											die("Connection Failed:" . $conn->connect_error);
-										}
+										require "../actions/connexion/database.php";
 										$sql = "SELECT `Logo` FROM `clients` WHERE categorie='Services'; ";
 										$result = $conn->query($sql);
 

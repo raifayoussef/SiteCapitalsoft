@@ -55,7 +55,7 @@ $currentpage="carriere";
 			<!-- /.page-header__bg -->
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="../">Home</a></li>
+					<li><a href="../">Accueil</a></li>
 					<li>Nous rejoindre</li>
 				</ul>
 				<h2 class="page-header__title">Nous rejoindre</h2><!-- /.page-header__title -->
@@ -67,11 +67,7 @@ $currentpage="carriere";
 				<div class="row">
 					<div class="col-lg-8">
 						<form action="../actions/carriere.php" class="contact-one__form" enctype="multipart/form-data" method="post" id="careerForm">
-							<div class="section-title">
-								<p class="section-title__text">Contact with us</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">Join Us To Get IT Free
-									Consultations</h2><!-- /.section-title__title -->
-							</div><!-- /.section-title -->
+							
 							<div class="row ">
 								<div class="col-lg-6 col-md-12">
 									<input type="text" placeholder="Nom" name="name">
@@ -85,9 +81,12 @@ $currentpage="carriere";
 								<div class="col-lg-6 col-md-12">
 									<input type="tel" placeholder="Numéro de téléphone" name="phone">
 								</div><!-- /.col-lg-6 col-md-12 -->
-								<div class="col-lg-12 col-md-12">
-									<input type="file" name="CV" accept=".pdf" data-text="Aucun fichier sélectionné">
-								</div><!-- /.col-lg-6 col-md-12 -->
+								<div class="col-lg-5 col-md-12">
+									<label for="fileInput" class="custom-file-upload">
+										<span>Déposez votre CV</span>
+										<input type="file" name="CV" id="fileInput" accept=".pdf" data-text="Aucun fichier sélectionné">
+									</label>
+								</div>
 								<div class="col-lg-12 col-md-12">
 									<textarea name="message" placeholder="Message"></textarea>
 								</div><!-- /.col-lg-6 col-md-12 -->

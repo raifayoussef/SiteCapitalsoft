@@ -37,6 +37,49 @@ $currentpage = "accueil";; ?>
 
 	<!--=============== CSS ===============-->
 	<link rel="stylesheet" href="assets2/css/styles.css">
+	<style>
+		
+.text_display {
+  position : relative;
+  
+  /* width: 300px; */
+  min-height: calc(8rem + 20px);
+  height: calc(8rem + 20px);
+
+  /* line-height: 1.1rem; */
+  
+  /* border: 1px solid black; */
+  /* border-radius : 6px; */
+  
+  /* padding : 10px; */
+  text-align: justify;
+}
+
+.text_display.opened {
+  height : fit-content;
+}
+
+.text_display > p {
+  /* margin : 0; */
+  
+  height : 100%;
+  
+  overflow: hidden;
+}
+
+.text_display::before {
+  content : "Lire plus";
+  position : absolute;
+  bottom : -30px;
+  right : 10px;
+  padding-left : 50px;
+  /* background : linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,100%) 50px); */
+  /* font-size: 10PX; */
+  padding-top: 20PX;
+  cursor: pointer;
+}
+    </style>
+	</style>
 </head>
 
 <body class="custom-cursor">
@@ -62,7 +105,7 @@ $currentpage = "accueil";; ?>
 					</div><!-- /.slider-one__bg -->
 					<div class="slider-one__shape-1"></div><!-- /.slider-one__shape-1 -->
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
-					<div class="container mobile-padding" style="width:100%">
+					<div class="container mobile-padding" style="width:100%;padding-top:50px" >
 						<div class="slider-one__content text-center">
 							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
 							<!-- /.slider-one__floated -->
@@ -86,11 +129,11 @@ $currentpage = "accueil";; ?>
 					</div><!-- /.slider-one__bg -->
 					<div class="slider-one__shape-1"></div><!-- /.slider-one__shape-1 -->
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
-					<div class="container mobile-padding" style="width:100%">
+					<div class="container mobile-padding" style="width:100%;padding-top:50px">
 						<div class="slider-one__content text-center">
 							<div class="slider-one__title-wrapper" style="display: flex; justify-content:center;align-items:center;flex-direction:column">
 								<img src="assets/images/sliders/s-02.png" class="slider-one__title" alt="" style="max-width: 55%; height: auto;">
-								<img src="assets/images/Logo/capitalsoft white.png" class="slider-one__title" alt="" style="height: 80px;width:auto">
+								<img src="assets/images/Logo/capitalsoft white.png" class="slider-one__title" alt="" style="height: 110px;width:auto">
 							</div><!-- /.slider-one__title-wrapper -->
 						</div><!-- /.slider-one__content -->
 					</div><!-- /.container -->
@@ -150,12 +193,14 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Développement de solutions</p><!-- /.section-title__text -->
-							<p>•Développement de progiciels de gestion <br>
-								•Intégration de nouvelles technologies <br>
-								•Web / Cloud / Clients serveurs <br>
-								•Internet / Intranet / Commerce électronique
+							<p>• Développement de progiciels de gestion <br>
+								• Intégration de nouvelles technologies <br>
+								• Web / Cloud / Clients serveurs <br>
+								• Internet / Intranet / Commerce électronique
 							</p>
-							<a href="#" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
+							<center>
+								<a href="#" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
+							</center>
 						</div>
 					</div>
 				</div>
@@ -168,10 +213,10 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Support</p><!-- /.section-title__text -->
-							<p>•Support de 2éme niveau <br>
-								•Formation, assistance aux utilisateurs <br>
-								•Délégation de personnel<br>
-								•Configuration, installation et administration des serveurs
+							<p>• Support de 2ème niveau <br>
+								• Formation, assistance aux utilisateurs <br>
+								• Délégation de personnel<br>
+								• Configuration, installation et administration des serveurs
 							</p>
 							<a href="#" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
@@ -192,7 +237,7 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Conseils & Expertise</p><!-- /.section-title__text -->
-							<p>L'expertise est au cœur de notre entreprise, avec une équipe hautement qualifiée et expérimentée composée de professionnels compétents dans leur domaine. Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins spécifiques, analyser leur environnement, et leur fournir des conseils stratégiques adaptés.</p>
+							<p>Notre entreprise repose sur une équipe expérimentée de professionnels qualifiés, travaillant en étroite collaboration avec nos clients pour comprendre leurs besoins, analyser leur environnement, et leur fournir des conseils stratégiques sur mesure.</p>
 							<a href="#" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
 					</div>
@@ -293,14 +338,14 @@ $currentpage = "accueil";; ?>
 	<section class="funfact-one">
 		<div class="container">
 			<div class="section-title">
-				<p class="section-title__text">Nous Chiffres clés</p><!-- /.section-title__text -->
+				<p class="section-title__text">NOS CHIFFRES CLÉS</p><!-- /.section-title__text -->
 			</div><!-- /.section-title -->
 			<div class="funfact-one__inner wow fadeInUp background-size-cover" data-wow-duration="1500ms" style="background-image: url(assets/images/shapes/funfact-one-bg.png);">
 				<ul class="funfact-one__list">
 
 					<li class="funfact-one__list__item">
 						<h3 class="funfact-one__list__title count-box">
-							<span data-stop="55" data-speed="2500" class="count-text">00</span>
+							<span data-stop="132" data-speed="2500" class="count-text">00</span>
 						</h3><!-- /.funfact-one__list__title -->
 						<p class="funfact-one__list__text">Clients satisfaits</p>
 						<!-- /.funfact-one__list__text -->
@@ -314,7 +359,7 @@ $currentpage = "accueil";; ?>
 					</li>
 					<li class="funfact-one__list__item">
 						<h3 class="funfact-one__list__title count-box">
-							<span data-stop="569" data-speed="2500" class="count-text">00</span>
+							<span data-stop="525" data-speed="2500" class="count-text">00</span>
 						</h3><!-- /.funfact-one__list__title -->
 						<p class="funfact-one__list__text">Projets réussis</p>
 						<!-- /.funfact-one__list__text -->
@@ -337,50 +382,24 @@ $currentpage = "accueil";; ?>
 
 			<div class="card__content">
 				<div class="swiper-wrapper">
+					<?php 
+					require "actions/connexion/database.php";
+					$sql = "SELECT `Logo`FROM `clients` WHERE  `favoris` =1; ";
+						$result = $conn->query($sql);
+
+						if ($result->num_rows > 0) {
+							while ($row = $result->fetch_assoc()) {
+					;?>
 					<article class="card__article swiper-slide">
-						<div class="card__image">
-							<img src="assets/images/clients/HPS.png" alt="image" class="card__img">
-							<div class="card__shadow"></div>
-						</div>
-
-					</article>
-
-					<article class="card__article swiper-slide">
-						<div class="card__image">
-							<img src="assets/images/clients/bprem.png" alt="image" class="card__img">
-							<div class="card__shadow"></div>
-						</div>
-
-					</article>
-
-					<article class="card__article swiper-slide">
-						<div class="card__image">
-							<img src="assets/images/clients/MATIS.png" alt="image" class="card__img">
-							<div class="card__shadow"></div>
-						</div>
-
-					</article>
-
-					<article class="card__article swiper-slide">
-						<div class="card__image">
-							<img src="assets/images/clients/safran.png" alt="image" class="card__img">
+						<div class="card__image" style="width: 200PX;height:200PX;display:flex;justify-content:center;padding:5px">
+							<img src="images/clients/<?php echo $row['Logo'] ;?>" alt="image" class="card__img" style="width:100%;height:auto">
 							<div class="card__shadow"></div>
 						</div>
 					</article>
-
-					<article class="card__article swiper-slide">
-						<div class="card__image">
-							<img src="assets/images/clients/saham.png" alt="image" class="card__img">
-							<div class="card__shadow"></div>
-						</div>
-					</article>
-
-					<article class="card__article swiper-slide">
-						<div class="card__image">
-							<img src="assets/images/clients/zine.png" alt="image" class="card__img">
-							<div class="card__shadow"></div>
-						</div>
-					</article>
+					<?php
+							}
+						}
+						;?>
 				</div>
 			</div>
 
@@ -479,6 +498,15 @@ $currentpage = "accueil";; ?>
 			});
 		});
 	</script>
+	    <script>
+const handleClickViewMore = (element) => {
+  if(element.classList.contains("opened")){
+    element.classList.remove("opened")
+  }else{
+    element.classList.add("opened")
+  }
+}
+    </script>
 </body>
 
 </html>

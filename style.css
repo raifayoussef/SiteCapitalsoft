@@ -126,6 +126,7 @@ div.caard:nth-child(1) .caard-title p {
   display: -webkit-box;
   -webkit-line-clamp: 3; /* Nombre de lignes à afficher */
   -webkit-box-orient: vertical;
+  transition: all 1s; /* Add a 1-second transition here */
 }
 div.caard:nth-child(1) .caard-title:hover p {
   color: white; /* Set the text color to white when hovering over .caard-title */
@@ -197,6 +198,7 @@ div.caard:nth-child(2) .caard-title p {
   display: -webkit-box;
   -webkit-line-clamp: 3; /* Nombre de lignes à afficher */
   -webkit-box-orient: vertical;
+  transition: all 1s; /* Add a 1-second transition here */
 }
 
 div.caard:nth-child(2) .caard-title:hover p {
@@ -238,10 +240,23 @@ div.caard:nth-child(3) .caard-title p {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3; /* Nombre de lignes à afficher */
-  -webkit-box-orient: vertical;}
+  -webkit-box-orient: vertical;
+  transition: max-height 1s; /* Add a 1-second transition here */
+
+}
 
 div.caard:nth-child(3) .caard-title:hover p {
   color: white;
+}
+.show-all-lines .caard-title p {
+  height: auto; /* Remove the height limit */
+  -webkit-line-clamp: initial; /* Show all lines */
+  transition: max-height 1s; /* Add a 1-second transition for the show-all-lines state */
+}
+
+div.caard .caard-title p.show-all-lines {
+  height: auto;
+  -webkit-line-clamp: initial;
 }
 
 div.caard:nth-child(3) .caard-title h2 {

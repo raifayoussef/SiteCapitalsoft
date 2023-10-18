@@ -50,9 +50,9 @@ $currentpage = "propos";; ?>
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
 					<li><a href="../">Accueil</a></li>
-					<li>Societé</li>
+					<li>L'entreprise</li>
 				</ul>
-				<h2 class="page-header__title">Societé</h2><!-- /.page-header__title -->
+				<h2 class="page-header__title">L'entreprise</h2><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
 		<section class="about-four section-padding--top" >

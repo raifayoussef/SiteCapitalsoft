@@ -52,11 +52,11 @@ $currentpage="contact";
 
 		<div class="page-header">
 			<div class="page-header__bg"
-				style="background-image: url(assets/images/background/page-header-bg-1-1.jpg);"></div>
+				style="background-image: url(../assets/images/background/contact.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="../">Accueil</a></li>
 					<li>Contact</li>
 				</ul>
 				<h2 class="page-header__title">Contact</h2><!-- /.page-header__title -->

@@ -1699,6 +1699,7 @@ a:visited {
   margin-top: 11px;
 }
 
+
 @media (min-width: 768px) {
   .pricing-card-one__price {
     font-size: 45px;
@@ -3246,27 +3247,34 @@ a:visited {
   border-radius: 0;
 }
 
-/* Styliser le bouton "Choisir un fichier" */
-input[type="file"]::-webkit-file-upload-button {
-  background-color: var(--cretech-bg-black); /* Couleur de fond du bouton */
-  color: #fff; /* Couleur du texte du bouton */
-  padding: 10px 20px; /* Espacement intérieur du bouton */
-  border: none; /* Supprimer la bordure */
-  border-radius: 5px; /* Ajouter une bordure arrondie */
-  cursor: pointer; /* Curseur de type main pour indiquer que c'est cliquable */
+/* Style the label as a button */
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--cretech-bg-black);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Styliser le texte du bouton */
-input[type="file"]::-webkit-file-upload-button::before {
-  content: "Choisir un fichier"; /* Texte personnalisé */
-  font-size: 16px;
+/* Hide the actual file input */
+.custom-file-upload input {
+  display: none;
+}
+
+/* Style the text inside the label */
+.custom-file-upload span {
+  font-size: 18px;
   font-weight: bold;
+  color: rgb(255, 255, 255);
 }
 
-/* Styliser le texte du bouton après la sélection d'un fichier */
-input[type="file"]:valid::-webkit-file-upload-button::before {
-  content: "Fichier sélectionné : " attr(data-text); /* Texte personnalisé après sélection */
+/* Style the text of the label after file selection */
+.custom-file-upload input[type="file"]:valid + span::after {
+  content: "Fichier sélectionné : " attr(data-text);
 }
+
 
 .contact-one__form select {
   -moz-appearance: none;
@@ -3620,7 +3628,7 @@ input[type="file"]:valid::-webkit-file-upload-button::before {
   border: none;
   display: block;
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   height: 485px;
 }
 

@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var zindex = 10;
-  
+
   $("div.caard .caard-title, div.caard .caard__image-holder").click(function(e){
     e.preventDefault();
 
@@ -16,16 +16,20 @@ $(document).ready(function(){
       // A caard is already in view
       $("div.caard.show")
         .removeClass("show");
+      caard.find(".caard-title p").removeClass("show-all-lines");
 
       if (isShowing) {
         // This caard was showing - reset the grid
         $("div.All-caards")
           .removeClass("showing");
+          
       } else {
         // This caard isn't showing - get in with it
         caard
           .css({zIndex: zindex})
           .addClass("show");
+        caard.find(".caard-title p").addClass("show-all-lines");
+        
       }
 
       zindex++;
@@ -36,6 +40,7 @@ $(document).ready(function(){
       caard
         .css({zIndex: zindex})
         .addClass("show");
+      caard.find(".caard-title p").addClass("show-all-lines");
       zindex++;
     }
   });

@@ -7,7 +7,7 @@ $currentpage = "accueil";; ?>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home One CapitalSoft</title>
+	<title>Capital Soft</title>
 	<!-- google font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -300,7 +300,7 @@ $currentpage = "accueil";; ?>
 
 					<li class="funfact-one__list__item">
 						<h3 class="funfact-one__list__title count-box">
-							<span data-stop="325" data-speed="2500" class="count-text">00</span>
+							<span data-stop="55" data-speed="2500" class="count-text">00</span>
 						</h3><!-- /.funfact-one__list__title -->
 						<p class="funfact-one__list__text">Clients satisfaits</p>
 						<!-- /.funfact-one__list__text -->

@@ -55,7 +55,7 @@ $currentpage = "propos";; ?>
 				<h2 class="page-header__title">L'entreprise</h2><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
-		<section class="about-four section-padding--top" >
+		<section class="about-four section-padding--top">
 			<div class="container">
 				<div class="row gutter-y-60">
 					<div class="col-lg-4">
@@ -106,8 +106,6 @@ $currentpage = "propos";; ?>
 							<!-- /.testimonials-two__content__text -->
 							<div class="testimonials-two__content__text">Née d’une véritable passion pour l’innovation et le développement numérique, Capital Soft offre des solutions IT novatrices, performantes et offre une gamme étendue de prestations et de produits informatiques, adaptée aux besoins de ses clients avec l’accompagnement et l’assistance nécessaires à leur déploiement.</div><!-- /.testimonials-two__content__text -->
 							<div class="testimonials-two__content__text">Après plus de 30 ans d’expérience au service de ses clients, Capital Soft est dotée d’un savoir-faire reconnu, des équipes expertes dans leur domaine, et une réactivité accrue.</div><!-- /.testimonials-two__content__text -->
-							<a href="about.html" class="thm-btn testimonials-two__content__btn"><span>View All
-									feedbacks</span></a><!-- /.thm-btn testimonials-two__content__btn -->
 						</div><!-- /.testimonials-two__content -->
 					</div><!-- /.col-lg-5 -->
 				</div><!-- /.row -->
@@ -116,8 +114,7 @@ $currentpage = "propos";; ?>
 
 
 		<section class="black-bg section-padding-lg--top section-padding-lg--bottom cta-two">
-			<div class="cta-two__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-				style="background-image: url(../assets/images/background/heureuse.jpg);"></div>
+			<div class="cta-two__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(../assets/images/background/heureuse.jpg);"></div>
 			<div class="container">
 				<div class="cta-two__inner">
 					<h3 class="cta-two__title h1"><span>Mission</span></h3><!-- /.cta-two__title -->

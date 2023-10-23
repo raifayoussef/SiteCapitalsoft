@@ -102,7 +102,7 @@ $currentpage="carriere";
 							style="background-image: url(../assets/images/background/carriere\ 2.jpg);">
 							<div class="contact-one__item">
 								<h3 class="contact-one__item__title">Adresse</h3><!-- /.contact-one__item__title -->
-								<p class="contact-one__item__text">Residence titrit 2 Immeuble B, <br> Rue Hadj Omar Riffi, Casablanca</p><!-- /.contact-one__item__text -->
+								<p class="contact-one__item__text"><a href="https://www.google.com/maps/place/Capital+Soft+SARL/@33.5850195,-7.6150659,17z/data=!3m1!4b1!4m6!3m5!1s0xda632cb3452d5e9:0x6a60fa93c1ec2e25!8m2!3d33.5850151!4d-7.612491!16s%2Fg%2F11b6hz06yk?entry=ttu" target="_blank">Residence titrit 2 Immeuble B, Rue Hadj Omar Riffi, Casablanca</a></p><!-- /.contact-one__item__text -->
 							</div><!-- /.contact-one__item -->
 							<div class="contact-one__item">
 								<h3 class="contact-one__item__title">Téléphone</h3><!-- /.contact-one__item__title -->

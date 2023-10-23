@@ -52,7 +52,7 @@ $currentpage="contact";
 
 		<div class="page-header">
 			<div class="page-header__bg"
-				style="background-image: url(../assets/images/background/contact.jpg);"></div>
+				style="background-image: url(../assets/images/background/contact1.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">

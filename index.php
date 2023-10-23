@@ -38,47 +38,46 @@ $currentpage = "accueil";; ?>
 	<!--=============== CSS ===============-->
 	<link rel="stylesheet" href="assets2/css/styles.css">
 	<style>
-		
-.text_display {
-  position : relative;
-  
-  /* width: 300px; */
-  min-height: calc(8rem + 20px);
-  height: calc(8rem + 20px);
+		.text_display {
+			position: relative;
 
-  /* line-height: 1.1rem; */
-  
-  /* border: 1px solid black; */
-  /* border-radius : 6px; */
-  
-  /* padding : 10px; */
-  text-align: justify;
-}
+			/* width: 300px; */
+			min-height: calc(8rem + 20px);
+			height: calc(8rem + 20px);
 
-.text_display.opened {
-  height : fit-content;
-}
+			/* line-height: 1.1rem; */
 
-.text_display > p {
-  /* margin : 0; */
-  
-  height : 100%;
-  
-  overflow: hidden;
-}
+			/* border: 1px solid black; */
+			/* border-radius : 6px; */
 
-.text_display::before {
-  content : "Lire plus";
-  position : absolute;
-  bottom : -30px;
-  right : 10px;
-  padding-left : 50px;
-  /* background : linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,100%) 50px); */
-  /* font-size: 10PX; */
-  padding-top: 20PX;
-  cursor: pointer;
-}
-    </style>
+			/* padding : 10px; */
+			text-align: justify;
+		}
+
+		.text_display.opened {
+			height: fit-content;
+		}
+
+		.text_display>p {
+			/* margin : 0; */
+
+			height: 100%;
+
+			overflow: hidden;
+		}
+
+		.text_display::before {
+			content: "Lire plus";
+			position: absolute;
+			bottom: -30px;
+			right: 10px;
+			padding-left: 50px;
+			/* background : linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,100%) 50px); */
+			/* font-size: 10PX; */
+			padding-top: 20PX;
+			cursor: pointer;
+		}
+	</style>
 	</style>
 </head>
 
@@ -105,7 +104,7 @@ $currentpage = "accueil";; ?>
 					</div><!-- /.slider-one__bg -->
 					<div class="slider-one__shape-1"></div><!-- /.slider-one__shape-1 -->
 					<div class="slider-one__shape-2"></div><!-- /.slider-one__shape-2 -->
-					<div class="container mobile-padding" style="width:100%;padding-top:50px" >
+					<div class="container mobile-padding" style="width:100%;padding-top:50px">
 						<div class="slider-one__content text-center">
 							<div class="slider-one__floated lettering-text">CAPITALSOFT</div>
 							<!-- /.slider-one__floated -->
@@ -193,10 +192,38 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Développement de solutions</p><!-- /.section-title__text -->
-							<p>• Développement de progiciels de gestion <br>
-								• Intégration de nouvelles technologies <br>
-								• Web / Cloud / Clients serveurs <br>
-								• Internet / Intranet / Commerce électronique
+							<p><svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Développement de progiciels de gestion <br>
+								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Intégration de nouvelles technologies <br>
+								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Web / Cloud / Clients serveurs <br>
+								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Internet / Intranet / Commerce électronique
 							</p>
 							<center>
 								<a href="#" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
@@ -213,10 +240,38 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Support</p><!-- /.section-title__text -->
-							<p>• Support de 2ème niveau <br>
-								• Formation, assistance aux utilisateurs <br>
-								• Délégation de personnel<br>
-								• Configuration, installation et administration des serveurs
+							<p> <svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Support de 2ème niveau <br>
+								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Formation, assistance aux utilisateurs <br>
+								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Délégation de personnel<br>
+								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</g>
+								</svg> Configuration, installation et administration des serveurs
 							</p>
 							<a href="#" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
 						</div>
@@ -382,24 +437,22 @@ $currentpage = "accueil";; ?>
 
 			<div class="card__content">
 				<div class="swiper-wrapper">
-					<?php 
+					<?php
 					require "actions/connexion/database.php";
 					$sql = "SELECT `Logo`FROM `clients` WHERE  `favoris` =1; ";
-						$result = $conn->query($sql);
+					$result = $conn->query($sql);
 
-						if ($result->num_rows > 0) {
-							while ($row = $result->fetch_assoc()) {
-					;?>
-					<article class="card__article swiper-slide">
-						<div class="card__image" style="width: 200PX;height:200PX;display:flex;justify-content:center;padding:5px">
-							<img src="images/clients/<?php echo $row['Logo'] ;?>" alt="image" class="card__img" style="width:100%;height:auto">
-							<div class="card__shadow"></div>
-						</div>
-					</article>
+					if ($result->num_rows > 0) {
+						while ($row = $result->fetch_assoc()) {; ?>
+							<article class="card__article swiper-slide">
+								<div class="card__image" style="width: 200PX;height:150PX;display:flex;justify-content:center;padding:5px">
+									<img src="images/clients/<?php echo $row['Logo']; ?>" alt="image" class="card__img" style="width:100%;height:auto">
+									<div class="card__shadow"></div>
+								</div>
+							</article>
 					<?php
-							}
 						}
-						;?>
+					}; ?>
 				</div>
 			</div>
 
@@ -498,15 +551,15 @@ $currentpage = "accueil";; ?>
 			});
 		});
 	</script>
-	    <script>
-const handleClickViewMore = (element) => {
-  if(element.classList.contains("opened")){
-    element.classList.remove("opened")
-  }else{
-    element.classList.add("opened")
-  }
-}
-    </script>
+	<script>
+		const handleClickViewMore = (element) => {
+			if (element.classList.contains("opened")) {
+				element.classList.remove("opened")
+			} else {
+				element.classList.add("opened")
+			}
+		}
+	</script>
 </body>
 
 </html>

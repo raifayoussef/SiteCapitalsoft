@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php 
-$currentpage="solutions";
-;?>
+<?php
+$currentpage = "solutions";; ?>
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +11,7 @@ $currentpage="solutions";
 	<!-- google font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 	<!-- favicons Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/CapitalSoftLogo 32x32.png" />
@@ -33,7 +31,7 @@ $currentpage="solutions";
 
 <body class="custom-cursor">
 
-<div class="custom-cursor__cursor"></div>
+	<div class="custom-cursor__cursor"></div>
 	<div class="custom-cursor__cursor-two"></div>
 
 	<div class="preloader">
@@ -41,16 +39,14 @@ $currentpage="solutions";
 	</div>
 
 	<div class="page-wrapper">
-    <?php
-        require "../inc/topbar.php"; 
-        require "../inc/header.php"; 
-    ;?>
+		<?php
+		require "../inc/topbar.php";
+		require "../inc/header.php";; ?>
 
 
 
 		<div class="page-header">
-			<div class="page-header__bg"
-				style="background-image: url(../assets/images/solution/concept-ressources-humaines-main.jpg);"></div>
+			<div class="page-header__bg" style="background-image: url(../assets/images/solution/concept-ressources-humaines-main.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
@@ -64,8 +60,7 @@ $currentpage="solutions";
 		<section class="section-padding--bottom section-padding--top">
 			<div class="container">
 				<div class="row gutter-y-30">
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="000ms">
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
 						<div class="project-card-one">
 							<div class="project-card-one__image">
 								<img src="../assets/images/solution/vue-dessus-ordinateur-portable-souris-icones-technologie.jpg" alt="">
@@ -81,8 +76,7 @@ $currentpage="solutions";
 							</div><!-- /.project-card-one__content -->
 						</div><!-- /.project-card-one -->
 					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="100ms">
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
 						<div class="project-card-one">
 							<div class="project-card-one__image">
 								<img src="../assets/images/solution/capitaltime2.jpg" alt="">
@@ -98,8 +92,7 @@ $currentpage="solutions";
 							</div><!-- /.project-card-one__content -->
 						</div><!-- /.project-card-one -->
 					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="200ms">
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
 						<div class="project-card-one">
 							<div class="project-card-one__image">
 								<img src="../assets/images/solution/espacerh2.jpg" alt="">
@@ -115,76 +108,23 @@ $currentpage="solutions";
 							</div><!-- /.project-card-one__content -->
 						</div><!-- /.project-card-one -->
 					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					
+				</div><!-- /.row gutter-y-30 -->
+			</div><!-- /.container -->
+		</section>
+		<section class="section-padding--bottom section-padding--top">
+			<div class="container">
+				<div class="row gutter-y-30">
+
 				</div><!-- /.row gutter-y-30 -->
 			</div><!-- /.container -->
 		</section>
 
-		<?php 
-		require "../inc/footer.php"
-		;?>
+
+		<?php
+		require "../inc/footer.php"; ?>
 	</div><!-- /.page-wrapper -->
 
 
-	<div class="mobile-nav__wrapper">
-		<div class="mobile-nav__overlay mobile-nav__toggler"></div>
-		<!-- /.mobile-nav__overlay -->
-		<div class="mobile-nav__content">
-			<a href="#" class="mobile-nav__close mobile-nav__toggler">
-				<span></span>
-				<span></span>
-			</a>
-
-			<div class="logo-box">
-				<a href="../index.php" aria-label="logo image"><img src="../assets/images/logo-light.png" width="98"
-						height="33" alt="Cretech"></a>
-			</div>
-			<!-- /.logo-box -->
-			<div class="mobile-nav__container"></div>
-			<!-- /.mobile-nav__container -->
-
-			<ul class="mobile-nav__contact list-unstyled">
-				<li>
-					<i class="fa fa-phone"></i>
-					<a href="tel:+8898006802">+ 88 ( 9800 ) 6802</a>
-				</li>
-				<li>
-					<i class="fa fa-envelope"></i>
-					<a href="mailto:needhelp@company.com">needhelp@company.com</a>
-				</li>
-				<li>
-					<i class="fa fa-map-marker-alt"></i>
-					88 Broklyn Golden Road Street <br> New York. USA
-				</li>
-			</ul><!-- /.mobile-nav__contact -->
-			<ul class="mobile-nav__social">
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			</ul><!-- /.mobile-nav__social -->
-
-
-
-		</div>
-		<!-- /.mobile-nav__content -->
-	</div>
-	<!-- /.mobile-nav__wrapper -->
-
-	<div class="search-popup">
-		<div class="search-popup__overlay search-toggler"></div>
-		<!-- /.search-popup__overlay -->
-		<div class="search-popup__content">
-			<form action="#">
-				<label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-				<input type="text" id="search" placeholder="Search Here..." />
-				<button type="submit" aria-label="search submit" class="thm-btn">
-					<span><i class="icon-magnifying-glass"></i></span>
-				</button>
-			</form>
-		</div>
-		<!-- /.search-popup__content -->
-	</div>
 	<!-- /.search-popup -->
 
 	<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>

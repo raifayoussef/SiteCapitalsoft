@@ -192,37 +192,17 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Développement de solutions</p><!-- /.section-title__text -->
-							<p><svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+							<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Développement de progiciels de gestion <br>
-								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Intégration de nouvelles technologies <br>
-								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Web / Cloud / Clients serveurs <br>
-								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Internet / Intranet / Commerce électronique
 							</p>
 							<center>
@@ -240,37 +220,17 @@ $currentpage = "accueil";; ?>
 					<div class="col-md-6">
 						<div class="card-body">
 							<p class="service-card-two__title text-center">Support</p><!-- /.section-title__text -->
-							<p> <svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+							<p> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Support de 2ème niveau <br>
-								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Formation, assistance aux utilisateurs <br>
-								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Délégation de personnel<br>
-								<svg viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:25PX;height:auto">
-									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-									<g id="SVGRepo_iconCarrier">
-										<path d="M2 12.0701H22" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-										<path d="M16 5L21.16 10C21.4324 10.2571 21.6494 10.567 21.7977 10.9109C21.946 11.2548 22.0226 11.6255 22.0226 12C22.0226 12.3745 21.946 12.7452 21.7977 13.0891C21.6494 13.433 21.4324 13.7429 21.16 14L16 19" stroke="#174B60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-									</g>
+								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 								</svg> Configuration, installation et administration des serveurs
 							</p>
 							<a href="#" class="thm-btn slider-o ne__btn"><span>Voir Plus</span></a>
@@ -429,9 +389,12 @@ $currentpage = "accueil";; ?>
 
 	<!-- /.client-carousel -->
 
-	<section class="container_client">
+	<section class="container_client" style="margin-bottom:-107PX ;">
 		<div class="section-title" style="padding-bottom:0px">
 			<p class="section-title__text">Nos clients</p>
+			<h2 class="section-title__title" style="font-family: 'August Script Bold free', regular;font-size:60px;margin-top:-10px">
+				Ils nous ont fait confiance
+			</h2><!-- /.section-title__title -->
 		</div>
 		<div class="card__container_client swiper">
 
@@ -469,17 +432,6 @@ $currentpage = "accueil";; ?>
 			<div class="swiper-pagination"></div>
 		</div>
 	</section>
-
-
-
-
-	<!-- partenaire -->
-
-	<!--END partenaire -->
-
-
-
-
 	<?php
 	require "inc/footer.php"; ?>
 

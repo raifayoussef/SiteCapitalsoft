@@ -60,13 +60,13 @@ $currentpage = "propos";; ?>
 				<div class="row gutter-y-60">
 					<div class="col-lg-6">
 						<div class="about-four__image">
-							<img src="../assets/images/resources/colleagues-giving-fist-bump.jpg" class="wow fadeInUp" data-wow-duration="500ms" alt="">
+							<img src="../assets/images/team/team.jpg" class="wow fadeInUp" data-wow-duration="500ms" alt="">
 						</div><!-- /.about-four__image -->
 					</div><!-- /.col-lg-6 -->
 					<div class="col-lg-6">
 						<div class="about-four__content">
 							<div class="section-title ">
-								<p class="section-title__text">Equipe et collaborateurs</p><!-- /.section-title__text -->
+								<p class="section-title__text">Équipe et collaborateurs</p><!-- /.section-title__text -->
 
 							</div><!-- /.section-title -->
 							<div class="about-four__text">Nos développeurs sont des artisans du code, experts dans une variété de

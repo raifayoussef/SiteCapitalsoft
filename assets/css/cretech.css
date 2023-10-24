@@ -33,6 +33,7 @@
 
 /* @import url(https://db.onlinewebfonts.com/c/5c1ae13eaa5872f70f187c85a6717bb2?family=Hero+New+Regular); */
 @import url('https://fonts.cdnfonts.com/css/tex-gyre-adventor');
+@import url('https://fonts.cdnfonts.com/css/august-script-bold-free');
 
 :root {
   --cretech-font:'TeXGyreAdventor';
@@ -4871,17 +4872,22 @@ a:visited {
   position: relative;
   width: 100%;
   padding: 30px;
-  -webkit-transform: scale(1, 0);
-          transform: scale(1, 0);
+  /* -webkit-transform: scale(1, 0);
+          transform: scale(1, 0); */
   -webkit-perspective: 400px;
           perspective: 400px;
-  visibility: hidden;
+  /* visibility: hidden; */
   -webkit-transition: visibility 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
   transition: visibility 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
   transition: transform 500ms ease-in-out, visibility 500ms ease-in-out;
   transition: transform 500ms ease-in-out, visibility 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
-  -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+  /* -webkit-transform-origin: bottom center;
+          transform-origin: bottom center; */
+          -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  visibility: visible;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;x
 }
 
 .project-card-one:hover .project-card-one__content__inner {
@@ -6130,7 +6136,7 @@ a:visited {
 
 @media (min-width: 768px) {
   .service-card-two__title {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 

@@ -19,7 +19,7 @@
 					<ul class="footer-widget__social">
 						<li><a href="https://www.facebook.com/profile.php?id=61551832514043" target="_blank"><i class="fab fa-facebook"></i></a></li>
 						<li><a href="https://www.instagram.com/capitalsoft.ma/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/capital-soft-234418227/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/capital-soft-ma/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 					</ul><!-- /.footer-widget__social -->
 				</div><!-- /.footer-widget -->
 			</div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
@@ -168,7 +168,7 @@
 		<ul class="mobile-nav__social">
 			<li><a href="https://www.facebook.com/profile.php?id=61551832514043" target="_blank"><i class="fab fa-facebook"></i></a></li>
 			<li><a href="https://www.instagram.com/capitalsoft.ma/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/capital-soft-234418227/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://www.linkedin.com/company/capital-soft-ma/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 		</ul><!-- /.mobile-nav__social -->
 
 

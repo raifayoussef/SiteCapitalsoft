@@ -22,7 +22,7 @@
 				<ul class="topbar__social">
 					<li><a href="https://www.facebook.com/profile.php?id=61551832514043" target="_blank"><i class="fab fa-facebook"></i></a></li>
 					<li><a href="https://www.instagram.com/capitalsoft.ma/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/capital-soft-234418227/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/capital-soft-ma/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 				</ul><!-- /.topbar__social -->
 			</div><!-- /.container-fluid -->
 	</div>

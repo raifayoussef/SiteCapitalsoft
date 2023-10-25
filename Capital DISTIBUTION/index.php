@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php 
-$currentpage="solutions";
-;?>
+<?php
+$currentpage = "solutions";; ?>
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +11,7 @@ $currentpage="solutions";
 	<!-- google font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 	<!-- favicons Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/CapitalSoftLogo 32x32.png" />
@@ -29,11 +27,12 @@ $currentpage="solutions";
 	<link rel="stylesheet" href="../assets/vendors/cretech-icons/style.css">
 	<!-- templates css -->
 	<link rel="stylesheet" href="../assets/css/cretech.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body class="custom-cursor">
 
-<div class="custom-cursor__cursor"></div>
+	<div class="custom-cursor__cursor"></div>
 	<div class="custom-cursor__cursor-two"></div>
 
 	<div class="preloader">
@@ -41,15 +40,13 @@ $currentpage="solutions";
 	</div>
 
 	<div class="page-wrapper">
-    <?php
-        require "../inc/topbar.php"; 
-        require "../inc/header.php"; 
-    ;?>
-	
+		<?php
+		require "../inc/topbar.php";
+		require "../inc/header.php";; ?>
+
 
 		<div class="page-header">
-		<div class="page-header__bg"
-				style="background-image: url(../assets/images/solution/DISTRIBUTION2.jpg);"></div>
+			<div class="page-header__bg" style="background-image: url(../assets/images/solution/DISTRIBUTION2.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
@@ -59,52 +56,56 @@ $currentpage="solutions";
 				<h2 class="page-header__title">DISTIBUTION</h2><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
-
 		<section class="section-padding--bottom section-padding--top">
-			<div class="container">
-				<div class="row gutter-y-30">
-					<div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="000ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/COMMERCIALE.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">DISTIBUTION</p>
-									<h3 class="project-card-one__title"><a href="COMMERCIALE.php">GESTION COMMERCIALE</a></h3><!-- /.project-card-one__title -->
-									<a href="COMMERCIALE.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="100ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/POINT_VENTE.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">DISTIBUTION</p>
-									<h3 class="project-card-one__title"><a href="POINT_VENTE.php">POINT DE VENTE RESTAURANT COLLECTIF</a></h3><!-- /.project-card-one__title -->
-									<a href="POINT_VENTE.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				</div><!-- /.row gutter-y-30 -->
-			</div><!-- /.container -->
+			<div class="wrapper_cards">
+				<div class="cols_card">
+					<a href="COMMERCIALE.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image: url(../assets/images/resources/commeciale.png)">
+								<div class="inner">
+									<p>Capital Commercial</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="POINT_VENTE.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image:url(../assets/images/resources/point_vente.png)">
+								<div class="inner">
+									<p>Capital Point de vente</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="restau_collectif.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image: url(../assets/images/resources/restau.png)">
+								<div class="inner">
+									<p>Capital RESTAURANT COLLECTIF</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
 		</section>
 
 
-		<?php 
-		require "../inc/footer.php"
-		;?>
+		<?php
+		require "../inc/footer.php"; ?>
 	</div><!-- /.page-wrapper -->
 
 
@@ -118,8 +119,7 @@ $currentpage="solutions";
 			</a>
 
 			<div class="logo-box">
-				<a href="../index.php" aria-label="logo image"><img src="../assets/images/logo-light.png" width="98"
-						height="33" alt="Cretech"></a>
+				<a href="../index.php" aria-label="logo image"><img src="../assets/images/logo-light.png" width="98" height="33" alt="Cretech"></a>
 			</div>
 			<!-- /.logo-box -->
 			<div class="mobile-nav__container"></div>

@@ -27,6 +27,7 @@ $currentpage = "solutions";; ?>
 	<link rel="stylesheet" href="../assets/vendors/cretech-icons/style.css">
 	<!-- templates css -->
 	<link rel="stylesheet" href="../assets/css/cretech.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body class="custom-cursor">
@@ -58,68 +59,51 @@ $currentpage = "solutions";; ?>
 		</div><!-- /.page-header -->
 
 		<section class="section-padding--bottom section-padding--top">
-			<div class="container">
-				<div class="row gutter-y-30">
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/vue-dessus-ordinateur-portable-souris-icones-technologie.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">SIRH</p>
-									<h3 class="project-card-one__title"><a href="HRT.php">Human Resources Tools HRT </a></h3><!-- /.project-card-one__title -->
-									<a href="HRT.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/capitaltime2.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">SIRH</p>
-									<h3 class="project-card-one__title"><a href="capitaltime.php">CAPITAL TIME</a></h3><!-- /.project-card-one__title -->
-									<a href="capitaltime.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/espacerh2.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">SIRH</p>
-									<h3 class="project-card-one__title"><a href="EspaceRH.php">CAPITAL ESPACE RESSOURCES HUMAINES</a></h3><!-- /.project-card-one__title -->
-									<a href="EspaceRH.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-				</div><!-- /.row gutter-y-30 -->
-			</div><!-- /.container -->
+			<div class="wrapper_cards">
+				<div class="cols_card">
+					<a href="HRT.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image: url(../assets/images/resources/hr.jpg)">
+								<div class="inner">
+									<p>Human Resources Tools HRT</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="Capitaltime.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image:url(../assets/images/resources/capitaltime.jpg)">
+								<div class="inner">
+									<p>CAPITAL TIME</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="EspaceRh.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image: url(../assets/images/resources/rh_.jpg)">
+								<div class="inner">
+									<p>CAPITAL ESPACE RESSOURCES HUMAINES</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
 		</section>
-		<section class="section-padding--bottom section-padding--top">
-			<div class="container">
-				<div class="row gutter-y-30">
-
-				</div><!-- /.row gutter-y-30 -->
-			</div><!-- /.container -->
-		</section>
-
-
 		<?php
 		require "../inc/footer.php"; ?>
 	</div><!-- /.page-wrapper -->

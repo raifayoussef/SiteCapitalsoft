@@ -29,6 +29,7 @@ $currentpage="solutions";
 	<link rel="stylesheet" href="../assets/vendors/cretech-icons/style.css">
 	<!-- templates css -->
 	<link rel="stylesheet" href="../assets/css/cretech.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body class="custom-cursor">
@@ -64,62 +65,50 @@ $currentpage="solutions";
 		</div><!-- /.page-header -->
 
 		<section class="section-padding--bottom section-padding--top">
-			<div class="container">
-				<div class="row gutter-y-30">
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="000ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/COMPTA.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">FINANCE</p>
-									<h3 class="project-card-one__title"><a href="COMPTA.php">Capital Compta</a></h3><!-- /.project-card-one__title -->
-									<a href="COMPTA.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="100ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/LIASSE.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">FINANCE</p>
-									<h3 class="project-card-one__title"><a href="LIASSE.php">Capital Liasse</a></h3><!-- /.project-card-one__title -->
-									<a href="LIASSE.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-						data-wow-delay="200ms">
-						<div class="project-card-one">
-							<div class="project-card-one__image">
-								<img src="../assets/images/solution/IMMO.jpg" alt="">
-							</div><!-- /.project-card-one__image -->
-							<div class="project-card-one__content">
-								<div class="project-card-one__content__inner">
-									<p class="project-card-one__text">FINANCE</p>
-									<h3 class="project-card-one__title"><a href="IMMO.php">Capital Immo</a></h3><!-- /.project-card-one__title -->
-									<a href="IMMO.php" class="project-card-one__more">
-										<i class="fa fa-angle-right"></i>
-									</a><!-- /.project-card-one__more -->
-								</div><!-- /.project-card-one__content__inner -->
-							</div><!-- /.project-card-one__content -->
-						</div><!-- /.project-card-one -->
-					</div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-					
-				</div><!-- /.row gutter-y-30 -->
-			</div><!-- /.container -->
+			<div class="wrapper_cards">
+				<div class="cols_card">
+					<a href="COMPTA.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image: url(../assets/images/resources/comptabilité.png)">
+								<div class="inner">
+									<p>Capital Compta</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="LIASSE.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image:url(../assets/images/resources/liasse.png);background-size: cover;">
+								<div class="inner">
+									<p>Capital Liasse</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="IMMO.php" class="col_card">
+						<div class="container_col">
+							<div class="front" style="background-image: url(../assets/images/resources/immo.png)">
+								<div class="inner">
+									<p>Capital Immo</p>
+									<!-- <span>Lorem ipsum</span> -->
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
 		</section>
 
 
@@ -127,68 +116,6 @@ $currentpage="solutions";
 		require "../inc/footer.php"
 		;?>
 	</div><!-- /.page-wrapper -->
-
-
-	<div class="mobile-nav__wrapper">
-		<div class="mobile-nav__overlay mobile-nav__toggler"></div>
-		<!-- /.mobile-nav__overlay -->
-		<div class="mobile-nav__content">
-			<a href="#" class="mobile-nav__close mobile-nav__toggler">
-				<span></span>
-				<span></span>
-			</a>
-
-			<div class="logo-box">
-				<a href="../index.php" aria-label="logo image"><img src="../assets/images/logo-light.png" width="98"
-						height="33" alt="Cretech"></a>
-			</div>
-			<!-- /.logo-box -->
-			<div class="mobile-nav__container"></div>
-			<!-- /.mobile-nav__container -->
-
-			<ul class="mobile-nav__contact list-unstyled">
-				<li>
-					<i class="fa fa-phone"></i>
-					<a href="tel:+8898006802">+ 88 ( 9800 ) 6802</a>
-				</li>
-				<li>
-					<i class="fa fa-envelope"></i>
-					<a href="mailto:needhelp@company.com">needhelp@company.com</a>
-				</li>
-				<li>
-					<i class="fa fa-map-marker-alt"></i>
-					88 Broklyn Golden Road Street <br> New York. USA
-				</li>
-			</ul><!-- /.mobile-nav__contact -->
-			<ul class="mobile-nav__social">
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			</ul><!-- /.mobile-nav__social -->
-
-
-
-		</div>
-		<!-- /.mobile-nav__content -->
-	</div>
-	<!-- /.mobile-nav__wrapper -->
-
-	<div class="search-popup">
-		<div class="search-popup__overlay search-toggler"></div>
-		<!-- /.search-popup__overlay -->
-		<div class="search-popup__content">
-			<form action="#">
-				<label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-				<input type="text" id="search" placeholder="Search Here..." />
-				<button type="submit" aria-label="search submit" class="thm-btn">
-					<span><i class="icon-magnifying-glass"></i></span>
-				</button>
-			</form>
-		</div>
-		<!-- /.search-popup__content -->
-	</div>
-	<!-- /.search-popup -->
 
 	<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 

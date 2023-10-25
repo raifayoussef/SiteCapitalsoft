@@ -15,7 +15,7 @@
 						<?php
 						}; ?>
 					</a>
-					<p class="footer-widget__text">Nous travaillons avec passion pour relever des défis et en créer de nouveaux dans le secteur Informatique.</p><!-- /.footer-widget__text -->
+					<p class="footer-widget__text" style="height:100PX"></p><!-- /.footer-widget__text -->
 					<ul class="footer-widget__social">
 						<li><a href="https://www.facebook.com/profile.php?id=61551832514043" target="_blank"><i class="fab fa-facebook"></i></a></li>
 						<li><a href="https://www.instagram.com/capitalsoft.ma/" target="_blank"><i class="fab fa-instagram"></i></a></li>

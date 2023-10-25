@@ -116,7 +116,7 @@ $currentpage = "accueil";; ?>
 							</div><!-- /.slider-one__title-wrapper -->
 							<BR><BR>
 							<div class="slider-one__btns">
-								<a href="about.html" class="thm-btn slider-o ne__btn"><span>Découvrir</span></a>
+								<a href="Entreprise" class="thm-btn slider-o ne__btn"><span>Découvrir</span></a>
 								<!-- /.thm-btn slider-one__btn -->
 							</div><!-- /.slider-one__btns -->
 						</div><!-- /.slider-one__content -->
@@ -326,7 +326,7 @@ $currentpage = "accueil";; ?>
 						<a href="Capital DISTIBUTION/POINT_VENTE.php" class="bton">Capital Point de vente</a>
 					</div>
 					<div class="caard-actions">
-						<a href="Capital DISTIBUTION/" class="bton">Capital Espace Collaboratif</a>
+						<a href="Capital DISTIBUTION/" class="bton">Capital RESTAURANT COLLECTIF</a>
 					</div>
 				</div>
 			</div>

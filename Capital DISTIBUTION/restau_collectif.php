@@ -44,28 +44,27 @@ $currentpage="solutions";
         require "../inc/topbar.php"; 
         require "../inc/header.php"; 
     ;?>
- 
 
 
 		<div class="page-header">
 			<div class="page-header__bg"
-				style="background-image: url(../assets/images/solution/capitaltime.jpg);"></div>
+				style="background-image: url(../assets/images/solution/ESPACERH.jpg);"></div>
 			<!-- /.page-header__bg -->
 			<div class="container">
 				
-				<h2 class="page-header__title">GESTION COMMERCIALE </h2>
+				<h2 class="page-header__title">Capital Point de vente</h2>
 				<p style="font-size: 1.5rem; color: #ffffff;" >......</p><!-- /.page-header__title -->
 			</div><!-- /.container -->
 		</div><!-- /.page-header -->
 
 		<section class="section-padding--bottom section-padding--top service-details--page">
-        <div class="container">
+			<div class="container">
 				<div class="row ">
 					<div class="col-lg-8">
 						
-						<h3 class="service-details__title">GESTION COMMERCIALE</h3><!-- /.service-details__title -->
+						<h3 class="service-details__title">Capital Point de vente</h3><!-- /.service-details__title -->
 						<div class="service-details__content">
-							<p>Capital Commercial est une plateforme intégrée qui facilite la gestion des ventes, des stocks, des clients et des fournisseurs, permettant ainsi aux entreprises de suivre leurs opérations commerciales de manière transparente et efficace, et de gérer efficacement tous les aspects de leurs activités.</p>					
+							<p>Capital Point de vente CPV est une plateforme informatisée conçue pour aider les entreprises à gérer efficacement leurs opérations de vente au détail. Cette solution offre un système intégré qui facilite la gestion des transactions, des stocks, des ventes, et des rapports, permettant ainsi aux entreprises d'optimiser leurs activités en point de vente et d'améliorer l'expérience client.</p>					
 						</div><!-- /.service-details__content -->
 						<div class="row" style="margin-top: -64px;">						
 							<div class="col-md-12">
@@ -75,38 +74,32 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion des habilitations  <span
+											<h4>Interface de vente convivial <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
-										<div class="accrodion-content">
-											<!-- <div class="inner">
-												<p>-	La solution CapitalTime permet de gérer efficacement 
-                                                    les horaires, les présences et les absences des employés. 
-                                                    Elle est capable de se connecter aux différents systèmes 
-                                                    de contrôle d'accès de l'entreprise pour récupérer les 
-                                                    données de présence des employés et les utiliser dans les 
-                                                    calculs et les rapports.</p>
-											</div> -->
-										</div>
+										<!-- <div class="accrodion-content">
+											<div class="inner">
+												<p>Les employés peuvent planifier leurs congés annuels, et soumettre 
+													leurs demandes de congé via une interface conviviale en ligne, 
+													spécifiant les dates, la durée et le type de congé.</p>
+											</div>
+										</div> -->
 									</div>
 									<!-- End Faq One Single-->
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion des produits et des stocks   <span
+											<h4>Gestion des produits et des stocks  <span
 													class="accrodion-icon"></span></h4>
 										</div>
 										<!-- <div class="accrodion-content">
 											<div class="inner">
-												<p>La solution offre la possibilité de configurer des règles 
-                                                    de calcul flexibles en fonction des politiques de 
-                                                    l'entreprise. Elle permet de définir des paramètres tels 
-                                                    que les heures de travail, les heures supplémentaires, 
-                                                    les congés payés, les congés maladie, etc. Les calculs 
-                                                    automatiques sont effectués en fonction de ces paramètres, 
-                                                    ce qui facilite la gestion précise des données de temps et
-                                                     de présence.</p>
+												<p>ESPACE RH gère le workflow de validation des congés en 
+                                                    acheminant les demandes aux responsables appropriés pour 
+                                                    approbation. Les responsables peuvent valider ou rejeter
+                                                    les demandes de congé en ligne, avec des fonctionnalités 
+                                                    de commentaire pour une communication transparente.</p>
 											</div>
 										</div> -->
 									</div>
@@ -114,17 +107,17 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion des devis, bons de commandes et de livraisons  <span
+											<h4>Intégration avec le système de caisse  <span
 													class="accrodion-icon"></span></h4>
 										</div>
 										<!-- <div class="accrodion-content">
 											<div class="inner">
-											<p>La solution CapitalTime peut être intégrée avec différents 
-                                                systèmes de paie utilisés par l'entreprise. Elle permet de 
-                                                transférer automatiquement les données de temps et de présence
-                                                 calculées vers ces systèmes, ce qui simplifie le processus de 
-                                                 paie. Cela réduit les erreurs de saisie manuelle et garantit 
-                                                 l'exactitude des données de paie. </p>
+											<p>La solution ESPACE RH maintient à jour les soldes de congés des 
+                                                employés, en tenant compte des congés accordés, des congés 
+                                                restants et des congés déjà pris. Cela permet aux employés 
+                                                et aux Responsables et Gestionnaires 
+												RH de visualiser rapidement les informations 
+                                                sur les congés de l’ensemble du personnel.</p>
 											</div>
 										</div> -->
 									</div>
@@ -132,17 +125,15 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Facturation et suivi des paiements  <span
+											<h4>Gestion des promotions et des remises   <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<!-- <div class="accrodion-content">
 											<div class="inner">
-											<p>La solution CapitalTime se synchronise avec la partie de 
-                                                demande de congés et de validation d'ESPACE RH. Lorsqu'un 
-                                                employé fait une demande de congé, les données de présence et 
-                                                les soldes de congés sont automatiquement mis à jour dans 
-                                                CapitalTime. </p>
+											<p>La solution Espace RH permet aux employés  d’accéder à leurs 
+												bulletins de paie en ligne à tout moment, éliminant ainsi le besoin 
+												de versions papier.</p>
 											</div>
 										</div> -->
 									</div>
@@ -150,58 +141,15 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Gestion des clients et fournisseurs <span
+											<h4>Gestion des clients  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<!-- <div class="accrodion-content">
 											<div class="inner">
-											<p>La solution CapitalTime offre des fonctionnalités avancées 
-                                                de génération de rapports et d'analyses. Elle permet de 
-                                                visualiser les données de temps et de présence sous forme de 
-                                                tableaux de bord et de graphiques, offrant ainsi une meilleure 
-                                                visibilité sur l'utilisation du temps et les tendances. 
-                                                Ces informations peuvent être utiles pour prendre des décisions
-                                                 éclairées en matière de planification des ressources humaines
-                                                 .</p>
-											</div>
-										</div> -->
-									</div>
-									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
-										<div class="accrodion-title">
-											<h4>Inventaire et mise à jour des stocks  <span
-													class="accrodion-icon"></span>
-											</h4>
-										</div>
-										<!-- <div class="accrodion-content">
-											<div class="inner">
-											<p>La solution CapitalTime offre des fonctionnalités avancées 
-                                                de génération de rapports et d'analyses. Elle permet de 
-                                                visualiser les données de temps et de présence sous forme de 
-                                                tableaux de bord et de graphiques, offrant ainsi une meilleure 
-                                                visibilité sur l'utilisation du temps et les tendances. 
-                                                Ces informations peuvent être utiles pour prendre des décisions
-                                                 éclairées en matière de planification des ressources humaines
-                                                 .</p>
-											</div>
-										</div> -->
-									</div>
-									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
-										<div class="accrodion-title">
-											<h4>Edition de rapports  <span
-													class="accrodion-icon"></span>
-											</h4>
-										</div>
-										<!-- <div class="accrodion-content">
-											<div class="inner">
-											<p>La solution CapitalTime offre des fonctionnalités avancées 
-                                                de génération de rapports et d'analyses. Elle permet de 
-                                                visualiser les données de temps et de présence sous forme de 
-                                                tableaux de bord et de graphiques, offrant ainsi une meilleure 
-                                                visibilité sur l'utilisation du temps et les tendances. 
-                                                Ces informations peuvent être utiles pour prendre des décisions
-                                                 éclairées en matière de planification des ressources humaines
-                                                 .</p>
+											<p>La solution Espace RH est dotée d’un workflow digital des différentes 
+												demandes des attestations courantes, telles que les attestations de travail,
+ 												les attestations de salaire, les attestations de domiciliation, etc. </p>
 											</div>
 										</div> -->
 									</div>
@@ -209,17 +157,61 @@ $currentpage="solutions";
 									<!--Start Faq One Single-->
 									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
 										<div class="accrodion-title">
-											<h4>Notifications et alertes <span
+											<h4>Suivi des ventes en temps réel  <span
 													class="accrodion-icon"></span>
 											</h4>
 										</div>
 										<!-- <div class="accrodion-content">
 											<div class="inner">
-											<p>La solution CapitalTime est dotée d'une fonctionnalité de 
+											<p>La solution ESPACE RH est équipée d'une fonctionnalité de 
                                                 notification et d'alerte intégrée qui permet d'informer 
-                                                rapidement les employés et les gestionnaires des événements 
-                                                importants liés à la gestion du temps. Cette fonctionnalité 
-                                                envoie des notifications automatisées par e-mails.</p>
+                                                rapidement les Responsables 
+												et Gestionnaires RH ainsi que les employés des événements importants 
+												liés à la gestion des congés, au workflow de validation et à la
+ 												digitalisation des bulletins de paie et des attestations. 
+												Cette fonctionnalité envoie des notifications automatisées par e-mails,
+ 												assurant une communication efficace et instantanée.
+												</p>
+											</div>
+										</div> -->
+									</div>
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Gestion des retours et des remboursements   <span
+													class="accrodion-icon"></span>
+											</h4>
+										</div>
+										<!-- <div class="accrodion-content">
+											<div class="inner">
+											<p>La solution ESPACE RH est équipée d'une fonctionnalité de 
+                                                notification et d'alerte intégrée qui permet d'informer 
+                                                rapidement les Responsables 
+												et Gestionnaires RH ainsi que les employés des événements importants 
+												liés à la gestion des congés, au workflow de validation et à la
+ 												digitalisation des bulletins de paie et des attestations. 
+												Cette fonctionnalité envoie des notifications automatisées par e-mails,
+ 												assurant une communication efficace et instantanée.
+												</p>
+											</div>
+										</div> -->
+									</div>
+									<div class="accrodion  wow fadeInUp" data-wow-delay="0ms">
+										<div class="accrodion-title">
+											<h4>Sécurité des données   <span
+													class="accrodion-icon"></span>
+											</h4>
+										</div>
+										<!-- <div class="accrodion-content">
+											<div class="inner">
+											<p>La solution ESPACE RH est équipée d'une fonctionnalité de 
+                                                notification et d'alerte intégrée qui permet d'informer 
+                                                rapidement les Responsables 
+												et Gestionnaires RH ainsi que les employés des événements importants 
+												liés à la gestion des congés, au workflow de validation et à la
+ 												digitalisation des bulletins de paie et des attestations. 
+												Cette fonctionnalité envoie des notifications automatisées par e-mails,
+ 												assurant une communication efficace et instantanée.
+												</p>
 											</div>
 										</div> -->
 									</div>
@@ -232,12 +224,11 @@ $currentpage="solutions";
 					<div class="col-lg-4 sidebar-column">
 						<div class="sidebar">
 							<div class="sidebar__item sidebar__item--category">
-							<h3 class="sidebar__title">CAPITAL DISTIBUSTION</h3><!-- /.sidebar__title -->
+								<h3 class="sidebar__title">CAPITAL DISTIBUSTION</h3><!-- /.sidebar__title -->
 								<ul class="sidebar__category">
 									<li><a href="COMMERCIALE.php">Gestion Commerciale</a></li>
 									<li><a href="POINT_VENTE.php">Capital Point de vente</a></li>
-									<li><a href="restau_collectif.php">Capital Restaurant Collectif</a></li>
-								</ul><!-- /.sidebar__category -->
+									<li><a href="restau_collectif.php">Capital Restaurant Collectif</a></li>								</ul><!-- /.sidebar__category -->
 							</div><!-- /.sidebar__item -->
 							<div class="sidebar__item sidebar__item--cta">
 								<div class="sidebar__cta"

@@ -67,7 +67,13 @@ $currentpage="carriere";
 				<div class="row">
 					<div class="col-lg-8">
 						<form action="../actions/carriere.php" class="contact-one__form" enctype="multipart/form-data" method="post" id="careerForm">
-							
+							<!-- <div class="section-title"> -->
+								<!-- <p class="section-title__text">Nous rejoindre</p> -->
+								<!-- /.section-title__text -->
+								<!-- <h2 class="section-title__title">Rejoignez-nous pour obtenir des consultations informatiques .</h2> -->
+								<!-- /.section-title__title -->
+							<!-- </div> -->
+							<!-- /.section-title -->
 							<div class="row ">
 								<div class="col-lg-6 col-md-12">
 									<input type="text" placeholder="Nom" name="name">

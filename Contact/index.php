@@ -70,7 +70,7 @@ $currentpage="contact";
 						<form action="EnvoyerMail.php" class="contact-one__form contact-form-validated" class="contact-one__form contact-form-validated">
 							<div class="section-title">
 								<p class="section-title__text">CONTACTEZ-NOUS</p><!-- /.section-title__text -->
-								<h2 class="section-title__title">Rejoignez-nous pour obtenir des consultations informatiques .</h2><!-- /.section-title__title -->
+								<h2 class="section-title__title">Contactez-nous pour obtenir des consultations informatiques.</h2><!-- /.section-title__title -->
 							</div><!-- /.section-title -->
                                 <div class="row ">
                                     <div class="col-lg-4 col-md-12">
